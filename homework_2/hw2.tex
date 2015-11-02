@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
@@ -6,6 +6,10 @@
 \usepackage{amssymb}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{framed}
+
+\setlength{\parindent}{0pt}
+
 \author{
   Katrien Laenen\\
   \and
@@ -16,6 +20,33 @@
 \title{Knowledge \& the web: homework 2}
 \begin{document}
 \maketitle
-\section*{Which politician have the most tv/radio appearences (on BBC)?}
+
+The question we chose to answer is 
+
+\begin{center}
+%\makebox[\textwidth]{%
+\bf \large Which politicians of the European Parliament have the most television appearances?
+%}
+\end{center}
+We are interested whether politicians also publicly appear outside the European Parliament, e.g. Di Rupo in the Flemish TV show "Salamander".
+\\
+\\
+To answer this question we need the following information from the following sources:
+\begin{itemize}
+\item Speakers from ToE
+\item Appearances from LinkedTV
+\item Programmes from the BBC
+\end{itemize}
+
+We expect some issues with the LinkedTV knowledge base. \url{data.linkedtv.eu} contains a lot of dead links. If this would become an issue, we can use data from the BBC knowledge base instead. In the BBC knowledge base people are not really linked to a specific frahgment but rather a whole programme.
+\\
+\\
+People are linked to specific fragments using facial recognition. As we all know such algorithms are not flawless.
+\\
+\\
+Further there may be some inconsistencies for naming the speakers between the different knowledge bases. This could lead to different names for the same person.
+\\
+\\
+We will take those last two issues under consideration if they really pose a problem.
 
 \end{document}
