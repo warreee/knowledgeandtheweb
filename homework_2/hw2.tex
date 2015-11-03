@@ -4,9 +4,10 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{url}
-\usepackage{hyperref}
+\usepackage[colorlinks = true,
+			urlcolor = blue]{hyperref}
 \usepackage{framed}
+\usepackage{enumitem}
 
 \setlength{\parindent}{0pt}
 
@@ -28,25 +29,26 @@ The question we chose to answer is
 \bf \large Which politicians of the European Parliament have the most television appearances?
 %}
 \end{center}
-We are interested whether politicians also publicly appear outside the European Parliament, e.g. Di Rupo in the Flemish TV show "Salamander".
-\\
-\\
-To answer this question we need the following information from the following sources:
-\begin{itemize}
-\item Speakers from ToE
-\item Appearances from LinkedTV
-\item Programmes from the BBC
+We are interested whether politicians also publicly appear outside the European Parliament, e.g. Di Rupo once appeared in the Flemish TV show "Salamander".
+
+\subsection*{Needed knowledge bases}
+To answer this question we need the following information from the following sources.
+\begin{itemize}[leftmargin = 3cm]
+\item[\textbf{ToE}] The ToE provides us with a list of international politicians, more specifically, we need all entities of class \texttt{Speaker} along with their \texttt{PoliticalFunction}.
+\item[\textbf{LinkedTV}] The LinkedTV project aims to annotate media fragments with meta-information, such as which faces appear or entities are mentioned in it. Primarily, we are not interested in the actual show in which politicians appear, so having all \texttt{MediaFragment}'s along with their \texttt{Face} annotations would suffice. Here, we should note that a \texttt{Face} from the LinkedTV ontology is equivalent to a \texttt{Person} from the FOAF ontology, and that a ToE \texttt{Speaker} is a subclass of that.
+\item[\textbf{BBC}] Already partly answering the next question, BBC also holds some information on who occurs in their programmes. For this, we need the \texttt{person} relation of the \texttt{Programme} class from BBC's programme ontology.
 \end{itemize}
 
-We expect some issues with the LinkedTV knowledge base. \url{data.linkedtv.eu} contains a lot of dead links. If this would become an issue, we can use data from the BBC knowledge base instead. In the BBC knowledge base people are not really linked to a specific frahgment but rather a whole programme.
+\subsection*{Expected issues}
+We might expect some issues with the LinkedTV knowledge base, browsing \url{data.linkedtv.eu} we encounter a lot of dead links. For example, \url{data.linkedtv.eu/spatialobject} is dead and a \texttt{Face} is a spatial object. If this would become an issue, we can use data from the BBC knowledge base instead. Here, each \texttt{Programme} also has some persons attached to it. This is of course far less fine-grained than the LinkedTV database, but might already give a good overview.
 \\
 \\
-People are linked to specific fragments using facial recognition. As we all know such algorithms are not flawless.
-\\
-\\
-Further there may be some inconsistencies for naming the speakers between the different knowledge bases. This could lead to different names for the same person.
-\\
-\\
+Furthermore, there are some other small issues that may arise:
+\begin{itemize}
+	\item People are linked to specific fragments using facial recognition. As we all know, such algorithms are not flawless.
+	\item There may be some inconsistencies for naming the speakers between the different knowledge bases. This could lead to different names for the same person.
+\end{itemize}
+
 We will take those last two issues under consideration if they really pose a problem.
 
 \end{document}
