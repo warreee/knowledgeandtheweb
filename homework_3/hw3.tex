@@ -8,8 +8,9 @@
 			urlcolor = blue]{hyperref}
 \usepackage{framed}
 \usepackage{enumitem}
+\usepackage[english]{babel}
 
-\setlength{\parindent}{0pt}
+% \setlength{\parindent}{0pt}
 
 \author{
   Katrien Laenen\\
@@ -21,6 +22,31 @@
 \title{Knowledge and the Web: Homework 3}
 \begin{document}
 \maketitle
+
+\begin{center}
+	\Large
+1. Which European politicians have \emph{a high chance} of receiving a Nobel Prize?
+\end{center}
+
+We emphasise \emph{a high chance} because that could use some clarification. How do we compare probabilities of receiving Nobel Prizes between arbitrary politicians?
+\par First, we build a profile of a politician. This should not only cover their performance in the European Parliament, other achievements and activities are probably far more interesting. Where are they from? What subjects have they worked on before or talked about in public? Have they received other awards? Perhaps they've written a book or performed research activities?
+\par Next, we attempt to build an analogous profile for Nobel Prize winners. Even though prizes in Peace or perhaps Literature and Economic Sciences are far more likely to be won by a politician, we'll build the model for all winners.
+\par The final step is comparing the profiles we built. Do we find particular similarities between a specific Nobel Prize winner and politician? Or, for example, we could try learning a model for a Nobel Prize winner trough machine learning and classify the politicians using this model.
+
+\subsection*{Knowledge bases}
+
+Aside from the ToE knowledge base, we need to gather as much information as possible about the people we'll build profiles for.
+
+\paragraph{\textbf{DBpedia} (\url{http://wiki.dbpedia.org/})}
+is always a good starting point. Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time. For many projects, Wikipedia is \emph{the} go-to data source, because it contains complete information about relevant topics to our subject. Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators.
+
+\paragraph{\textbf{Nobelprize.org} (\url{http://data.nobelprize.org/})} is the most complete data source concerning nobel prize winners. From 1901 on, it contains all nobel prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. It makes use of the FOAF and DBpedia ontologies and more importantly, laureates have a \texttt{owl:sameAs} relation with DBpedia entries.
+\vspace{1cm}
+
+\begin{center}
+	\Large
+2. Which characteristics of a politician and his country influence the amount of TV appearances he makes?
+\end{center}
 
 
 
