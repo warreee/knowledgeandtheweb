@@ -55,10 +55,16 @@ There is one specific characteristic that we really want to research. Namely: "D
 3. Which politicians have a high chance of being murdered?
 \end{center}
 
-\paragraph{\textbf{European Union Open Data Portal} (\url{https://open-data.europa.eu/})} contains datasets about homicides and other criminal activities e.g. homicide offences. This data necessary to determine if location influences the chance of being murdered.
+Politicians get a lot of criticism and sometimes they even get murdered. Of course, this can be for political reasons as well as for non-political reasons. The goal of this question is to predict which politicians have a high probability of being killed, by comparing them with the profiles of murdered politicians. We expect that the subjects they talk about and their political beliefs are the factors which have the biggest influence on this probability. On top of that, for politicians that live in places with high murder rates or that visit these kinds of places often, it is likely that this probability will even increase.  
+
+\subsection*{Knowledge bases}
+
+Aside from the ToE knowledge base, we also need the following knowledge bases:
+
+\paragraph{\textbf{European Union Open Data Portal} (\url{https://open-data.europa.eu/})} contains datasets about homicides and other criminal activities e.g. homicide offences. This data is necessary to determine if location influences the chance of being murdered. The European Commission maintains this website to keep this information timely and accurate.
 
 
-\paragraph{\textbf{Freebase} (\url{https://www.freebase.com/})} This is a knowledge base specialized among others in well-known people. Because most politicians are well-known this is a interesting knowledge base. Furthermore in Freebase is the property \textit{cause\_of\_death} which we can use to find murders or homicides among the politicians.
+\paragraph{\textbf{Freebase} (\url{https://www.freebase.com/})} This is an openly available knowledge base specialized among others in well-known people. Because most politicians are well-known this is a interesting knowledge base. Furthermore, Freebase contains the property \textit{cause\_of\_death} which we can use to find murders or homicides among the politicians. As such, this database is highly relevant and complete regarding this research question. Like Wikipedia, Freebase can be edited by anyone. But this also means that the information can be corrected by anyone and people make incremental improvements all the time. Besides this, there is a group of trusted Freebase experts which are responsible for solving such issues. Thus, there will be some inaccurate information in this database but we expect the database to be fairly correct. 
 
 
 \paragraph{\textbf{DBpedia} (\url{http://wiki.dbpedia.org/})}
