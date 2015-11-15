@@ -9,6 +9,7 @@
 \usepackage{framed}
 \usepackage{enumitem}
 \usepackage[english]{babel}
+\usepackage{todonotes}
 
 % \setlength{\parindent}{0pt}
 
@@ -23,10 +24,9 @@
 \begin{document}
 \maketitle
 
-\begin{center}
-	\Large
-1. Which European politicians have \emph{a high chance} of receiving a Nobel Prize?
-\end{center}
+This document thoroughly discusses three research questions, along with the knowledge bases needed to solve them. When talking about ontologies, relations will be \emph{emphasised} and classes \texttt{monospaced}.
+
+\section{Which European politicians have \emph{a high chance} of receiving a Nobel Prize?}
 
 We emphasise \emph{a high chance} because that could use some clarification. How do we compare probabilities of receiving Nobel Prizes between arbitrary politicians?
 \par First, we build a profile of a politician. This should not only cover their performance in the European Parliament, other achievements and activities are probably far more interesting. Where are they from? What subjects have they worked on before or talked about in public? Have they received other awards? Perhaps they've written a book or performed research activities?
@@ -40,36 +40,51 @@ Aside from the ToE knowledge base, we need to gather as much information as poss
 \paragraph{\textbf{DBpedia} (\url{http://wiki.dbpedia.org/})}
 is always a good starting point. Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time. For many projects, Wikipedia is \emph{the} go-to data source, because it contains complete information about relevant topics to our subject. Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators.
 
-\paragraph{\textbf{Nobelprize.org} (\url{http://data.nobelprize.org/})} is the most complete data source concerning nobel prize winners. From 1901 on, it contains all nobel prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. It makes use of the FOAF and DBpedia ontologies and more importantly, laureates have a \texttt{owl:sameAs} relation with DBpedia entries.
-\vspace{1cm}
+\paragraph{\textbf{Nobelprize.org} (\url{http://data.nobelprize.org/})} is the most complete data source concerning nobel prize winners. From 1901 on, it contains all nobel prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. It makes use of the FOAF and DBpedia ontologies and more importantly, laureates have a \emph{owl:sameAs} relation with DBpedia entries for easy lookup of background information.
+ 
 
-\begin{center}
-	\Large
-2. Which characteristics of a politician influence the amount of TV appearances he makes?
-\end{center}
+\section{\hyphenpenalty=10000 Which politicians have a high chance of being murdered?}
 
-Yet again, we first have to build a profile for politicians, similar to that in the first question. Next, we attempt to do the same for each country a politician resides in.
-
-
-There is one specific characteristic that we really want to research. Namely: "Does the country of origin of the politician influence his TV appearences?". 
-
-\begin{center}
-	\Large
-3. Which politicians have a high chance of being murdered?
-\end{center}
-
-Politicians get a lot of criticism and sometimes they even get murdered. Of course, this can be for political reasons as well as for non-political reasons. The goal of this question is to predict which politicians have a high probability of being killed, by comparing them with the profiles of murdered politicians. We expect that the subjects they talk about and their political beliefs are the factors which have the biggest influence on this probability. On top of that, for politicians that live in places with high murder rates or that visit these kinds of places often, it is likely that this probability will even increase.  
+Politicians get a lot of criticism and sometimes they even get murdered. Of course, this can be for political reasons as well as for non-political reasons. The goal of this question is to predict which politicians have a high probability of being killed by comparing them with the profiles of murdered politicians. We expect that the subjects they talk about and their political beliefs are the factors which have the biggest influence on this probability. On top of that, for politicians that live in places with high murder rates or that visit these kinds of places often, it is likely that this probability will even increase.
 
 \subsection*{Knowledge bases}
 
-Aside from the ToE knowledge base, we also need the following knowledge bases:
+Aside from the ToE knowledge base, we also need the following knowledge bases.
 
-\paragraph{\textbf{European Union Open Data Portal} (\url{https://open-data.europa.eu/})} contains datasets about homicides and other criminal activities e.g. homicide offences. This data is necessary to determine if location influences the chance of being murdered. The European Commission maintains this website to keep this information timely and accurate.
+\paragraph{\textbf{European Union Open Data Portal} (\url{https://open-data.europa.eu/})} contains datasets about homicides and other criminal activities e.g. homicide offences.\todo{2 x homicide?} This data is necessary to determine if location influences the chance of being murdered. The European Commission maintains this website to keep this information timely and accurate.
 
-
-\paragraph{\textbf{Freebase} (\url{https://www.freebase.com/})} This is an openly available knowledge base specialized among others in well-known people. Because most politicians are well-known this is a interesting knowledge base. Furthermore, Freebase contains the property \textit{cause\_of\_death} which we can use to find murders or homicides among the politicians. As such, this database is highly relevant and complete regarding this research question. Like Wikipedia, Freebase can be edited by anyone. But this also means that the information can be corrected by anyone and people make incremental improvements all the time. Besides this, there is a group of trusted Freebase experts which are responsible for solving such issues. Thus, there will be some inaccurate information in this database but we expect the database to be fairly correct. 
-
+\paragraph{\textbf{Freebase} (\url{https://www.freebase.com/})} This is an openly available knowledge base specialised among others in well-known people. Because most politicians are well-known, this is an interesting knowledge base. Furthermore, Freebase contains the property \textit{cause\_of\_death} which we can use to find murders or homicides among the politicians. As such, this database is highly relevant and complete regarding this research question. Like Wikipedia, Freebase can be edited by anyone. But this also means that the information can be corrected by anyone and people make incremental improvements all the time. Besides this, there is a group of trusted Freebase experts which are responsible for solving such issues. Thus, there will be some inaccurate information in this database but we expect the database to be fairly correct. 
 
 \paragraph{\textbf{DBpedia} (\url{http://wiki.dbpedia.org/})}
 For this question we need also some background information. As already pointed out, DBpedia is a good source for this.
+
+
+\section{\hyphenpenalty=10000 \sloppy Which characteristics of a politician influence the amount of TV appearances he makes?}
+
+Politicians appear on TV quite often, but not all appear equally frequent. A lot of factors can influence this frequency: political party, function, statements made, previous occupations,... the list can go on and on. In this question we will research which of these characteristics actually influence the amount of such TV appearances they make.
+\par First and most importantly, we need to find how often politicians appeared on television within a certain timeframe. This is the \emph{response} measure. Next, we yet again have to build a profile for politicians, similar to that in the first question. Finally, we find out which features of our politician influence the response.
+
+\subsection*{Knowledge bases}
+
+In order to build the profile, we need some additional information next to the ToE knowledge base. The most important ones are those for constructing the response, e.g. the television appearances.
+
+\paragraph{BBC Programme (\url{http://www.bbc.co.uk/ontologies/po})} contains information about BBC's programmes. Each programme has several \texttt{Person} entities related to it trough the \emph{person} relation, so we can find out which politicians appeared when in BBC television shows. As it is maintained solely by the BBC, we believe it is up-to-date and accurate.
+
+\paragraph{LinkedTV (\url{http://www.linkedtv.eu/})} attempts to add meta data to television shows, split up into fragments. For example, it attempts to link information on all faces appearing in a fragment to a \texttt{Person}. This can also be useful in constructing the response measures for all politicians and even enables us to specify how long they appeared on television. The LinkedTV project aims at automating the process of gathering meta-data \cite{stein13}, which mean it is prone to errors in the software. Some of it might be corrected by hand, but we should still be careful in assuming everything is correct.
+
+\vspace{.5cm}
+\par Furthermore, we need to gather some background information from for example DBpedia or Freebase. These have already been discussed in detail, so we will not do that again. 
+
+\begin{thebibliography}{9}
+
+\bibitem{stein13}
+   Daniel Stein et al.,
+  \emph{From raw data to semantically enriched hyperlinks: recent advances in the LinkedTV
+analysis workflow},
+  NEM Summit 2013,  
+  Nantes, France,
+  October 2013.
+
+\end{thebibliography}
+
 \end{document}
