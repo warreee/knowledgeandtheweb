@@ -88,7 +88,7 @@ From these results we can clearly see that Sex, Fare and Parch are features whic
 
 \section{Decision trees}
 
-Apart from rule set learning, we also experimented witch decision trees. Since we are working with a mix of nominal and numeric data, this is a suitable model, because each node can use its own \emph{rule} for splitting on an attribute. We will describe how we tweaked the learning parameters in order to achieve better results. The initial tree is shown in Figure~\ref{fig:tree_initial}.
+Apart from rule set learning, we also experimented with decision trees. Since we are working with a mix of nominal and numeric data, this is a suitable model, because each node can use its own \emph{rule} for splitting on an attribute. We will describe how we tweaked the learning parameters in order to achieve better results. The initial tree is shown in Figure~\ref{fig:tree_initial}.
 
 
 \begin{figure}[htbp]
@@ -115,7 +115,7 @@ As we can see, this achieved the desired result of splitting the undecided node 
   \caption{Tree learned with \emph{accuracy} splitting criterion, maximum depth of 4 and minimum information gain of 0.01.}
   \label{fig:tree_final}
 \end{figure}
-\par This model is pretty intuitive. For females, class is the most important deciding factor. Amongst the lowest class women, the ones that payed most for their ticket surprisingly have the lowest survival rate. For males, age is the most important deciding factor. Children have a far higher survival rate than men.
+\par This model is pretty intuitive. For females, Class is the most important deciding factor. Amongst the lowest class women, the ones that payed most for their ticket surprisingly have the lowest survival rate. For males, Age is the most important deciding factor. Children have a far higher survival rate than men.
 
 \section{Rule learning vs. Decision trees}
 
