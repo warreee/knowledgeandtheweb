@@ -1,5 +1,5 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage[latin1]{inputenc}
+% \usepackage[latin1]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -7,6 +7,7 @@
 \usepackage{svg}
 \usepackage{url}
 \usepackage{hyperref}
+
 \author{
   Katrien Laenen\\
   \and
@@ -18,13 +19,25 @@
 \begin{document}
 \maketitle
 In this report we discuss which algorithms we tried to find a good classification model that predicts if a passenger of the Titanic will survive or not.
-To train the classification models, we use the data in titanic_train.csv. Before training the models on this data, we did some preprocessing on it. We first removed the columns Name, Ticket and Cabin and then split the Age feature into five classes: child (0 to 9 years), teen (10 to 15 years), young (15 to 24 years), adult (25 to 59 years) and elderly (> 59 years). The classification models are all evaluated using cross validation.
+We use the data from \texttt{titanic\_train.csv} to train our model and perform cross-validation for performance assessment. The models used are a \textbf{rule set} and a \textbf{decision tree}.  The rest of this document is structured as follows. First we describe the preprocessing steps used in order to prepare the data for better classification. Next, we describe the learning process for both models. Finally, we compare results for both learning techniques, based on the cross-validation results. 
+
+\section{Preprocessing}
+In order to achieve better classification, we preprocess the data. This is done in two phases: feature selection to only preserve relevant features and feature engineering in the form of a discretisation step.
+
+\paragraph{Feature selection} Features that we do not think are relevant are \texttt{Name}, \texttt{Ticket}, \texttt{PassengerId}, \texttt{Embarked} and \texttt{Cabin}. They are removed.
+
+\paragraph{Discretisation} The two numerical values are discretised in accordance to some criterium. The \texttt{Age} feature into five age classes: child ($<$ 9 years), teen (10 to 15 years), young (15 to 24 years), adult (25 to 59 years) and elderly ($>$ 59 years). To discretise \texttt{Fare}, we take a look at a histogram plot, as seen in Figure~\ref{fig:histfare}. There are a lot more low fares. The three leftmost bars get their own bin. The chosen discretisation is: 0-10, 10-20, 20-30, 30-100 and 100+.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width = .7\textwidth]{fare_histogram.pdf}
+	\caption{Histogram for the \texttt{Fare} feature}
+	\label{fig:histfare}
+\end{figure}
 
 \section{Rule learning}
-One thing we tried was to learn classification rules from the training data.
-Rule learning algorithms come with different options for several aspects of the algorithms. In the exercise session we experimented with two of these.\\
-First, for choosing the conditions of a classification rule, there are two options: one is to add to the rule the condition which increases the accuracy the most, another is to add to the rule the condition which increases the information gain the most.\\
-The first option resulted in a rule set consisting of 363 rules which clearly overfitted the training data.
+One model we tried was to learn classification rules from the training data. Rule learning algorithms come with different options for several aspects of the algorithms. In the exercise session we experimented with two of these.
+\par First, for choosing the conditions of a classification rule, there are two options: one is to add to the rule the condition which increases the accuracy the most, another is to add to the rule the condition which increases the information gain the most. The first option resulted in a rule set consisting of 363 rules which clearly overfitted the training data.
 The second option resulted in this rule set:
 \begin{itemize}
 
@@ -64,11 +77,11 @@ From these results we can clearly see that Sex, Fare and SibSp are features whic
 
 \section{Decision trees}
 
-\begin{figure}[htbp]
-  \centering
-  \includesvg[width = 0.7\textwidth]{decisiontreetitanic}
-  \caption{Decision tree with maximal depth of 3}
-\end{figure}
+%\begin{figure}[htbp]
+%  \centering
+%  \includesvg[width = 0.7\textwidth]{decisiontreetitanic}
+%  \caption{Decision tree with maximal depth of 3}
+%\end{figure}
 
 \section{?}
 
