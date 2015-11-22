@@ -18,7 +18,7 @@
 \begin{document}
 \maketitle
 In this report we discuss which algorithms we tried to find a good classification model that predicts if a passenger of the Titanic will survive or not.
-To train the classification models, we use the information about passengers with passengerId 1 until 800 as our training data. The test data for evaluating each classification model consists of the passengers with ids 801 until 891. 
+To train the classification models, we use the data in titanic_train.csv. Before training the models on this data, we did some preprocessing on it. We first removed the columns Name, Ticket and Cabin and then split the Age feature into five classes: child (0 to 9 years), teen (10 to 15 years), young (15 to 24 years), adult (25 to 59 years) and elderly (> 59 years). The classification models are all evaluated using cross validation.
 
 \section{Rule learning}
 One thing we tried was to learn classification rules from the training data.
