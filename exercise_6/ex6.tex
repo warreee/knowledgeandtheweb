@@ -115,10 +115,17 @@ As we can see, this achieved the desired result of splitting the undecided node 
 \section{Rule learning vs. Decision trees}
 
 We conclude this report with a brief summary of our results and our conclusion about the methods.
-In following table we give the accuracy, precision and recall of our best configuration.
+To decide if either Rule learning is better than Decision trees we look at three performance measures, namely: \textbf{accuracy}, \textbf{precision} and \textbf{recall}.
+
 With \emph{accuracy} we mean the proportion of true results (both true positives and true negatives) among the total number of cases examined.
 For the Titanic case this would mean:
 $$accuracy = \frac{\#\text{true dead} + \#\text{true alive} }{\#\text{true dead} + \#\text{false dead} + \#\text{true alive} + \#\text{false alive}}$$
+
+\emph{Precision} is the fraction of retrieved instances that are relevant:
+$$precision = \frac{\#\text{true alive}}{\#\text{true alive} + \#\text{false alive}}$$
+\\
+\\
+In following table we give the accuracy, precision and recall of our best configuration.
 From these scores we decided what was in our opinion the best method.
 
 
