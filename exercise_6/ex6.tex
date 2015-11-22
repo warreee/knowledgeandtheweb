@@ -39,14 +39,12 @@ In order to achieve better classification, we preprocess the data. This is done 
 
 
 \section{Rule learning}
-One thing we tried was to learn classification rules from the training data.
-Rule learning algorithms come with different options for several aspects of the algorithms. In the exercise session we experimented with two of these.\\
-First, for choosing the conditions of a classification rule, there are two options: one is to add to the rule the condition which increases the accuracy the most, another is to add to the rule the condition which increases the information gain the most.\\
-The accuracy criterion option resulted in the following rule set:
+One thing we tried was to learn classification rules from the training data. Rule learning algorithms come with different options for several aspects of the algorithms. In the exercise session we experimented with two of these.
+\par First, for choosing the conditions of a classification rule, there are two options: one is to add to the rule the condition which increases the accuracy the most, another is to add to the rule the condition which increases the information gain the most. The accuracy criterion option resulted in the following rule set:
 \begin{itemize}
 
-\item if Parch > 5.500 then 0  (1 / 0)
-\item if Fare = >10 and Sex = male then 0  (170 / 25)
+\item if Parch $>$ 5.500 then 0  (1 / 0)
+\item if Fare $\geq$ 10 and Sex = male then 0  (170 / 25)
 \item if Sex = female then 1  (63 / 197)
 \item else 0  (171 / 61)
 
@@ -55,9 +53,9 @@ The accuracy criterion option resulted in the following rule set:
 The information gain criterion option resulted in this rule set:
 \begin{itemize}
 
-\item if Sex = male and Fare = >10 then 0  (170 / 25)
+\item if Sex = male and Fare $\geq$ 10 then 0  (170 / 25)
 \item if Sex = female then 1  (64 / 197)
-\item if Fare = 10-20 and Parch ≤ 0.500 then 0  (66 / 7)
+\item if Fare = 10-20 and Parch $\leq$ 0.500 then 0  (66 / 7)
 \item else 0  (111 / 54)
 
 \end{itemize}
@@ -66,10 +64,10 @@ A second aspect of rule learning is the desired pureness, which is the minimum r
 For the desired pureness set to 0.8 and the accuracy criterion we got the following rule set:
 \begin{itemize}
 
-\item if Parch > 5.500 then 0  (1 / 0)
-\item if Fare = >10 then 0  (189 / 47)
+\item if Parch $>$ 5.500 then 0  (1 / 0)
+\item if Fare $\geq$ 10 then 0  (189 / 47)
 \item if Sex = female then 1  (44 / 175)
-\item else 0  (171 / 61)
+\item else 0 (171 / 61)
 
 \end{itemize}
 %which is correct for 536 out of 688 training examples.
@@ -90,16 +88,17 @@ From these results we can clearly see that Sex, Fare and Parch are features whic
 
 \section{Decision trees}
 
-Apart from \emph{rule learning} we also experimented witch decision trees. First we applied the standard decision tree in RapidMiner, it created a too complicated decision tree, as you can see in figure 1.
+Apart from rule set learning, we also experimented witch decision trees. First we applied the standard decision tree in RapidMiner, it created a too complicated decision tree, as you can see in figure 1.
+
 \begin{figure}[H]
   \centering
-  \includesvg[width = 1.5\textwidth]{decisiontreetitanic_original}
+  \includegraphics[width = 1.5\textwidth]{decisiontreetitanic_original.pdf}
   \caption{Original decision tree with maximal depth of 20}
 \end{figure}
 Next we limited the maximal depth of the decision tree to 3. This gave us figure 2, which is much more usefull.
 \begin{figure}[H]
   \centering
-  \includesvg[width = 1\textwidth]{decisiontreetitanic}
+  \includegraphics[width = 1\textwidth]{decisiontreetitanic.pdf}
   \caption{Decision tree with maximal depth of 3}
 \end{figure}
 
