@@ -4,6 +4,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{svg}
 \usepackage{url}
 \usepackage{hyperref}
 \author{
@@ -62,6 +63,12 @@ Next to these two, there are three other parameters for rule learning: sample ra
 From these results we can clearly see that Sex, Fare and SibSp are features which are important for this task. That Sex and Fare were important features was to be expected. When the Titanic collided with an iceberg, women and children and people of the higher ranks were evacuated first. This is reflected in the data as we see that women and people which payed a higher fare are more likely to have survived. That the number of siblings and spouses is also an important feature can be explained as follows. People in need want to stay close to their loved ones at all costs. But how larger a group, how more difficult it was to get on a lifeboat together. As such, how more siblings and spouses someone had aboard, how less likely that person was to survive.
 
 \section{Decision trees}
+
+\begin{figure}[htbp]
+  \centering
+  \includesvg[width = 0.7\textwidth]{decisiontreetitanic}
+  \caption{Decision tree with maximal depth of 3}
+\end{figure}
 
 \section{?}
 
