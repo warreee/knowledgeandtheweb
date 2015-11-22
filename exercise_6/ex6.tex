@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 % \usepackage[latin1]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
@@ -111,7 +111,7 @@ As we can see, this achieved the desired result of splitting the undecided node 
   \label{fig:tree_final}
 \end{figure}
 \par This model is pretty intuitive. For females, Class is the most important deciding factor. Amongst the lowest class women, the ones that payed most for their ticket surprisingly have the lowest survival rate. For males, Age is the most important deciding factor. Children have a far higher survival rate than men.
-\pagebreak
+
 \section{Rule learning vs. Decision trees}
 
 We conclude this report with a brief summary of our results and our conclusion about the methods.
@@ -123,10 +123,26 @@ $$accuracy = \frac{\#\text{true dead} + \#\text{true alive} }{\#\text{true dead}
 
 \emph{Precision} is the fraction of retrieved instances that are relevant:
 $$precision = \frac{\#\text{true alive}}{\#\text{true alive} + \#\text{false alive}}$$
+
+Finally \emph{recall} (or sensitivity) is the fraction of relevant instances that are retrieved:
+$$recall = \frac{\#\text{true alive}}{\#\text{true alive} + \#\text{false dead}}$$
 \\
 \\
-In following table we give the accuracy, precision and recall of our best configuration.
-From these scores we decided what was in our opinion the best method.
+In following table we give the accuracy, precision and recall of our best configuration from both rule learning and decision trees. With best we mean the highest \textbf{accuracy}, \textbf{precision} and \textbf{recall}.
+\begin{figure}[H]
+\centering
+\begin{tabular}{c|c|c|c}
+
+• & Accuracy & Precision & Recall \\ 
+\hline 
+Rule learning & 78.78\% & 75.95\% & 66.39\% \\ 
+\hline 
+Decision trees & 81.46\% & 81.37\% & 71.26\% \\ 
+
+\end{tabular} 
+\caption{Our results}
+\end{figure}
+From these scores it is obvious to see that the clustering with a decision tree is a lot better. With our configurations decision trees outperforms rule learning in every performance measure.
 
 
 
