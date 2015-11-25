@@ -135,7 +135,7 @@ In following table we give the accuracy, precision and recall of our best config
 
 • & Accuracy & Precision & Recall \\ 
 \hline 
-Rule learning & 78.78\% & 75.95\% & 66.39\% \\ 
+Rule learning & 78.99\% & 80.59\% & 65.87\% \\ 
 \hline 
 Decision trees & 81.46\% & 81.37\% & 71.26\% \\ 
 
@@ -146,7 +146,48 @@ From these scores it is obvious to see that the clustering with a decision tree 
 \\
 \\
 We can conclude that a \textbf{decision tree} works better in this specific case.
+\pagebreak
+\section{Further experiments with evaluation methods}
 
+In our previous evaluations we used the regular cross-validation.
+For session 7 we experimented with \textit{leave\_one\_out} cross-validation (this is just a setting in RapidMiner). Actually it's going to leave out one example of the training set. This example is used to test the model that is build, using all the other examples. This is done for every element in the dataset. This way, this is very computational expensive. 
+\\
+\\
+Apart from leave\_one\_out we experimented with \textit{split validation}. This method splits the data at random in a training part and a test part. One can specify the ratio test/training data in RapidMiner. We used the standard value here: 0.7.
 
+In the following tables we give a short summary of our results on the best model from the previous section.
 
+\begin{figure}[H]
+\centering
+\begin{tabular}{c|c|c|c}
+
+• & Accuracy & Precision & Recall \\ 
+\hline 
+Cross-validation & 78.99\% & 80.59\% & 65.87\% \\ 
+\hline 
+leave\_one\_out & 78.01\% & 75.09\% & 68.62\% \\ 
+\hline 
+Split validation & 76.64\% & 75.00\% & 62.79\% \\ 
+
+\end{tabular} 
+\caption{Results for Rule Learning}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{tabular}{c|c|c|c}
+
+• & Accuracy & Precision & Recall \\ 
+\hline 
+Cross-validation & 81.46\% & 81.37\% & 71.26\% \\ 
+\hline 
+leave\_one\_out & 82.47\% &82.35\% & 72.66\% \\ 
+\hline 
+Split validation & 82.46\% & 82.35\% & 72.66\% \\ 
+
+\end{tabular} 
+\caption{Results for Decision Trees}
+\end{figure}
+
+We can conlude that the new evaluation methods give worse results for the rule learning approach. In contrary the results for decision trees became even better. 
 \end{document}
