@@ -126,3 +126,5 @@ sympy-plots-for-*.tex/
 *.sav
 
 homework_2/catalog-v001.xml
+*.iml
+.idea
