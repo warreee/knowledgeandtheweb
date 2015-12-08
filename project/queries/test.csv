@@ -1,574 +1,712 @@
-givenName,fN,t,pN,uN
-Geoffrey,Wilkinson,United Kingdom,The Nobel Prize in Chemistry,Imperial College
-Daniel C.,Tsui,Henan,The Nobel Prize in Physics,Princeton University
-Jerome I.,Friedman,USA,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
-Gerhard,Herzberg,Germany,The Nobel Prize in Chemistry,National Research Council of Canada
-Pieter,Zeeman,the Netherlands,The Nobel Prize in Physics,Amsterdam University
-K. Barry,Sharpless,USA,The Nobel Prize in Chemistry,The Scripps Research Institute
-Rolf M.,Zinkernagel,Basel,The Nobel Prize in Physiology or Medicine,"University of Zurich, Institute of Experimental Immunology"
-Niels Henrik David,Bohr,Copenhagen,The Nobel Prize in Physics,Copenhagen University
-Abdus,Salam,Jhang Maghi&#257;na,The Nobel Prize in Physics,Imperial College
-Tadeus,Reichstein,Wloclawek,The Nobel Prize in Physiology or Medicine,Basel University
-Walter,Kohn,Austria,The Nobel Prize in Chemistry,University of California
-Sir Frederick Gowland,Hopkins,United Kingdom,The Nobel Prize in Physiology or Medicine,University of Cambridge
-Arno Allan,Penzias,Germany,The Nobel Prize in Physics,Bell Laboratories
-Paul Adrien Maurice,Dirac,Bristol,The Nobel Prize in Physics,University of Cambridge
-Henry W.,Kendall,USA,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
-Fritz,Haber,Prussia (now Poland),The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie
-Leopold,Ruzicka,Austria-Hungary (now Croatia),The Nobel Prize in Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)
-Edvard I.,Moser,Ålesund,The Nobel Prize in Physiology or Medicine,Norwegian University of Science and Technology (NTNU)
-Nicolaas,Bloembergen,the Netherlands,The Nobel Prize in Physics,Harvard University
-Rosalyn,Yalow,USA,The Nobel Prize in Physiology or Medicine,Veterans Administration Hospital
-Peter Brian,Medawar,Rio de Janeiro,The Nobel Prize in Physiology or Medicine,University College
-Thomas C.,Südhof,Germany,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
-Linda B.,Buck,"Seattle, WA",The Nobel Prize in Physiology or Medicine,Fred Hutchinson Cancer Research Center
-Christian B.,Anfinsen,USA,The Nobel Prize in Chemistry,National Institutes of Health
-Werner Karl,Heisenberg,Germany,The Nobel Prize in Physics,Leipzig University
-David J.,Wineland,"Milwaukee, WI",The Nobel Prize in Physics,University of Colorado
-Allvar,Gullstrand,Landskrona,The Nobel Prize in Physiology or Medicine,Uppsala University
-Karl Manne Georg,Siegbahn,Lund,The Nobel Prize in Physics,Uppsala University
-Eric A.,Cornell,USA,The Nobel Prize in Physics,"University of Colorado, JILA"
-Peter A.,Diamond,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
-Rodney R.,Porter,United Kingdom,The Nobel Prize in Physiology or Medicine,University of Oxford
-Donald Arthur,Glaser,"Cleveland, OH",The Nobel Prize in Physics,University of California
-Nikolay Nikolaevich,Semenov,Russia,The Nobel Prize in Chemistry,Institute for Chemical Physics of the Academy of Sciences of the USSR
-Svante August,Arrhenius,Sweden,The Nobel Prize in Chemistry,Stockholm University
-Robert W.,Holley,"Urbana, IL",The Nobel Prize in Physiology or Medicine,Cornell University
-Françoise,Barré-Sinoussi,France,The Nobel Prize in Physiology or Medicine,"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur"
-Ronald,Ross,India,The Nobel Prize in Physiology or Medicine,University College
-Emil Theodor,Kocher,Berne,The Nobel Prize in Physiology or Medicine,Berne University
-Sir John Douglas,Cockcroft,Todmorden,The Nobel Prize in Physics,Atomic Energy Research Establishment
-Clinton Joseph,Davisson,"Bloomington, IL",The Nobel Prize in Physics,Bell Telephone Laboratories
-Max,Delbrück,Germany,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
-Susumu,Tonegawa,Japan,The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
-Manfred,Eigen,Germany,The Nobel Prize in Chemistry,Max-Planck-Institut für Physikalische Chemie
-Eugene F.,Fama,"Boston, MA",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Andrew Fielding,Huxley,Hampstead,The Nobel Prize in Physiology or Medicine,University College
-Aaron,Klug,Zelvas,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
-Edgar Douglas,Adrian,United Kingdom,The Nobel Prize in Physiology or Medicine,University of Cambridge
-Dan,Shechtman,British Mandate of Palestine (now Israel),The Nobel Prize in Chemistry,Technion - Israel Institute of Technology
-Nils Gustaf,Dalén,Sweden,The Nobel Prize in Physics,Swedish Gas-Accumulator Co.
-Thomas J.,Sargent,"Pasadena, CA",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,New York University
-Archer John Porter,Martin,London,The Nobel Prize in Chemistry,National Institute for Medical Research
-Peyton,Rous,"Baltimore, MD",The Nobel Prize in Physiology or Medicine,Rockefeller University
-George J.,Stigler,"Renton, WA",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Gabriel,Lippmann,Hollerich,The Nobel Prize in Physics,Sorbonne University
-Brian P.,Schmidt,"Missoula, MT",The Nobel Prize in Physics,Australian National University
-Haldan Keffer,Hartline,"Bloomsburg, PA",The Nobel Prize in Physiology or Medicine,Rockefeller University
-Jack S.,Kilby,"Jefferson City, MO",The Nobel Prize in Physics,Texas Instruments
-Harald,zur Hausen,Germany,The Nobel Prize in Physiology or Medicine,German Cancer Research Center
-Theodor W.,Hänsch,Germany,The Nobel Prize in Physics,Ludwig-Maximilians- Universität
-Paul Hermann,Müller,Olten,The Nobel Prize in Physiology or Medicine,Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.)
-Adam G.,Riess,"Washington, DC",The Nobel Prize in Physics,Johns Hopkins University
-Clifford G.,Shull,"Pittsburgh, PA",The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
-Eric,Betzig,USA,The Nobel Prize in Chemistry,"Janelia Research Campus, Howard Hughes Medical Institute"
-Herbert,Kroemer,Weimar,The Nobel Prize in Physics,University of California
-Robert Bruce,Merrifield,USA,The Nobel Prize in Chemistry,Rockefeller University
-Irwin,Rose,"Brooklyn, NY",The Nobel Prize in Chemistry,University of California
-Frederick,Sanger,Rendcombe,The Nobel Prize in Chemistry,University of Cambridge
-Werner,Arber,Gränichen,The Nobel Prize in Physiology or Medicine,Biozentrum der Universität
-Jack W.,Szostak,London,The Nobel Prize in Physiology or Medicine,Massachusetts General Hospital
-Louis Eugène Félix,Néel,Lyon,The Nobel Prize in Physics,University of Grenoble
-Renato,Dulbecco,Catanzaro,The Nobel Prize in Physiology or Medicine,Imperial Cancer Research Fund Laboratory
-Allan M.,Cormack,South Africa,The Nobel Prize in Physiology or Medicine,Tufts University
-André Frédéric,Cournand,France,The Nobel Prize in Physiology or Medicine,"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital"
-Arthur,Kornberg,USA,The Nobel Prize in Physiology or Medicine,Stanford University
-Alvin E.,Roth,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
-Konrad,Bloch,Neisse (now Nysa),The Nobel Prize in Physiology or Medicine,Harvard University
-William Bradford,Shockley,United Kingdom,The Nobel Prize in Physics,"Semiconductor Laboratory of Beckman Instruments, Inc."
-Giulio,Natta,Imperia,The Nobel Prize in Chemistry,Institute of Technology
-Baruch S.,Blumberg,USA,The Nobel Prize in Physiology or Medicine,The Institute for Cancer Research
-Sir Arthur,Lewis,Castries,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
-Mario R.,Capecchi,Italy,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
-James Dewey,Watson,USA,The Nobel Prize in Physiology or Medicine,Harvard University
-Sir Martin J.,Evans,Stroud,The Nobel Prize in Physiology or Medicine,Cardiff University
-Jerome,Karle,USA,The Nobel Prize in Chemistry,US Naval Research Laboratory
-Odd,Hassel,Norway,The Nobel Prize in Chemistry,University of Oslo
-Ernst Otto,Fischer,Munich,The Nobel Prize in Chemistry,Technical University
-Lloyd S.,Shapley,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
-Dennis,Gabor,Hungary,The Nobel Prize in Physics,Imperial College
-A. Michael,Spence,"Montclair, NJ",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Stanford University
-Charles Robert,Richet,France,The Nobel Prize in Physiology or Medicine,Sorbonne University
-Charles Kuen,Kao,China,The Nobel Prize in Physics,Standard Telecommunication Laboratories
-Hans Adolf,Krebs,Hildesheim,The Nobel Prize in Physiology or Medicine,Sheffield University
-Enrico,Fermi,Rome,The Nobel Prize in Physics,Rome University
-Youyou,Tu,Zhejiang Ningpo,The Nobel Prize in Physiology or Medicine,China Academy of Traditional Chinese Medicine
-Charles Glover,Barkla,Widnes,The Nobel Prize in Physics,Edinburgh University
-Kurt,Wüthrich,Switzerland,The Nobel Prize in Chemistry,The Scripps Research Institute
-Ronald George Wreyford,Norrish,Cambridge,The Nobel Prize in Chemistry,Institute of Physical Chemistry
-Edwin Mattison,McMillan,USA,The Nobel Prize in Chemistry,University of California
-César,Milstein,Argentina,The Nobel Prize in Physiology or Medicine,MRC Laboratory of Molecular Biology
-Bertil,Ohlin,Sweden,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Stockholm School of Economics
-Jean-Marie,Lehn,France,The Nobel Prize in Chemistry,Université Louis Pasteur
-Sheldon Lee,Glashow,"New York, NY",The Nobel Prize in Physics,"Harvard University, Lyman Laboratory"
-Feodor,Lynen,Germany,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für Zellchemie
-Camillo,Golgi,Corteno,The Nobel Prize in Physiology or Medicine,Pavia University
-Arieh,Warshel,Kibbutz Sde-Nahum,The Nobel Prize in Chemistry,University of Southern California
-Carol W.,Greider,"San Diego, CA",The Nobel Prize in Physiology or Medicine,Johns Hopkins University School of Medicine
-Richard R.,Schrock,USA,The Nobel Prize in Chemistry,Massachusetts Institute of Technology (MIT)
-Richard Adolf,Zsigmondy,Austrian Empire (now Austria),The Nobel Prize in Chemistry,Goettingen University
-Robert A.,Mundell,Canada,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
-Ronald H.,Coase,Willesden,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Robert F.,Engle III,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,New York University
-Hermann Emil,Fischer,Euskirchen,The Nobel Prize in Chemistry,Berlin University
-Torsten N.,Wiesel,Sweden,The Nobel Prize in Physiology or Medicine,Harvard Medical School
-Sir Peter,Mansfield,London,The Nobel Prize in Physiology or Medicine,"University of Nottingham, School of Physics and Astronomy"
-Edmund S.,Phelps,"Evanston, IL",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
-Frank,Wilczek,USA,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
-Robert G.,Edwards,United Kingdom,The Nobel Prize in Physiology or Medicine,University of Cambridge
-Ferid,Murad,"Whiting, IN",The Nobel Prize in Physiology or Medicine,University of Texas Medical School at Houston
-Dudley R.,Herschbach,"San José, CA",The Nobel Prize in Chemistry,Harvard University
-Richard J.,Roberts,Derby,The Nobel Prize in Physiology or Medicine,New England Biolabs
-Howard Martin,Temin,USA,The Nobel Prize in Physiology or Medicine,University of Wisconsin
-George Paget,Thomson,United Kingdom,The Nobel Prize in Physics,London University
-Lord (Alexander R.),Todd,Scotland,The Nobel Prize in Chemistry,University of Cambridge
-Hans G.,Dehmelt,Prussia (now Germany),The Nobel Prize in Physics,University of Washington
-Craig C.,Mello,USA,The Nobel Prize in Physiology or Medicine,University of Massachusetts Medical School
-Robert H.,Grubbs,USA,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
-Willem,Einthoven,"Java, Dutch East Indies (now Indonesia)",The Nobel Prize in Physiology or Medicine,Leiden University
-Osamu,Shimomura,Kyoto,The Nobel Prize in Chemistry,Marine Biological Laboratory (MBL)
-Jules A.,Hoffmann,Echternach,The Nobel Prize in Physiology or Medicine,University of Strasbourg
-Joseph,Erlanger,"San Francisco, CA",The Nobel Prize in Physiology or Medicine,Washington University
-Stanford,Moore,"Chicago, IL",The Nobel Prize in Chemistry,Rockefeller University
-George,Wald,"New York, NY",The Nobel Prize in Physiology or Medicine,Harvard University
-William E.,Moerner,USA,The Nobel Prize in Chemistry,Stanford University
-Hartmut,Michel,Ludwigsburg,The Nobel Prize in Chemistry,Max-Planck-Institut für Biophysik
-Gustav Ludwig,Hertz,Hamburg,The Nobel Prize in Physics,Halle University
-William N.,Lipscomb,USA,The Nobel Prize in Chemistry,Harvard University
-Karl Ferdinand,Braun,Fulda,The Nobel Prize in Physics,Strasbourg University
-Toshihide,Maskawa,Nagoya,The Nobel Prize in Physics,Kyoto Sangyo University
-The (Theodor),Svedberg,Fleräng,The Nobel Prize in Chemistry,Uppsala University
-Willard Frank,Libby,"Grand Valley, CO",The Nobel Prize in Chemistry,University of California
-Henry,Taube,Canada,The Nobel Prize in Chemistry,Stanford University
-Lawrence R.,Klein,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Pennsylvania
-Ryoji,Noyori,Japan,The Nobel Prize in Chemistry,Nagoya University
-Nicholas Murray,Butler,"Elizabeth, NJ",The Nobel Peace Prize,Columbia University
-Ulf,von Euler,Stockholm,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
-Masatoshi,Koshiba,Toyohashi,The Nobel Prize in Physics,University of Tokyo
-Paul J.,Crutzen,the Netherlands,The Nobel Prize in Chemistry,Max-Planck-Institut für Chemie
-Edward Lawrie,Tatum,"Boulder, CO",The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
-H. Robert,Horvitz,"Chicago, IL",The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
-Peter D.,Mitchell,United Kingdom,The Nobel Prize in Chemistry,Glynn Research Laboratories
-Ernest,Rutherford,New Zealand,The Nobel Prize in Chemistry,Victoria University
-Tim,Hunt,Neston,The Nobel Prize in Physiology or Medicine,Imperial Cancer Research Fund
-Carl E.,Wieman,"Corvallis, OR",The Nobel Prize in Physics,"University of Colorado, JILA"
-Peter C.,Doherty,Brisbane,The Nobel Prize in Physiology or Medicine,St. Jude Children's Research Hospital
-Robert,Hofstadter,USA,The Nobel Prize in Physics,Stanford University
-Thomas A.,Steitz,USA,The Nobel Prize in Chemistry,Yale University
-Max Karl Ernst Ludwig,Planck,Schleswig (now Germany),The Nobel Prize in Physics,Berlin University
-Willis Eugene,Lamb,"Los Angeles, CA",The Nobel Prize in Physics,Stanford University
-J. Hans D.,Jensen,Germany,The Nobel Prize in Physics,University of Heidelberg
-Kenneth G.,Wilson,"Waltham, MA",The Nobel Prize in Physics,Cornell University
-Johannes Diderik,van der Waals,the Netherlands,The Nobel Prize in Physics,Amsterdam University
-Jules,Bordet,Belgium,The Nobel Prize in Physiology or Medicine,Brussels University
-Walther Hermann,Nernst,Prussia (now Germany),The Nobel Prize in Chemistry,Berlin University
-James Batcheller,Sumner,USA,The Nobel Prize in Chemistry,Cornell University
-Albrecht,Kossel,Mecklenburg (now Germany),The Nobel Prize in Physiology or Medicine,University of Heidelberg
-Leonid,Hurwicz,Moscow,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Minnesota
-Val Logsdon,Fitch,"Merriman, NE",The Nobel Prize in Physics,Princeton University
-Joseph L.,Goldstein,"Sumter, SC",The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
-Har Gobind,Khorana,Raipur,The Nobel Prize in Physiology or Medicine,University of Wisconsin
-Richard Martin,Willstätter,Karlsruhe,The Nobel Prize in Chemistry,Munich University
-Harry M.,Markowitz,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,City University of New York
-William Alfred,Fowler,"Pittsburgh, PA",The Nobel Prize in Physics,California Institute of Technology (Caltech)
-Tomas,Lindahl,Stockholm,The Nobel Prize in Chemistry,Clare Hall Laboratory
-Charles J.,Pedersen,Pusan,The Nobel Prize in Chemistry,Du Pont
-Angus,Deaton,Edinburgh,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
-Maurice,Allais,Paris,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,École Nationale Supérieur des Mines de Paris
-James M.,Buchanan Jr.,"Murfreesboro, TN",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Center for Study of Public Choice
-Russell A.,Hulse,"New York, NY",The Nobel Prize in Physics,Princeton University
-Ben Roy,Mottelson,"Chicago, IL",The Nobel Prize in Physics,Nordita
-Ahmed H.,Zewail,Egypt,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
-Shuji,Nakamura,Ikata,The Nobel Prize in Physics,University of California
-Elizabeth H.,Blackburn,Australia,The Nobel Prize in Physiology or Medicine,University of California
-Kenichi,Fukui,Nara,The Nobel Prize in Chemistry,Kyoto University
-Ralph M.,Steinman,Montreal,The Nobel Prize in Physiology or Medicine,Rockefeller University
-Edward B.,Lewis,USA,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
-Richard,Stone,United Kingdom,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Cambridge
-Thomas R.,Cech,USA,The Nobel Prize in Chemistry,University of Colorado
-Lord Rayleigh,(John William Strutt),United Kingdom,The Nobel Prize in Physics,Royal Institution of Great Britain
-Richard E.,Taylor,"Medicine Hat, Alberta",The Nobel Prize in Physics,Stanford University
-Philip Showalter,Hench,"Pittsburgh, PA",The Nobel Prize in Physiology or Medicine,Mayo Clinic
-Anthony J.,Leggett,United Kingdom,The Nobel Prize in Physics,University of Illinois
-Hiroshi,Amano,Japan,The Nobel Prize in Physics,Nagoya University
-Jean Baptiste,Perrin,France,The Nobel Prize in Physics,Sorbonne University
-Ada E.,Yonath,Jerusalem,The Nobel Prize in Chemistry,Weizmann Institute of Science
-Harold E.,Varmus,USA,The Nobel Prize in Physiology or Medicine,University of California School of Medicine
-Leon M.,Lederman,"New York, NY",The Nobel Prize in Physics,Fermi National Accelerator Laboratory
-Nicolay Gennadiyevich,Basov,Usman,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
-Ragnar,Granit,Russian Empire (now Finland),The Nobel Prize in Physiology or Medicine,Karolinska Institutet
-Alfred,Kastler,Germany (now France),The Nobel Prize in Physics,École Normale Supérieure
-Sir James W.,Black,Uddingston,The Nobel Prize in Physiology or Medicine,"London University, King's College Hospital Medical School"
-Eduard,Buchner,Munich,The Nobel Prize in Chemistry,Landwirtschaftliche Hochschule (Agricultural College)
-Kai M.,Siegbahn,Lund,The Nobel Prize in Physics,Uppsala University
-Chen Ning,Yang,China,The Nobel Prize in Physics,Institute for Advanced Study
-Christopher A.,Sims,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
-Christiane,Nüsslein-Volhard,Magdeburg,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für Entwicklungsbiologie
-Robert Andrews,Millikan,"Morrison, IL",The Nobel Prize in Physics,California Institute of Technology (Caltech)
-Pyotr Leonidovich,Kapitsa,Russian Empire (now Russia),The Nobel Prize in Physics,Academy of Sciences
-Sir Martin,Ryle,United Kingdom,The Nobel Prize in Physics,University of Cambridge
-Arne Wilhelm Kaurin,Tiselius,Stockholm,The Nobel Prize in Chemistry,Uppsala University
-Philipp Eduard Anton,von Lenard,Pressburg (now Bratislava),The Nobel Prize in Physics,Kiel University
-Pavel Alekseyevich,Cherenkov,Russia,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
-Igor Yevgenyevich,Tamm,Vladivostok,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
-Zhores I.,Alferov,"Vitebsk, Belorussia",The Nobel Prize in Physics,A.F. Ioffe Physico-Technical Institute
-Kenneth J.,Arrow,"New York, NY",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
-Rudolph A.,Marcus,Canada,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
-Elias James,Corey,USA,The Nobel Prize in Chemistry,Harvard University
-Shinya,Yamanaka,Japan,The Nobel Prize in Physiology or Medicine,Gladstone Institutes
-Barbara,McClintock,USA,The Nobel Prize in Physiology or Medicine,Cold Spring Harbor Laboratory
-Andrew V.,Schally,Poland (now Lithuania),The Nobel Prize in Physiology or Medicine,Veterans Administration Hospital
-Trygve,Haavelmo,Norway,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Oslo
-Sune K.,Bergström,Stockholm,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
-Leo James,Rainwater,USA,The Nobel Prize in Physics,Columbia University
-Yves,Chauvin,Belgium,The Nobel Prize in Chemistry,Institut Français du Pétrole
-Hamilton O.,Smith,USA,The Nobel Prize in Physiology or Medicine,Johns Hopkins University School of Medicine
-Wilhelm,Ostwald,Riga,The Nobel Prize in Chemistry,Leipzig University
-Erwin,Schrödinger,Austria,The Nobel Prize in Physics,Berlin University
-Dorothy Crowfoot,Hodgkin,Egypt,The Nobel Prize in Chemistry,"University of Oxford, Royal Society"
-Yoichiro,Nambu,Tokyo,The Nobel Prize in Physics,"Enrico Fermi Institute, University of Chicago"
-K. Alexander,Müller,Switzerland,The Nobel Prize in Physics,IBM Zurich Research Laboratory
-Oliver E.,Williamson,"Superior, WI",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
-Charles Brenton,Huggins,Halifax,The Nobel Prize in Physiology or Medicine,"University of Chicago, Ben May Laboratory for Cancer Research"
-Sir William Henry,Bragg,United Kingdom,The Nobel Prize in Physics,University College
-Wilhelm Conrad,Röntgen,Prussia (now Germany),The Nobel Prize in Physics,Munich University
-Hermann,Staudinger,Worms,The Nobel Prize in Chemistry,University of Freiburg
-Mario J.,Molina,Mexico City,The Nobel Prize in Chemistry,Massachusetts Institute of Technology (MIT)
-François,Englert,Etterbeek,The Nobel Prize in Physics,Université Libre de Bruxelles
-Serge,Haroche,Morocco,The Nobel Prize in Physics,École Normale Supérieure
-Andrew Z.,Fire,USA,The Nobel Prize in Physiology or Medicine,Stanford University School of Medicine
-Derek H. R.,Barton,Gravesend,The Nobel Prize in Chemistry,Imperial College
-Wendell Meredith,Stanley,USA,The Nobel Prize in Chemistry,Rockefeller Institute for Medical Research
-Ernst,Ruska,Heidelberg,The Nobel Prize in Physics,Fritz-Haber-Institut der Max-Planck-Gesellschaft
-Patrick Maynard Stuart,Blackett,London,The Nobel Prize in Physics,Victoria University
-Michael S.,Brown,USA,The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
-Murray,Gell-Mann,USA,The Nobel Prize in Physics,California Institute of Technology (Caltech)
-John F.,Nash Jr.,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
-Leonid Vitaliyevich,Kantorovich,St. Petersburg,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Academy of Sciences
-Julius,Axelrod,USA,The Nobel Prize in Physiology or Medicine,National Institutes of Health
-Rudolf Ludwig,Mössbauer,Munich,The Nobel Prize in Physics,California Institute of Technology (Caltech)
-Edward C.,Prescott,"Glens Falls, NY",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Federal Reserve Bank of Minneapolis
-Isidor Isaac,Rabi,Austria-Hungary (now Poland),The Nobel Prize in Physics,Columbia University
-Merton H.,Miller,"Boston, MA",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Marie,"Curie, née Sklodowska",Russian Empire (now Poland),The Nobel Prize in Physics,Sorbonne University
-Sir Howard Walter,Florey,Australia,The Nobel Prize in Physiology or Medicine,University of Oxford
-Owen,Chamberlain,USA,The Nobel Prize in Physics,University of California
-Walter Houser,Brattain,Amoy,The Nobel Prize in Physics,Bell Telephone Laboratories
-Stefan W.,Hell,Romania,The Nobel Prize in Chemistry,German Cancer Research Center
-Sir Cyril Norman,Hinshelwood,United Kingdom,The Nobel Prize in Chemistry,University of Oxford
-Simon,Kuznets,Russian Empire (now Belarus),The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
-Richard Laurence Millington,Synge,United Kingdom,The Nobel Prize in Chemistry,Rowett Research Institute
-Leo,Esaki,Japan,The Nobel Prize in Physics,IBM Thomas J. Watson Research Center
-Emil Adolf,von Behring,Hansdorf (now Jankowa &#379;aga&#324;ska),The Nobel Prize in Physiology or Medicine,Marburg University
-F. Sherwood,Rowland,"Delaware, OH",The Nobel Prize in Chemistry,University of California
-Arthur B.,McDonald,Canada,The Nobel Prize in Physics,Queen's University
-Thomas Hunt,Morgan,"Lexington, KY",The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
-Bruce A.,Beutler,USA,The Nobel Prize in Physiology or Medicine,The Scripps Research Institute
-Otto Paul Hermann,Diels,Germany,The Nobel Prize in Chemistry,Kiel University
-Roger W.,Sperry,USA,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
-Christian,de Duve,United Kingdom,The Nobel Prize in Physiology or Medicine,Université Catholique de Louvain
-Baruj,Benacerraf,Venezuela,The Nobel Prize in Physiology or Medicine,Harvard Medical School
-John Hasbrouck,van Vleck,USA,The Nobel Prize in Physics,Harvard University
-Finn E.,Kydland,Gjesdal,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Carnegie Mellon University
-Satoshi,&#332;mura,Japan,The Nobel Prize in Physiology or Medicine,Kitasato University
-Subramanyan,Chandrasekhar,Lahore,The Nobel Prize in Physics,University of Chicago
-Albert,Claude,Longlier,The Nobel Prize in Physiology or Medicine,Université Catholique de Louvain
-Milton,Friedman,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Heinrich,Rohrer,Buchs,The Nobel Prize in Physics,IBM Zurich Research Laboratory
-Klaus,von Klitzing,German-occupied Poland (now Poland),The Nobel Prize in Physics,Max-Planck-Institut für Festkörperforschung
-James J.,Heckman,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Roger Y.,Tsien,"New York, NY",The Nobel Prize in Chemistry,University of California
-Tsung-Dao (T.D.),Lee,Shanghai,The Nobel Prize in Physics,Columbia University
-Jean,Dausset,Toulouse,The Nobel Prize in Physiology or Medicine,"Université de Paris, Laboratoire Immuno-Hématologie"
-Isamu,Akasaki,Japan,The Nobel Prize in Physics,Meijo University
-Severo,Ochoa,Luarca,The Nobel Prize in Physiology or Medicine,"New York University, College of Medicine"
-Lars,Onsager,Norway,The Nobel Prize in Chemistry,Yale University
-Ernst Boris,Chain,Germany,The Nobel Prize in Physiology or Medicine,University of Oxford
-Aage Niels,Bohr,Copenhagen,The Nobel Prize in Physics,Niels Bohr Institute
-Gertrude B.,Elion,USA,The Nobel Prize in Physiology or Medicine,Wellcome Research Laboratories
-Hermann Joseph,Muller,USA,The Nobel Prize in Physiology or Medicine,Indiana University
-George E.,Smith,USA,The Nobel Prize in Physics,Bell Laboratories
-William Francis,Giauque,Canada,The Nobel Prize in Chemistry,University of California
-Ilya Ilyich,Mechnikov,Russian Empire (now Ukraine),The Nobel Prize in Physiology or Medicine,Institut Pasteur
-John,O'Keefe,USA,The Nobel Prize in Physiology or Medicine,University College
-Donald J.,Cram,USA,The Nobel Prize in Chemistry,University of California
-John Franklin,Enders,"West Hartford, CT",The Nobel Prize in Physiology or Medicine,"Research Division of Infectious Diseases, Children's Medical Center"
-Reinhard,Selten,Breslau (now Wroclaw),The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Rheinische Friedrich-Wilhelms-Universität
-Edward Calvin,Kendall,"South Norwalk, CT",The Nobel Prize in Physiology or Medicine,Mayo Clinic
-Petrus (Peter) Josephus Wilhelmus,Debye,Maastricht,The Nobel Prize in Chemistry,Berlin University
-Sydney,Brenner,South Africa,The Nobel Prize in Physiology or Medicine,The Molecular Sciences Institute
-Edward Mills,Purcell,USA,The Nobel Prize in Physics,Harvard University
-Emilio Gino,Segrè,Tivoli,The Nobel Prize in Physics,University of California
-Artturi Ilmari,Virtanen,Helsinki,The Nobel Prize in Chemistry,University of Helsinki
-John C.,Polanyi,Germany,The Nobel Prize in Chemistry,University of Toronto
-Johannes,Stark,Germany,The Nobel Prize in Physics,Greifswald University
-Corneille Jean François,Heymans,Ghent,The Nobel Prize in Physiology or Medicine,Ghent University
-Ernest Orlando,Lawrence,"Canton, SD",The Nobel Prize in Physics,University of California
-Roderick,MacKinnon,USA,The Nobel Prize in Chemistry,Rockefeller University
-Burton,Richter,"Brooklyn, NY",The Nobel Prize in Physics,Stanford Linear Accelerator Center
-John E.,Walker,United Kingdom,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
-May-Britt,Moser,Norway,The Nobel Prize in Physiology or Medicine,Norwegian University of Science and Technology (NTNU)
-Edwin G.,Krebs,USA,The Nobel Prize in Physiology or Medicine,University of Washington
-Samuel Chao Chung,Ting,"Ann Arbor, MI",The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
-Antoine Henri,Becquerel,Paris,The Nobel Prize in Physics,École Polytechnique
-Koichi,Tanaka,Japan,The Nobel Prize in Chemistry,Shimadzu Corp.
-John A.,Pople,United Kingdom,The Nobel Prize in Chemistry,Northwestern University
-Roger,Guillemin,Dijon,The Nobel Prize in Physiology or Medicine,The Salk Institute
-Charles Thomson Rees,Wilson,Glencorse,The Nobel Prize in Physics,University of Cambridge
-Wolfgang,Paul,Germany,The Nobel Prize in Physics,University of Bonn
-Sir Paul M.,Nurse,United Kingdom,The Nobel Prize in Physiology or Medicine,Imperial Cancer Research Fund
-Percy Williams,Bridgman,"Cambridge, MA",The Nobel Prize in Physics,Harvard University
-John Cowdery,Kendrew,Oxford,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
-John Warcup,Cornforth,Australia,The Nobel Prize in Chemistry,University of Sussex
-George Wells,Beadle,USA,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
-Günter,Blobel,Germany (now Poland),The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
-Franco,Modigliani,Rome,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
-Robert S.,Mulliken,"Newburyport, MA",The Nobel Prize in Chemistry,University of Chicago
-Randy W.,Schekman,"St. Paul, MN",The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
-Charles Hard,Townes,USA,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
-Sir Harold W.,Kroto,Wisbech,The Nobel Prize in Chemistry,University of Sussex
-Otto Fritz,Meyerhof,Germany,The Nobel Prize in Physiology or Medicine,Kiel University
-Polykarp,Kusch,Germany,The Nobel Prize in Physics,Columbia University
-Elinor,Ostrom,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Indiana University
-Hideki,Yukawa,Tokyo,The Nobel Prize in Physics,Kyoto Imperial University
-Charles Edouard,Guillaume,Switzerland,The Nobel Prize in Physics,Bureau International des Poids et Mesures (International Bureau of Weights and Measures)
-Louis,Renault,Autun,The Nobel Peace Prize,Sorbonne University
-Ivar,Giaever,Bergen,The Nobel Prize in Physics,General Electric Company
-Ernest Thomas Sinton,Walton,Dungarvan,The Nobel Prize in Physics,Trinity College
-Cecil Frank,Powell,Tonbridge,The Nobel Prize in Physics,Bristol University
-Sidney,Altman,Canada,The Nobel Prize in Chemistry,Yale University
-John R.,Vane,Tardebigg,The Nobel Prize in Physiology or Medicine,The Wellcome Research Laboratories
-Bert,Sakmann,Germany,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für medizinische Forschung
-Yuan T.,Lee,Taiwan,The Nobel Prize in Chemistry,University of California
-Joseph John,Thomson,United Kingdom,The Nobel Prize in Physics,University of Cambridge
-Aleksandr Mikhailovich,Prokhorov,Australia,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
-Johann,Deisenhofer,Germany,The Nobel Prize in Chemistry,Howard Hughes Medical Institute
-Alfred D.,Hershey,"Owosso, MI",The Nobel Prize in Physiology or Medicine,Carnegie Institution of Washington
-Phillip A.,Sharp,USA,The Nobel Prize in Physiology or Medicine,"Massachusetts Institute of Technology (MIT), Center for Cancer Research"
-Amartya,Sen,Santiniketan,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Trinity College
-Robert Burns,Woodward,"Boston, MA",The Nobel Prize in Chemistry,Harvard University
-Rita,Levi-Montalcini,Italy,The Nobel Prize in Physiology or Medicine,Institute of Cell Biology of the C.N.R.
-Jacques,Monod,Paris,The Nobel Prize in Physiology or Medicine,Institut Pasteur
-Carlo,Rubbia,Gorizia,The Nobel Prize in Physics,CERN
-Charles Louis Alphonse,Laveran,France,The Nobel Prize in Physiology or Medicine,Institut Pasteur
-Niels Ryberg,Finsen,Faroe Islands (Denmark),The Nobel Prize in Physiology or Medicine,Finsen Medical Light Institute
-Takaaki,Kajita,Higashimatsuyama,The Nobel Prize in Physics,University of Tokyo
-Archibald Vivian,Hill,Bristol,The Nobel Prize in Physiology or Medicine,London University
-Frits,Zernike,the Netherlands,The Nobel Prize in Physics,Groningen University
-Paul,Greengard,"New York, NY",The Nobel Prize in Physiology or Medicine,Rockefeller University
-Lev Davidovich,Landau,Baku,The Nobel Prize in Physics,Academy of Sciences
-Luis F.,Leloir,France,The Nobel Prize in Chemistry,Institute for Biochemical Research
-Paul A.,Samuelson,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
-Eugene Paul,Wigner,Austria-Hungary (now Hungary),The Nobel Prize in Physics,Princeton University
-Earl W.,"Sutherland, Jr.",USA,The Nobel Prize in Physiology or Medicine,Vanderbilt University
-Sin-Itiro,Tomonaga,Japan,The Nobel Prize in Physics,Tokyo University of Education
-William Lawrence,Bragg,Australia,The Nobel Prize in Physics,Victoria University
-James E.,Rothman,USA,The Nobel Prize in Physiology or Medicine,Yale University
-John L.,Hall,USA,The Nobel Prize in Physics,"University of Colorado, JILA"
-Daniel L.,McFadden,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
-George F.,Smoot,USA,The Nobel Prize in Physics,University of California
-Fritz Albert,Lipmann,Germany (now Russia),The Nobel Prize in Physiology or Medicine,Massachusetts General Hospital
-Alexis,Carrel,France,The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
-Bengt I.,Samuelsson,Halmstad,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
-Makoto,Kobayashi,Japan,The Nobel Prize in Physics,High Energy Accelerator Research Organization (KEK)
-Ilya,Prigogine,Russia,The Nobel Prize in Chemistry,Université Libre de Bruxelles
-James A.,Mirrlees,Scotland,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Cambridge
-Martin,Rodbell,USA,The Nobel Prize in Physiology or Medicine,National Institute of Environmental Health Sciences
-Robert E.,Lucas Jr.,"Yakima, WA",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-John Robert,Schrieffer,"Oak Park, IL",The Nobel Prize in Physics,University of Pennsylvania
-Joseph E.,Murray,USA,The Nobel Prize in Physiology or Medicine,Brigham and Women's Hospital
-Francis Harry Compton,Crick,United Kingdom,The Nobel Prize in Physiology or Medicine,MRC Laboratory of Molecular Biology
-Hendrik Antoon,Lorentz,the Netherlands,The Nobel Prize in Physics,Leiden University
-Sir Robert,Robinson,"Rufford, near Chesterfield",The Nobel Prize in Chemistry,University of Oxford
-Brian David,Josephson,United Kingdom,The Nobel Prize in Physics,University of Cambridge
-Maria,Goeppert Mayer,Germany (now Poland),The Nobel Prize in Physics,University of California
-Robert M.,Solow,"Brooklyn, NY",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
-Robert C.,Richardson,USA,The Nobel Prize in Physics,Cornell University
-Friedrich,Bergius,"Goldschmieden, near Breslau",The Nobel Prize in Chemistry,I.G. Farbenindustrie A.G.
-Godfrey N.,Hounsfield,United Kingdom,The Nobel Prize in Physiology or Medicine,"Central Research Laboratories, EMI"
-Peter W.,Higgs,United Kingdom,The Nobel Prize in Physics,University of Edinburgh
-Sir Bernard,Katz,Germany,The Nobel Prize in Physiology or Medicine,University College
-Sir Frank Macfarlane,Burnet,Traralgon,The Nobel Prize in Physiology or Medicine,Walter and Eliza Hall Institute for Medical Research
-Daniel,Bovet,Neuchâtel,The Nobel Prize in Physiology or Medicine,Istituto Superiore di Sanità (Chief Institute of Public Health)
-Francis William,Aston,Harborne,The Nobel Prize in Chemistry,University of Cambridge
-Konstantin,Novoselov,Nizhny Tagil,The Nobel Prize in Physics,University of Manchester
-Robert B.,Laughlin,USA,The Nobel Prize in Physics,Stanford University
-Adolf Otto Reinhold,Windaus,Germany,The Nobel Prize in Chemistry,Goettingen University
-Oliver,Smithies,United Kingdom,The Nobel Prize in Physiology or Medicine,University of North Carolina
-Steven,Weinberg,"New York, NY",The Nobel Prize in Physics,Harvard University
-Stanley,Cohen,"Brooklyn, NY",The Nobel Prize in Physiology or Medicine,Vanderbilt University School of Medicine
-André,Lwoff,Ainay-le-Château,The Nobel Prize in Physiology or Medicine,Institut Pasteur
-E. Donnall,Thomas,USA,The Nobel Prize in Physiology or Medicine,Fred Hutchinson Cancer Research Center
-Alan J.,Heeger,USA,The Nobel Prize in Chemistry,University of California
-Maurice Hugh Frederick,Wilkins,Pongaroa,The Nobel Prize in Physiology or Medicine,London University
-Vitaly L.,Ginzburg,Moscow,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
-Henri,Moissan,France,The Nobel Prize in Chemistry,Sorbonne University
-Niels K.,Jerne,United Kingdom,The Nobel Prize in Physiology or Medicine,Basel Institute for Immunology
-Christiaan,Eijkman,the Netherlands,The Nobel Prize in Physiology or Medicine,Utrecht University
-Hannes Olof Gösta,Alfvén,Sweden,The Nobel Prize in Physics,Royal Institute of Technology
-Venkatraman,Ramakrishnan,"Chidambaram, Tamil Nadu",The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
-Georg,Wittig,Berlin,The Nobel Prize in Chemistry,University of Heidelberg
-Sir John Carew,Eccles,Melbourne,The Nobel Prize in Physiology or Medicine,Australian National University
-James Watson,Cronin,USA,The Nobel Prize in Physics,University of Chicago
-Sir Edward Victor,Appleton,Bradford,The Nobel Prize in Physics,Department of Scientific and Industrial Research
-Sir Chandrasekhara Venkata,Raman,Tiruchirappalli,The Nobel Prize in Physics,Calcutta University
-Philip Warren,Anderson,USA,The Nobel Prize in Physics,Bell Telephone Laboratories
-Ei-ichi,Negishi,Changchun,The Nobel Prize in Chemistry,Purdue University
-Aziz,Sancar,Turkey,The Nobel Prize in Chemistry,University of North Carolina
-Gerardus,'t Hooft,Den Helder,The Nobel Prize in Physics,Utrecht University
-Michael,Levitt,South Africa,The Nobel Prize in Chemistry,Stanford University School of Medicine
-Hans,Fischer,Hoechst,The Nobel Prize in Chemistry,Technische Hochschule (Institute of Technology)
-Hans Karl August Simon,von Euler-Chelpin,Augsburg,The Nobel Prize in Chemistry,Stockholm University
-Roger B.,Myerson,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Edmond H.,Fischer,Shanghai,The Nobel Prize in Physiology or Medicine,University of Washington
-Antonio Caetano de Abreu Freire Egas,Moniz,Avança,The Nobel Prize in Physiology or Medicine,University of Lisbon
-Irène,Joliot-Curie,Paris,The Nobel Prize in Chemistry,Institut du Radium
-George Hoyt,Whipple,"Ashland, NH",The Nobel Prize in Physiology or Medicine,University of Rochester
-Alan G.,MacDiarmid,New Zealand,The Nobel Prize in Chemistry,University of Pennsylvania
-Edward Adelbert,Doisy,USA,The Nobel Prize in Physiology or Medicine,Saint Louis University
-Sir Nevill Francis,Mott,Leeds,The Nobel Prize in Physics,University of Cambridge
-Roger D.,Kornberg,"St. Louis, MO",The Nobel Prize in Chemistry,Stanford University
-Luis Walter,Alvarez,USA,The Nobel Prize in Physics,University of California
-Otto,Hahn,Germany,The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie
-Avram,Hershko,Karcag,The Nobel Prize in Chemistry,Technion - Israel Institute of Technology
-Gerd,Binnig,Frankfurt-on-the-Main,The Nobel Prize in Physics,IBM Zurich Research Laboratory
-Frederick Chapman,Robbins,"Auburn, AL",The Nobel Prize in Physiology or Medicine,Western Reserve University
-Carl Ferdinand,Cori,Austria-Hungary (now Czech Republic),The Nobel Prize in Physiology or Medicine,Washington University
-Il´ja Mikhailovich,Frank,Russia,The Nobel Prize in Physics,University of Moscow
-Sir Charles Scott,Sherrington,United Kingdom,The Nobel Prize in Physiology or Medicine,University of Oxford
-Henrik Carl Peter,Dam,Copenhagen,The Nobel Prize in Physiology or Medicine,Polytechnic Institute
-Leon Neil,Cooper,USA,The Nobel Prize in Physics,Brown University
-Dickinson W.,Richards,"Orange, NJ",The Nobel Prize in Physiology or Medicine,Columbia University
-William H.,Stein,"New York, NY",The Nobel Prize in Chemistry,Rockefeller University
-Guglielmo,Marconi,Bologna,The Nobel Prize in Physics,Marconi Wireless Telegraph Co. Ltd.
-J. Georg,Bednorz,Neuenkirchen,The Nobel Prize in Physics,IBM Zurich Research Laboratory
-William Parry,Murphy,USA,The Nobel Prize in Physiology or Medicine,Harvard University
-Sir Henry Hallett,Dale,London,The Nobel Prize in Physiology or Medicine,National Institute for Medical Research
-Frédéric,Joliot,France,The Nobel Prize in Chemistry,Institut du Radium
-William D.,Phillips,USA,The Nobel Prize in Physics,National Institute of Standards and Technology
-Brian K.,Kobilka,"Little Falls, MN",The Nobel Prize in Chemistry,Stanford University School of Medicine
-Peter,Agre,USA,The Nobel Prize in Chemistry,Johns Hopkins University School of Medicine
-William F.,Sharpe,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Stanford University
-H. David,Politzer,USA,The Nobel Prize in Physics,California Institute of Technology (Caltech)
-Glenn Theodore,Seaborg,USA,The Nobel Prize in Chemistry,University of California
-Albert Abraham,Michelson,Strelno (now Strzelno),The Nobel Prize in Physics,University of Chicago
-Eric F.,Wieschaus,"South Bend, IN",The Nobel Prize in Physiology or Medicine,Princeton University
-Douglass C.,North,"Cambridge, MA",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Washington University
-William,Vickrey,Canada,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
-Felix,Bloch,Switzerland,The Nobel Prize in Physics,Stanford University
-Joseph H.,Taylor Jr.,"Philadelphia, PA",The Nobel Prize in Physics,Princeton University
-Robert J.,Aumann,Frankfurt-on-the-Main,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,"University of Jerusalem, Center for RationalityHebrew"
-Richard F.,Heck,USA,The Nobel Prize in Chemistry,University of Delaware
-Johann Friedrich Wilhelm Adolf,von Baeyer,Prussia (now Germany),The Nobel Prize in Chemistry,Munich University
-Douglas D.,Osheroff,USA,The Nobel Prize in Physics,Stanford University
-Jan,Tinbergen,the Netherlands,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,The Netherlands School of Economics
-Heike,Kamerlingh Onnes,the Netherlands,The Nobel Prize in Physics,Leiden University
-Gerty Theresa,"Cori, née Radnitz",Austria-Hungary (now Czech Republic),The Nobel Prize in Physiology or Medicine,Washington University
-Vladimir,Prelog,Austria-Hungary (now Bosnia and Herzegovina),The Nobel Prize in Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)
-Thomas Huckle,Weller,USA,The Nobel Prize in Physiology or Medicine,"Research Division of Infectious Diseases, Children's Medical Center"
-Carl,Bosch,Germany,The Nobel Prize in Chemistry,I.G. Farbenindustrie A.G.
-Herbert Spencer,Gasser,"Platteville, WI",The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
-Eric R.,Kandel,Austria,The Nobel Prize in Physiology or Medicine,Columbia University
-Leland H.,Hartwell,"Los Angeles, CA",The Nobel Prize in Physiology or Medicine,Fred Hutchinson Cancer Research Center
-Jaroslav,Heyrovsky,Austria-Hungary (now Czech Republic),The Nobel Prize in Chemistry,Polarographic Institute of the Czechoslovak Academy of Science
-Prince Louis-Victor Pierre Raymond,de Broglie,France,The Nobel Prize in Physics,"Sorbonne University, Institut Henri Poincaré"
-Melvin,Schwartz,USA,The Nobel Prize in Physics,"Digital Pathways, Inc."
-Norman F.,Ramsey,USA,The Nobel Prize in Physics,Harvard University
-Eric S.,Maskin,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Institute for Advanced Study
-Bernardo Alberto,Houssay,Buenos Aires,The Nobel Prize in Physiology or Medicine,Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine)
-Luc,Montagnier,Chabris,The Nobel Prize in Physiology or Medicine,World Foundation for AIDS Research and Prevention
-Herbert A.,Hauptman,USA,The Nobel Prize in Chemistry,The Medical Foundation of Buffalo
-George Richards,Minot,"Boston, MA",The Nobel Prize in Physiology or Medicine,Harvard University
-Max Ferdinand,Perutz,Vienna,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
-Herbert C.,Brown,United Kingdom,The Nobel Prize in Chemistry,Purdue University
-Victor,Grignard,France,The Nobel Prize in Chemistry,Nancy University
-J. Michael,Bishop,USA,The Nobel Prize in Physiology or Medicine,University of California School of Medicine
-Walter Norman,Haworth,Chorley,The Nobel Prize in Chemistry,Birmingham University
-Julian,Schwinger,"New York, NY",The Nobel Prize in Physics,Harvard University
-David H.,Hubel,Canada,The Nobel Prize in Physiology or Medicine,Harvard Medical School
-Horst L.,Störmer,Frankfurt-on-the-Main,The Nobel Prize in Physics,Columbia University
-Axel Hugo Theodor,Theorell,Sweden,The Nobel Prize in Physiology or Medicine,"Karolinska Institutet, Nobel Medical Institute"
-Gerald M.,Edelman,"New York, NY",The Nobel Prize in Physiology or Medicine,Rockefeller University
-Johannes Andreas Grib,Fibiger,Denmark,The Nobel Prize in Physiology or Medicine,Copenhagen University
-Carl David,Anderson,USA,The Nobel Prize in Physics,California Institute of Technology (Caltech)
-Robert Woodrow,Wilson,USA,The Nobel Prize in Physics,Bell Laboratories
-Ralph,Bunche,"Detroit, MI",The Nobel Peace Prize,Harvard University
-Vincent,du Vigneaud,USA,The Nobel Prize in Chemistry,Cornell University
-Adolf Friedrich Johann,Butenandt,Bremerhaven-Lehe,The Nobel Prize in Chemistry,Berlin University
-Santiago,Ramón y Cajal,Petilla de Aragó,The Nobel Prize in Physiology or Medicine,Madrid University
-Antony,Hewish,Fowey,The Nobel Prize in Physics,University of Cambridge
-Martin L.,Perl,USA,The Nobel Prize in Physics,Stanford University
-David M.,Lee,"Rye, NY",The Nobel Prize in Physics,Cornell University
-Alan Lloyd,Hodgkin,Banbury,The Nobel Prize in Physiology or Medicine,University of Cambridge
-Sir John B.,Gurdon,Dippenhall,The Nobel Prize in Physiology or Medicine,Gurdon Institute
-George D.,Snell,"Bradford, MA",The Nobel Prize in Physiology or Medicine,Jackson Laboratory
-Owen Willans,Richardson,Dewsbury,The Nobel Prize in Physics,London University
-Theodore W.,Schultz,"Arlington, SD",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Akira,Suzuki,Japan,The Nobel Prize in Chemistry,Hokkaido University
-Raymond,Davis Jr.,"Washington, DC",The Nobel Prize in Physics,University of Pennsylvania
-Marshall W.,Nirenberg,"New York, NY",The Nobel Prize in Physiology or Medicine,National Institutes of Health
-Harold Clayton,Urey,USA,The Nobel Prize in Chemistry,Columbia University
-Vernon L.,Smith,"Wichita, KS",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,George Mason University
-Louis J.,Ignarro,"Brooklyn, NY",The Nobel Prize in Physiology or Medicine,University of California School of Medicine
-Frederick Grant,Banting,Alliston,The Nobel Prize in Physiology or Medicine,University of Toronto
-William C.,Campbell,Ramelton,The Nobel Prize in Physiology or Medicine,Drew University
-Irving,Langmuir,USA,The Nobel Prize in Chemistry,General Electric Company
-Jens C.,Skou,Denmark,The Nobel Prize in Chemistry,Aarhus University
-Sir William,Ramsay,Scotland,The Nobel Prize in Chemistry,University College
-Nikolaas,Tinbergen,the Hague,The Nobel Prize in Physiology or Medicine,University of Oxford
-Richard P.,Feynman,"New York, NY",The Nobel Prize in Physics,California Institute of Technology (Caltech)
-Clive W.J.,Granger,United Kingdom,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
-Pierre-Gilles,de Gennes,France,The Nobel Prize in Physics,Collège de France
-Roy J.,Glauber,"New York, NY",The Nobel Prize in Physics,Harvard University
-Barry J.,Marshall,Kalgoorlie,The Nobel Prize in Physiology or Medicine,"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre"
-Joshua,Lederberg,"Montclair, NJ",The Nobel Prize in Physiology or Medicine,University of Wisconsin
-Georges J.F.,Köhler,Munich,The Nobel Prize in Physiology or Medicine,Basel Institute for Immunology
-David,Baltimore,"New York, NY",The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
-Georges,Charpak,Dabrovica,The Nobel Prize in Physics,CERN
-Walther,Bothe,Oranienburg,The Nobel Prize in Physics,Max-Planck-Institut für medizinische Forschung
-Charles Jules Henri,Nicolle,France,The Nobel Prize in Physiology or Medicine,Institut Pasteur
-Wassily,Leontief,St. Petersburg,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
-John B.,Fenn,"New York, NY",The Nobel Prize in Chemistry,Virginia Commonwealth University
-Gerard,Debreu,Calais,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
-Roald,Hoffmann,Zloczov,The Nobel Prize in Chemistry,Cornell University
-Linus Carl,Pauling,"Portland, OR",The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
-John Howard,Northrop,USA,The Nobel Prize in Chemistry,Rockefeller Institute for Medical Research
-Claude,Cohen-Tannoudji,Constantine,The Nobel Prize in Physics,École Normale Supérieure
-Jack,Steinberger,Germany,The Nobel Prize in Physics,CERN
-Paul D.,Boyer,USA,The Nobel Prize in Chemistry,University of California
-D. Carleton,Gajdusek,USA,The Nobel Prize in Physiology or Medicine,National Institutes of Health
-Paul C.,Lauterbur,"Sidney, OH",The Nobel Prize in Physiology or Medicine,University of Illinois
-George H.,Hitchings,"Hoquiam, WA",The Nobel Prize in Physiology or Medicine,Wellcome Research Laboratories
-Alexei A.,Abrikosov,Moscow,The Nobel Prize in Physics,Argonne National Laboratory
-Pierre,Curie,Paris,The Nobel Prize in Physics,École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry)
-Jacobus Henricus,van 't Hoff,Rotterdam,The Nobel Prize in Chemistry,Berlin University
-Dale T.,Mortensen,"Enterprise, OR",The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Northwestern University
-Karl,Ziegler,Germany,The Nobel Prize in Chemistry,Max-Planck-Institut für Kohlenforschung (Max-Planck-Institute for Carbon Research)
-Myron S.,Scholes,Canada,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Long Term Capital Management
-Schack August Steenberg,Krogh,Grenå,The Nobel Prize in Physiology or Medicine,Copenhagen University
-Bertram N.,Brockhouse,Canada,The Nobel Prize in Physics,McMaster University
-Willard S.,Boyle,Canada,The Nobel Prize in Physics,Bell Laboratories
-Alfred G.,Gilman,USA,The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
-Selman Abraham,Waksman,Russian Empire (now Ukraine),The Nobel Prize in Physiology or Medicine,Rutgers University
-Walter Rudolf,Hess,Frauenfeld,The Nobel Prize in Physiology or Medicine,University of Zurich
-Theodore William,Richards,USA,The Nobel Prize in Chemistry,Harvard University
-Sir Alexander,Fleming,Lochfield,The Nobel Prize in Physiology or Medicine,London University
-Arvid,Carlsson,Uppsala,The Nobel Prize in Physiology or Medicine,Göteborg University
-Riccardo,Giacconi,Italy,The Nobel Prize in Physics,Associated Universities Inc.
-Heinrich Otto,Wieland,Germany,The Nobel Prize in Chemistry,Munich University
-Victor Franz,Hess,Peggau,The Nobel Prize in Physics,Innsbruck University
-Otto Heinrich,Warburg,Germany,The Nobel Prize in Physiology or Medicine,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie
-Gary S.,Becker,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Salvador E.,Luria,Italy,The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
-Saul,Perlmutter,"Champaign-Urbana, IL",The Nobel Prize in Physics,Lawrence Berkeley National Laboratory
-Andre,Geim,Russia,The Nobel Prize in Physics,University of Manchester
-Tjalling C.,Koopmans,'s Graveland,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Yale University
-Stanley B.,Prusiner,"Des Moines, IA",The Nobel Prize in Physiology or Medicine,University of California School of Medicine
-Arthur Holly,Compton,"Wooster, OH",The Nobel Prize in Physics,University of Chicago
-Lars Peter,Hansen,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
-Ivan Petrovich,Pavlov,Ryazan,The Nobel Prize in Physiology or Medicine,Military Medical Academy
-James,Chadwick,United Kingdom,The Nobel Prize in Physics,Liverpool University
-Arthur Leonard,Schawlow,"Mount Verno, NY",The Nobel Prize in Physics,Stanford University
-Hans Albrecht,Bethe,Strassburg (now Strasbourg),The Nobel Prize in Physics,Cornell University
-George A.,Akerlof,USA,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
-John James Rickard,Macleod,Cluny,The Nobel Prize in Physiology or Medicine,University of Toronto
+givenName,familyName,prizeName,uniName
+Herbert A.,Hauptman,The Nobel Prize in Chemistry,The Medical Foundation of Buffalo
+Sir Charles Scott,Sherrington,The Nobel Prize in Physiology or Medicine,University of Oxford
+Richard Martin,Willstätter,The Nobel Prize in Chemistry,Munich University
+Jean Baptiste,Perrin,The Nobel Prize in Physics,Sorbonne University
+James Batcheller,Sumner,The Nobel Prize in Chemistry,Cornell University
+Merton H.,Miller,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Herbert A.,Simon,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Carnegie Mellon University
+George E.,Smith,The Nobel Prize in Physics,Bell Laboratories
+Wilhelm Conrad,Röntgen,The Nobel Prize in Physics,Munich University
+George A.,Akerlof,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Fritz Albert,Lipmann,The Nobel Prize in Physiology or Medicine,Massachusetts General Hospital
+Fritz Albert,Lipmann,The Nobel Prize in Physiology or Medicine,Harvard Medical School
+Il´ja Mikhailovich,Frank,The Nobel Prize in Physics,University of Moscow
+Il´ja Mikhailovich,Frank,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
+Erwin,Schrödinger,The Nobel Prize in Physics,Berlin University
+Shinya,Yamanaka,The Nobel Prize in Physiology or Medicine,Gladstone Institutes
+Shinya,Yamanaka,The Nobel Prize in Physiology or Medicine,Kyoto University
+Vernon L.,Smith,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,George Mason University
+Lars,Onsager,The Nobel Prize in Chemistry,Yale University
+Ronald,Ross,The Nobel Prize in Physiology or Medicine,University College
+Santiago,Ramón y Cajal,The Nobel Prize in Physiology or Medicine,Madrid University
+Alan Lloyd,Hodgkin,The Nobel Prize in Physiology or Medicine,University of Cambridge
+Marshall W.,Nirenberg,The Nobel Prize in Physiology or Medicine,National Institutes of Health
+Frederick,Sanger,The Nobel Prize in Chemistry,University of Cambridge
+Frederick,Sanger,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
+Wendell Meredith,Stanley,The Nobel Prize in Chemistry,Rockefeller Institute for Medical Research
+Klaus,von Klitzing,The Nobel Prize in Physics,Max-Planck-Institut für Festkörperforschung
+Sir Paul M.,Nurse,The Nobel Prize in Physiology or Medicine,Imperial Cancer Research Fund
+Takaaki,Kajita,The Nobel Prize in Physics,University of Tokyo
+Toshihide,Maskawa,The Nobel Prize in Physics,Kyoto Sangyo University
+Toshihide,Maskawa,The Nobel Prize in Physics,"Yukawa Institute for Theoretical Physics (YITP), Kyoto University"
+Edvard I.,Moser,The Nobel Prize in Physiology or Medicine,Norwegian University of Science and Technology (NTNU)
+Roderick,MacKinnon,The Nobel Prize in Chemistry,Rockefeller University
+Roderick,MacKinnon,The Nobel Prize in Chemistry,Howard Hughes Medical Institute
+Paul,Greengard,The Nobel Prize in Physiology or Medicine,Rockefeller University
+Douglas D.,Osheroff,The Nobel Prize in Physics,Stanford University
+Dickinson W.,Richards,The Nobel Prize in Physiology or Medicine,Columbia University
+Thomas J.,Sargent,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,New York University
+James,Chadwick,The Nobel Prize in Physics,Liverpool University
+Odd,Hassel,The Nobel Prize in Chemistry,University of Oslo
+David J.,Wineland,The Nobel Prize in Physics,University of Colorado
+David J.,Wineland,The Nobel Prize in Physics,National Institute of Standards and Technology
+Fritz,Haber,The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie
+Enrico,Fermi,The Nobel Prize in Physics,Rome University
+Hans G.,Dehmelt,The Nobel Prize in Physics,University of Washington
+Raymond,Davis Jr.,The Nobel Prize in Physics,University of Pennsylvania
+Sir Frank Macfarlane,Burnet,The Nobel Prize in Physiology or Medicine,Walter and Eliza Hall Institute for Medical Research
+Kurt,Wüthrich,The Nobel Prize in Chemistry,The Scripps Research Institute
+Kurt,Wüthrich,The Nobel Prize in Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)
+Arthur Leonard,Schawlow,The Nobel Prize in Physics,Stanford University
+Leonid Vitaliyevich,Kantorovich,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Academy of Sciences
+Burton,Richter,The Nobel Prize in Physics,Stanford Linear Accelerator Center
+Murray,Gell-Mann,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Richard Adolf,Zsigmondy,The Nobel Prize in Chemistry,Goettingen University
+Paul,Berg,The Nobel Prize in Chemistry,Stanford University
+Aaron,Klug,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
+Hans Karl August Simon,von Euler-Chelpin,The Nobel Prize in Chemistry,Stockholm University
+John R.,Vane,The Nobel Prize in Physiology or Medicine,The Wellcome Research Laboratories
+Carl David,Anderson,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Rosalyn,Yalow,The Nobel Prize in Physiology or Medicine,Veterans Administration Hospital
+Riccardo,Giacconi,The Nobel Prize in Physics,Associated Universities Inc.
+Eugene Paul,Wigner,The Nobel Prize in Physics,Princeton University
+Polykarp,Kusch,The Nobel Prize in Physics,Columbia University
+Thomas C.,Südhof,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
+Thomas C.,Südhof,The Nobel Prize in Physiology or Medicine,Stanford University
+Robert F.,Engle III,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,New York University
+David J.,Gross,The Nobel Prize in Physics,"University of California, Kavli Institute for Theoretical Physics"
+Robert Bruce,Merrifield,The Nobel Prize in Chemistry,Rockefeller University
+Otto Heinrich,Warburg,The Nobel Prize in Physiology or Medicine,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie
+Niels K.,Jerne,The Nobel Prize in Physiology or Medicine,Basel Institute for Immunology
+George,Wald,The Nobel Prize in Physiology or Medicine,Harvard University
+Wolfgang,Paul,The Nobel Prize in Physics,University of Bonn
+James Dewey,Watson,The Nobel Prize in Physiology or Medicine,Harvard University
+David,Baltimore,The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
+Ernest Thomas Sinton,Walton,The Nobel Prize in Physics,Trinity College
+Bert,Sakmann,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für medizinische Forschung
+Martin L.,Perl,The Nobel Prize in Physics,Stanford University
+Peter W.,Higgs,The Nobel Prize in Physics,University of Edinburgh
+John Robert,Schrieffer,The Nobel Prize in Physics,University of Pennsylvania
+Werner Karl,Heisenberg,The Nobel Prize in Physics,Leipzig University
+Jerome,Karle,The Nobel Prize in Chemistry,US Naval Research Laboratory
+Ernst Boris,Chain,The Nobel Prize in Physiology or Medicine,University of Oxford
+Peter,Agre,The Nobel Prize in Chemistry,Johns Hopkins University School of Medicine
+Johannes,Stark,The Nobel Prize in Physics,Greifswald University
+Gerhard,Herzberg,The Nobel Prize in Chemistry,National Research Council of Canada
+Alfred G.,Gilman,The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
+Sir Bernard,Katz,The Nobel Prize in Physiology or Medicine,University College
+Peter C.,Doherty,The Nobel Prize in Physiology or Medicine,St. Jude Children's Research Hospital
+Joseph H.,Taylor Jr.,The Nobel Prize in Physics,Princeton University
+John Howard,Northrop,The Nobel Prize in Chemistry,Rockefeller Institute for Medical Research
+Lord (Alexander R.),Todd,The Nobel Prize in Chemistry,University of Cambridge
+Ilya Ilyich,Mechnikov,The Nobel Prize in Physiology or Medicine,Institut Pasteur
+J. Georg,Bednorz,The Nobel Prize in Physics,IBM Zurich Research Laboratory
+Makoto,Kobayashi,The Nobel Prize in Physics,High Energy Accelerator Research Organization (KEK)
+Howard Martin,Temin,The Nobel Prize in Physiology or Medicine,University of Wisconsin
+Aziz,Sancar,The Nobel Prize in Chemistry,University of North Carolina
+Oliver,Smithies,The Nobel Prize in Physiology or Medicine,University of North Carolina
+Arvid,Carlsson,The Nobel Prize in Physiology or Medicine,Göteborg University
+Gertrude B.,Elion,The Nobel Prize in Physiology or Medicine,Wellcome Research Laboratories
+William Parry,Murphy,The Nobel Prize in Physiology or Medicine,Harvard University
+William Parry,Murphy,The Nobel Prize in Physiology or Medicine,Peter Brent Brigham Hospital
+Torsten N.,Wiesel,The Nobel Prize in Physiology or Medicine,Harvard Medical School
+Luis Walter,Alvarez,The Nobel Prize in Physics,University of California
+Joseph John,Thomson,The Nobel Prize in Physics,University of Cambridge
+Max,Delbrück,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
+Julius,Axelrod,The Nobel Prize in Physiology or Medicine,National Institutes of Health
+Jaroslav,Heyrovsky,The Nobel Prize in Chemistry,Polarographic Institute of the Czechoslovak Academy of Science
+Robert,Hofstadter,The Nobel Prize in Physics,Stanford University
+Svante August,Arrhenius,The Nobel Prize in Chemistry,Stockholm University
+Leo James,Rainwater,The Nobel Prize in Physics,Columbia University
+Osamu,Shimomura,The Nobel Prize in Chemistry,Marine Biological Laboratory (MBL)
+Osamu,Shimomura,The Nobel Prize in Chemistry,Boston University Medical School
+Isamu,Akasaki,The Nobel Prize in Physics,Meijo University
+Isamu,Akasaki,The Nobel Prize in Physics,Nagoya University
+Hartmut,Michel,The Nobel Prize in Chemistry,Max-Planck-Institut für Biophysik
+Corneille Jean François,Heymans,The Nobel Prize in Physiology or Medicine,Ghent University
+Rudolph A.,Marcus,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
+Herbert Spencer,Gasser,The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
+Hans Adolf,Krebs,The Nobel Prize in Physiology or Medicine,Sheffield University
+Irwin,Rose,The Nobel Prize in Chemistry,University of California
+Nils Gustaf,Dalén,The Nobel Prize in Physics,Swedish Gas-Accumulator Co.
+Roger D.,Kornberg,The Nobel Prize in Chemistry,Stanford University
+Konstantin,Novoselov,The Nobel Prize in Physics,University of Manchester
+Leopold,Ruzicka,The Nobel Prize in Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)
+Rolf M.,Zinkernagel,The Nobel Prize in Physiology or Medicine,"University of Zurich, Institute of Experimental Immunology"
+Robert M.,Solow,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
+Isidor Isaac,Rabi,The Nobel Prize in Physics,Columbia University
+Peter Brian,Medawar,The Nobel Prize in Physiology or Medicine,University College
+Charles Robert,Richet,The Nobel Prize in Physiology or Medicine,Sorbonne University
+Carl E.,Wieman,The Nobel Prize in Physics,"University of Colorado, JILA"
+Hermann,Staudinger,The Nobel Prize in Chemistry,University of Freiburg
+Hermann,Staudinger,The Nobel Prize in Chemistry,"Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg"
+Samuel Chao Chung,Ting,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+Thomas R.,Cech,The Nobel Prize in Chemistry,University of Colorado
+Philip Showalter,Hench,The Nobel Prize in Physiology or Medicine,Mayo Clinic
+John Franklin,Enders,The Nobel Prize in Physiology or Medicine,"Research Division of Infectious Diseases, Children's Medical Center"
+John Franklin,Enders,The Nobel Prize in Physiology or Medicine,Harvard Medical School
+Max,von Laue,The Nobel Prize in Physics,Frankfurt-on-the-Main University
+Charles Kuen,Kao,The Nobel Prize in Physics,Standard Telecommunication Laboratories
+Charles Kuen,Kao,The Nobel Prize in Physics,Chinese University of Hong Kong
+Owen Willans,Richardson,The Nobel Prize in Physics,London University
+Jack S.,Kilby,The Nobel Prize in Physics,Texas Instruments
+Robert B.,Laughlin,The Nobel Prize in Physics,Stanford University
+Robert S.,Mulliken,The Nobel Prize in Chemistry,University of Chicago
+Derek H. R.,Barton,The Nobel Prize in Chemistry,Imperial College
+Walter,Kohn,The Nobel Prize in Chemistry,University of California
+Niels Ryberg,Finsen,The Nobel Prize in Physiology or Medicine,Finsen Medical Light Institute
+Pierre-Gilles,de Gennes,The Nobel Prize in Physics,Collège de France
+Otto,Hahn,The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie
+Subramanyan,Chandrasekhar,The Nobel Prize in Physics,University of Chicago
+Simon,Kuznets,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
+Françoise,Barré-Sinoussi,The Nobel Prize in Physiology or Medicine,"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur"
+Daniel L.,McFadden,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Eric A.,Cornell,The Nobel Prize in Physics,"University of Colorado, JILA"
+Sir Alexander,Fleming,The Nobel Prize in Physiology or Medicine,London University
+François,Englert,The Nobel Prize in Physics,Université Libre de Bruxelles
+Edward C.,Prescott,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Federal Reserve Bank of Minneapolis
+Edward C.,Prescott,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Arizona State University
+Victor Franz,Hess,The Nobel Prize in Physics,Innsbruck University
+Paul,Sabatier,The Nobel Prize in Chemistry,Toulouse University
+Walther Hermann,Nernst,The Nobel Prize in Chemistry,Berlin University
+Christopher A.,Sims,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
+William Lawrence,Bragg,The Nobel Prize in Physics,Victoria University
+Edward Calvin,Kendall,The Nobel Prize in Physiology or Medicine,Mayo Clinic
+Ronald George Wreyford,Norrish,The Nobel Prize in Chemistry,Institute of Physical Chemistry
+Luis F.,Leloir,The Nobel Prize in Chemistry,Institute for Biochemical Research
+Robert W.,Holley,The Nobel Prize in Physiology or Medicine,Cornell University
+Peter A.,Diamond,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
+John E.,Walker,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
+Edward Lawrie,Tatum,The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
+Masatoshi,Koshiba,The Nobel Prize in Physics,University of Tokyo
+Steven,Weinberg,The Nobel Prize in Physics,Harvard University
+Charles J.,Pedersen,The Nobel Prize in Chemistry,Du Pont
+Ronald H.,Coase,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+George J.,Stigler,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Renato,Dulbecco,The Nobel Prize in Physiology or Medicine,Imperial Cancer Research Fund Laboratory
+Kenneth J.,Arrow,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
+Antony,Hewish,The Nobel Prize in Physics,University of Cambridge
+Satoshi,&#332;mura,The Nobel Prize in Physiology or Medicine,Kitasato University
+Felix,Bloch,The Nobel Prize in Physics,Stanford University
+The (Theodor),Svedberg,The Nobel Prize in Chemistry,Uppsala University
+Walter,Gilbert,The Nobel Prize in Chemistry,"Harvard University, Biological Laboratories"
+David H.,Hubel,The Nobel Prize in Physiology or Medicine,Harvard Medical School
+Adam G.,Riess,The Nobel Prize in Physics,Johns Hopkins University
+Adam G.,Riess,The Nobel Prize in Physics,Space Telescope Science Institute
+Clinton Joseph,Davisson,The Nobel Prize in Physics,Bell Telephone Laboratories
+Christian B.,Anfinsen,The Nobel Prize in Chemistry,National Institutes of Health
+H. Robert,Horvitz,The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
+Donald Arthur,Glaser,The Nobel Prize in Physics,University of California
+Severo,Ochoa,The Nobel Prize in Physiology or Medicine,"New York University, College of Medicine"
+John B.,Fenn,The Nobel Prize in Chemistry,Virginia Commonwealth University
+Frits,Zernike,The Nobel Prize in Physics,Groningen University
+Val Logsdon,Fitch,The Nobel Prize in Physics,Princeton University
+Wolfgang,Ketterle,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+Alvin E.,Roth,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
+Alvin E.,Roth,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard Business School
+Clive W.J.,Granger,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Vladimir,Prelog,The Nobel Prize in Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)
+Stefan W.,Hell,The Nobel Prize in Chemistry,German Cancer Research Center
+Stefan W.,Hell,The Nobel Prize in Chemistry,Max Planck Institute for Biophysical Chemistry
+Sune K.,Bergström,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
+Melvin,Schwartz,The Nobel Prize in Physics,"Digital Pathways, Inc."
+Jerome I.,Friedman,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+Rudolf Ludwig,Mössbauer,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Rudolf Ludwig,Mössbauer,The Nobel Prize in Physics,Technical University
+Maurice Hugh Frederick,Wilkins,The Nobel Prize in Physiology or Medicine,London University
+Alexis,Carrel,The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
+Nikolaas,Tinbergen,The Nobel Prize in Physiology or Medicine,University of Oxford
+Patrick Maynard Stuart,Blackett,The Nobel Prize in Physics,Victoria University
+Marie,"Curie, née Sklodowska",The Nobel Prize in Physics,Sorbonne University
+Marie,"Curie, née Sklodowska",The Nobel Prize in Chemistry,Sorbonne University
+Harold E.,Varmus,The Nobel Prize in Physiology or Medicine,University of California School of Medicine
+James E.,Rothman,The Nobel Prize in Physiology or Medicine,Yale University
+Louis Eugène Félix,Néel,The Nobel Prize in Physics,University of Grenoble
+Carl,Bosch,The Nobel Prize in Chemistry,I.G. Farbenindustrie A.G.
+Carl,Bosch,The Nobel Prize in Chemistry,University of Heidelberg
+Heike,Kamerlingh Onnes,The Nobel Prize in Physics,Leiden University
+Rodney R.,Porter,The Nobel Prize in Physiology or Medicine,University of Oxford
+Sir Peter,Mansfield,The Nobel Prize in Physiology or Medicine,"University of Nottingham, School of Physics and Astronomy"
+John,O'Keefe,The Nobel Prize in Physiology or Medicine,University College
+Godfrey N.,Hounsfield,The Nobel Prize in Physiology or Medicine,"Central Research Laboratories, EMI"
+Edmund S.,Phelps,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
+Martin,Rodbell,The Nobel Prize in Physiology or Medicine,National Institute of Environmental Health Sciences
+Richard E.,Taylor,The Nobel Prize in Physics,Stanford University
+George,de Hevesy,The Nobel Prize in Chemistry,Stockholm University
+Irène,Joliot-Curie,The Nobel Prize in Chemistry,Institut du Radium
+Tsung-Dao (T.D.),Lee,The Nobel Prize in Physics,Columbia University
+John C.,Polanyi,The Nobel Prize in Chemistry,University of Toronto
+Robert,Bárány,The Nobel Prize in Physiology or Medicine,Vienna University
+Harald,zur Hausen,The Nobel Prize in Physiology or Medicine,German Cancer Research Center
+Christian,de Duve,The Nobel Prize in Physiology or Medicine,Université Catholique de Louvain
+Christian,de Duve,The Nobel Prize in Physiology or Medicine,Rockefeller University
+Lord Rayleigh,(John William Strutt),The Nobel Prize in Physics,Royal Institution of Great Britain
+Cecil Frank,Powell,The Nobel Prize in Physics,Bristol University
+Finn E.,Kydland,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Carnegie Mellon University
+Finn E.,Kydland,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Stanley,Cohen,The Nobel Prize in Physiology or Medicine,Vanderbilt University School of Medicine
+Prince Louis-Victor Pierre Raymond,de Broglie,The Nobel Prize in Physics,"Sorbonne University, Institut Henri Poincaré"
+Herbert C.,Brown,The Nobel Prize in Chemistry,Purdue University
+George H.,Hitchings,The Nobel Prize in Physiology or Medicine,Wellcome Research Laboratories
+Edgar Douglas,Adrian,The Nobel Prize in Physiology or Medicine,University of Cambridge
+Jean,Dausset,The Nobel Prize in Physiology or Medicine,"Université de Paris, Laboratoire Immuno-Hématologie"
+Vitaly L.,Ginzburg,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
+Julian,Schwinger,The Nobel Prize in Physics,Harvard University
+Georges,Charpak,The Nobel Prize in Physics,CERN
+Georges,Charpak,The Nobel Prize in Physics,École Supérieure de Physique et Chimie
+Igor Yevgenyevich,Tamm,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
+Igor Yevgenyevich,Tamm,The Nobel Prize in Physics,University of Moscow
+William F.,Sharpe,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Stanford University
+John R.,Hicks,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,All Souls College
+Sir Martin,Ryle,The Nobel Prize in Physics,University of Cambridge
+Luc,Montagnier,The Nobel Prize in Physiology or Medicine,World Foundation for AIDS Research and Prevention
+Venkatraman,Ramakrishnan,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
+Sidney,Altman,The Nobel Prize in Chemistry,Yale University
+Gerhard,Domagk,The Nobel Prize in Physiology or Medicine,Munster University
+Tomas,Lindahl,The Nobel Prize in Chemistry,Clare Hall Laboratory
+Tomas,Lindahl,The Nobel Prize in Chemistry,Francis Crick Institute
+Guglielmo,Marconi,The Nobel Prize in Physics,Marconi Wireless Telegraph Co. Ltd.
+David M.,Lee,The Nobel Prize in Physics,Cornell University
+Susumu,Tonegawa,The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
+Karl Manne Georg,Siegbahn,The Nobel Prize in Physics,Uppsala University
+Andrew Z.,Fire,The Nobel Prize in Physiology or Medicine,Stanford University School of Medicine
+Richard F.,Heck,The Nobel Prize in Chemistry,University of Delaware
+Alfred,Kastler,The Nobel Prize in Physics,École Normale Supérieure
+Ragnar,Granit,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
+Jens C.,Skou,The Nobel Prize in Chemistry,Aarhus University
+François,Jacob,The Nobel Prize in Physiology or Medicine,Institut Pasteur
+Edward B.,Lewis,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
+Julius,Wagner-Jauregg,The Nobel Prize in Physiology or Medicine,Vienna University
+Stanley B.,Prusiner,The Nobel Prize in Physiology or Medicine,University of California School of Medicine
+Joshua,Lederberg,The Nobel Prize in Physiology or Medicine,University of Wisconsin
+Sir Robert,Robinson,The Nobel Prize in Chemistry,University of Oxford
+Gary S.,Becker,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Emil Theodor,Kocher,The Nobel Prize in Physiology or Medicine,Berne University
+Edwin Mattison,McMillan,The Nobel Prize in Chemistry,University of California
+Linus Carl,Pauling,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
+Linus Carl,Pauling,The Nobel Peace Prize,California Institute of Technology (Caltech)
+Aage Niels,Bohr,The Nobel Prize in Physics,Niels Bohr Institute
+Johann,Deisenhofer,The Nobel Prize in Chemistry,Howard Hughes Medical Institute
+Johann,Deisenhofer,The Nobel Prize in Chemistry,University of Texas Southwestern Medical Center at Dallas
+Elias James,Corey,The Nobel Prize in Chemistry,Harvard University
+Max,Theiler,The Nobel Prize in Physiology or Medicine,"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation"
+Johannes Diderik,van der Waals,The Nobel Prize in Physics,Amsterdam University
+Paul,Krugman,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
+Willard S.,Boyle,The Nobel Prize in Physics,Bell Laboratories
+Eric R.,Kandel,The Nobel Prize in Physiology or Medicine,Columbia University
+Robert C.,Richardson,The Nobel Prize in Physics,Cornell University
+Horst L.,Störmer,The Nobel Prize in Physics,Columbia University
+Manfred,Eigen,The Nobel Prize in Chemistry,Max-Planck-Institut für Physikalische Chemie
+John C.,Mather,The Nobel Prize in Physics,NASA Goddard Space Flight Center
+Christiaan,Eijkman,The Nobel Prize in Physiology or Medicine,Utrecht University
+Ernest Orlando,Lawrence,The Nobel Prize in Physics,University of California
+Leonid,Hurwicz,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Minnesota
+Tjalling C.,Koopmans,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Yale University
+Lloyd S.,Shapley,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Henrik Carl Peter,Dam,The Nobel Prize in Physiology or Medicine,Polytechnic Institute
+Hans,Fischer,The Nobel Prize in Chemistry,Technische Hochschule (Institute of Technology)
+William N.,Lipscomb,The Nobel Prize in Chemistry,Harvard University
+Carol W.,Greider,The Nobel Prize in Physiology or Medicine,Johns Hopkins University School of Medicine
+Claude,Cohen-Tannoudji,The Nobel Prize in Physics,École Normale Supérieure
+Claude,Cohen-Tannoudji,The Nobel Prize in Physics,Collège de France
+Dorothy Crowfoot,Hodgkin,The Nobel Prize in Chemistry,"University of Oxford, Royal Society"
+Bernardo Alberto,Houssay,The Nobel Prize in Physiology or Medicine,Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine)
+Charles Glover,Barkla,The Nobel Prize in Physics,Edinburgh University
+Alfred,Werner,The Nobel Prize in Chemistry,University of Zurich
+George,Porter,The Nobel Prize in Chemistry,Royal Institution of Great Britain
+Ei-ichi,Negishi,The Nobel Prize in Chemistry,Purdue University
+Robert C.,Merton,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
+Dale T.,Mortensen,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Northwestern University
+Dale T.,Mortensen,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Aarhus University
+Robert F.,Curl Jr.,The Nobel Prize in Chemistry,Rice University
+Sydney,Brenner,The Nobel Prize in Physiology or Medicine,The Molecular Sciences Institute
+Arno Allan,Penzias,The Nobel Prize in Physics,Bell Laboratories
+James Watson,Cronin,The Nobel Prize in Physics,University of Chicago
+Trygve,Haavelmo,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Oslo
+Theodore W.,Schultz,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Albert,Claude,The Nobel Prize in Physiology or Medicine,Université Catholique de Louvain
+Gerard,Debreu,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Vincent,du Vigneaud,The Nobel Prize in Chemistry,Cornell University
+Youyou,Tu,The Nobel Prize in Physiology or Medicine,China Academy of Traditional Chinese Medicine
+Robert J.,Aumann,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,"University of Jerusalem, Center for RationalityHebrew"
+Hideki,Yukawa,The Nobel Prize in Physics,Kyoto Imperial University
+Hideki,Yukawa,The Nobel Prize in Physics,Columbia University
+Alexei A.,Abrikosov,The Nobel Prize in Physics,Argonne National Laboratory
+Jules A.,Hoffmann,The Nobel Prize in Physiology or Medicine,University of Strasbourg
+Paul Adrien Maurice,Dirac,The Nobel Prize in Physics,University of Cambridge
+Andrew Fielding,Huxley,The Nobel Prize in Physiology or Medicine,University College
+Amartya,Sen,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Trinity College
+Paul J.,Crutzen,The Nobel Prize in Chemistry,Max-Planck-Institut für Chemie
+Richard E.,Smalley,The Nobel Prize in Chemistry,Rice University
+Pavel Alekseyevich,Cherenkov,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
+Daniel,Bovet,The Nobel Prize in Physiology or Medicine,Istituto Superiore di Sanità (Chief Institute of Public Health)
+John E.,Sulston,The Nobel Prize in Physiology or Medicine,The Wellcome Trust Sanger Institute
+Karl,Ziegler,The Nobel Prize in Chemistry,Max-Planck-Institut für Kohlenforschung (Max-Planck-Institute for Carbon Research)
+Sheldon Lee,Glashow,The Nobel Prize in Physics,"Harvard University, Lyman Laboratory"
+Nicolaas,Bloembergen,The Nobel Prize in Physics,Harvard University
+Donald J.,Cram,The Nobel Prize in Chemistry,University of California
+Leland H.,Hartwell,The Nobel Prize in Physiology or Medicine,Fred Hutchinson Cancer Research Center
+Ernest,Rutherford,The Nobel Prize in Chemistry,Victoria University
+Frederick,Reines,The Nobel Prize in Physics,University of California
+Arthur B.,McDonald,The Nobel Prize in Physics,Queen's University
+Ernst Otto,Fischer,The Nobel Prize in Chemistry,Technical University
+Martin,Karplus,The Nobel Prize in Chemistry,Harvard University
+Martin,Karplus,The Nobel Prize in Chemistry,Université de Strasbourg
+André Frédéric,Cournand,The Nobel Prize in Physiology or Medicine,"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital"
+George D.,Snell,The Nobel Prize in Physiology or Medicine,Jackson Laboratory
+Jack,Steinberger,The Nobel Prize in Physics,CERN
+Arthur Holly,Compton,The Nobel Prize in Physics,University of Chicago
+Adolf Friedrich Johann,Butenandt,The Nobel Prize in Chemistry,Berlin University
+Adolf Friedrich Johann,Butenandt,The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie
+Eugene F.,Fama,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Emilio Gino,Segrè,The Nobel Prize in Physics,University of California
+Paul,Ehrlich,The Nobel Prize in Physiology or Medicine,Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy)
+Paul,Ehrlich,The Nobel Prize in Physiology or Medicine,Goettingen University
+A. Michael,Spence,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Stanford University
+Kai M.,Siegbahn,The Nobel Prize in Physics,Uppsala University
+Hendrik Antoon,Lorentz,The Nobel Prize in Physics,Leiden University
+Richard,Stone,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Cambridge
+Baruch S.,Blumberg,The Nobel Prize in Physiology or Medicine,The Institute for Cancer Research
+Francis William,Aston,The Nobel Prize in Chemistry,University of Cambridge
+Karl Ferdinand,Braun,The Nobel Prize in Physics,Strasbourg University
+Adolf Otto Reinhold,Windaus,The Nobel Prize in Chemistry,Goettingen University
+Paul J.,Flory,The Nobel Prize in Chemistry,Stanford University
+Werner,Arber,The Nobel Prize in Physiology or Medicine,Biozentrum der Universität
+Craig C.,Mello,The Nobel Prize in Physiology or Medicine,University of Massachusetts Medical School
+Baruj,Benacerraf,The Nobel Prize in Physiology or Medicine,Harvard Medical School
+Friedrich,Bergius,The Nobel Prize in Chemistry,I.G. Farbenindustrie A.G.
+Friedrich,Bergius,The Nobel Prize in Chemistry,University of Heidelberg
+Ernst,Ruska,The Nobel Prize in Physics,Fritz-Haber-Institut der Max-Planck-Gesellschaft
+William Bradford,Shockley,The Nobel Prize in Physics,"Semiconductor Laboratory of Beckman Instruments, Inc."
+Albrecht,Kossel,The Nobel Prize in Physiology or Medicine,University of Heidelberg
+Karl,von Frisch,The Nobel Prize in Physiology or Medicine,Zoologisches Institut der Universität München
+Antoine Henri,Becquerel,The Nobel Prize in Physics,École Polytechnique
+Percy Williams,Bridgman,The Nobel Prize in Physics,Harvard University
+H. David,Politzer,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Angus,Deaton,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
+Georges J.F.,Köhler,The Nobel Prize in Physiology or Medicine,Basel Institute for Immunology
+Rita,Levi-Montalcini,The Nobel Prize in Physiology or Medicine,Institute of Cell Biology of the C.N.R.
+Sir Frederick Gowland,Hopkins,The Nobel Prize in Physiology or Medicine,University of Cambridge
+Georg,Wittig,The Nobel Prize in Chemistry,University of Heidelberg
+Charles Hard,Townes,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+Richard P.,Feynman,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Heinrich,Rohrer,The Nobel Prize in Physics,IBM Zurich Research Laboratory
+Maurice,Allais,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,École Nationale Supérieur des Mines de Paris
+Georg,von Békésy,The Nobel Prize in Physiology or Medicine,Harvard University
+Eric S.,Maskin,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Institute for Advanced Study
+Sir Henry Hallett,Dale,The Nobel Prize in Physiology or Medicine,National Institute for Medical Research
+Bertram N.,Brockhouse,The Nobel Prize in Physics,McMaster University
+Michael S.,Brown,The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
+Sir James W.,Black,The Nobel Prize in Physiology or Medicine,"London University, King's College Hospital Medical School"
+Charles Edouard,Guillaume,The Nobel Prize in Physics,Bureau International des Poids et Mesures (International Bureau of Weights and Measures)
+Aleksandr Mikhailovich,Prokhorov,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
+Hans Albrecht,Bethe,The Nobel Prize in Physics,Cornell University
+Christiane,Nüsslein-Volhard,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für Entwicklungsbiologie
+André,Lwoff,The Nobel Prize in Physiology or Medicine,Institut Pasteur
+Frederick Grant,Banting,The Nobel Prize in Physiology or Medicine,University of Toronto
+Sir Harold W.,Kroto,The Nobel Prize in Chemistry,University of Sussex
+Charles Jules Henri,Nicolle,The Nobel Prize in Physiology or Medicine,Institut Pasteur
+Artturi Ilmari,Virtanen,The Nobel Prize in Chemistry,University of Helsinki
+Harry M.,Markowitz,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,City University of New York
+K. Alexander,Müller,The Nobel Prize in Physics,IBM Zurich Research Laboratory
+Glenn Theodore,Seaborg,The Nobel Prize in Chemistry,University of California
+Albert,Fert,The Nobel Prize in Physics,Universit&eacute; Paris-Sud
+Albert,Fert,The Nobel Prize in Physics,Unit&eacute; Mixte de Physique CNRS/THALES
+Martin,Chalfie,The Nobel Prize in Chemistry,Columbia University
+Albert Abraham,Michelson,The Nobel Prize in Physics,University of Chicago
+Elizabeth H.,Blackburn,The Nobel Prize in Physiology or Medicine,University of California
+Robert A.,Mundell,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
+Steven,Chu,The Nobel Prize in Physics,Stanford University
+Thomas C.,Schelling,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,"University of Maryland, Department of Economics and School of Public Policy"
+Willem,Einthoven,The Nobel Prize in Physiology or Medicine,Leiden University
+Otto,Stern,The Nobel Prize in Physics,Carnegie Institute of Technology
+Theodor W.,Hänsch,The Nobel Prize in Physics,Ludwig-Maximilians- Universität
+Theodor W.,Hänsch,The Nobel Prize in Physics,Max-Planck-Institut für Quantenoptik
+Alan G.,MacDiarmid,The Nobel Prize in Chemistry,University of Pennsylvania
+Wassily,Leontief,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Harvard University
+Edmond H.,Fischer,The Nobel Prize in Physiology or Medicine,University of Washington
+Otto,Loewi,The Nobel Prize in Physiology or Medicine,Graz University
+Edward Adelbert,Doisy,The Nobel Prize in Physiology or Medicine,Saint Louis University
+Wilhelm,Ostwald,The Nobel Prize in Chemistry,Leipzig University
+Heinrich Otto,Wieland,The Nobel Prize in Chemistry,Munich University
+Geoffrey,Wilkinson,The Nobel Prize in Chemistry,Imperial College
+Leo,Esaki,The Nobel Prize in Physics,IBM Thomas J. Watson Research Center
+Jack W.,Szostak,The Nobel Prize in Physiology or Medicine,Massachusetts General Hospital
+Jack W.,Szostak,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
+Jack W.,Szostak,The Nobel Prize in Physiology or Medicine,Harvard Medical School
+Dudley R.,Herschbach,The Nobel Prize in Chemistry,Harvard University
+Sir Howard Walter,Florey,The Nobel Prize in Physiology or Medicine,University of Oxford
+William D.,Phillips,The Nobel Prize in Physics,National Institute of Standards and Technology
+Robert Burns,Woodward,The Nobel Prize in Chemistry,Harvard University
+Dan,Shechtman,The Nobel Prize in Chemistry,Technion - Israel Institute of Technology
+Akira,Suzuki,The Nobel Prize in Chemistry,Hokkaido University
+Reinhard,Selten,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Rheinische Friedrich-Wilhelms-Universität
+Myron S.,Scholes,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Long Term Capital Management
+George A.,Olah,The Nobel Prize in Chemistry,University of Southern California
+Robert Woodrow,Wilson,The Nobel Prize in Physics,Bell Laboratories
+Arthur,Kornberg,The Nobel Prize in Physiology or Medicine,Stanford University
+Sir Arthur,Lewis,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
+Pieter,Zeeman,The Nobel Prize in Physics,Amsterdam University
+Wolfgang,Pauli,The Nobel Prize in Physics,Princeton University
+Robert H.,Grubbs,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
+Archer John Porter,Martin,The Nobel Prize in Chemistry,National Institute for Medical Research
+Sir Cyril Norman,Hinshelwood,The Nobel Prize in Chemistry,University of Oxford
+Richard J.,Roberts,The Nobel Prize in Physiology or Medicine,New England Biolabs
+Arthur,Harden,The Nobel Prize in Chemistry,London University
+Brian David,Josephson,The Nobel Prize in Physics,University of Cambridge
+Hans,Spemann,The Nobel Prize in Physiology or Medicine,University of Freiburg im Breisgau
+Ivan Petrovich,Pavlov,The Nobel Prize in Physiology or Medicine,Military Medical Academy
+Konrad,Bloch,The Nobel Prize in Physiology or Medicine,Harvard University
+Alfred D.,Hershey,The Nobel Prize in Physiology or Medicine,Carnegie Institution of Washington
+James A.,Mirrlees,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Cambridge
+Mario J.,Molina,The Nobel Prize in Chemistry,Massachusetts Institute of Technology (MIT)
+Gerd,Binnig,The Nobel Prize in Physics,IBM Zurich Research Laboratory
+Willard Frank,Libby,The Nobel Prize in Chemistry,University of California
+Abdus,Salam,The Nobel Prize in Physics,Imperial College
+Abdus,Salam,The Nobel Prize in Physics,International Centre for Theoretical Physics
+Hideki,Shirakawa,The Nobel Prize in Chemistry,University of Tsukuba
+Elinor,Ostrom,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Indiana University
+Elinor,Ostrom,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Arizona State University
+Hiroshi,Amano,The Nobel Prize in Physics,Nagoya University
+Tim,Hunt,The Nobel Prize in Physiology or Medicine,Imperial Cancer Research Fund
+Sir William,Ramsay,The Nobel Prize in Chemistry,University College
+Randy W.,Schekman,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
+Randy W.,Schekman,The Nobel Prize in Physiology or Medicine,University of California
+Jan,Tinbergen,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,The Netherlands School of Economics
+Walter Rudolf,Hess,The Nobel Prize in Physiology or Medicine,University of Zurich
+Frederick,Soddy,The Nobel Prize in Chemistry,University of Oxford
+May-Britt,Moser,The Nobel Prize in Physiology or Medicine,Norwegian University of Science and Technology (NTNU)
+Edward Mills,Purcell,The Nobel Prize in Physics,Harvard University
+Michael,Levitt,The Nobel Prize in Chemistry,Stanford University School of Medicine
+Lars Peter,Hansen,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Petrus (Peter) Josephus Wilhelmus,Debye,The Nobel Prize in Chemistry,Berlin University
+Petrus (Peter) Josephus Wilhelmus,Debye,The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik
+Lawrence R.,Klein,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Pennsylvania
+George E.,Palade,The Nobel Prize in Physiology or Medicine,"Yale University, School of Medicine"
+Franco,Modigliani,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
+Philip Warren,Anderson,The Nobel Prize in Physics,Bell Telephone Laboratories
+Philipp Eduard Anton,von Lenard,The Nobel Prize in Physics,Kiel University
+Robert G.,Edwards,The Nobel Prize in Physiology or Medicine,University of Cambridge
+Sir John Douglas,Cockcroft,The Nobel Prize in Physics,Atomic Energy Research Establishment
+Jacobus Henricus,van 't Hoff,The Nobel Prize in Chemistry,Berlin University
+Fritz,Pregl,The Nobel Prize in Chemistry,Graz University
+Henri,Moissan,The Nobel Prize in Chemistry,Sorbonne University
+Clifford G.,Shull,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+Stanford,Moore,The Nobel Prize in Chemistry,Rockefeller University
+Alan J.,Heeger,The Nobel Prize in Chemistry,University of California
+Robert J.,Lefkowitz,The Nobel Prize in Chemistry,Duke University Medical Center
+Robert J.,Lefkowitz,The Nobel Prize in Chemistry,Howard Hughes Medical Institute
+Anthony J.,Leggett,The Nobel Prize in Physics,University of Illinois
+Saul,Perlmutter,The Nobel Prize in Physics,Lawrence Berkeley National Laboratory
+Saul,Perlmutter,The Nobel Prize in Physics,University of California
+John A.,Pople,The Nobel Prize in Chemistry,Northwestern University
+D. Carleton,Gajdusek,The Nobel Prize in Physiology or Medicine,National Institutes of Health
+Daniel,Nathans,The Nobel Prize in Physiology or Medicine,Johns Hopkins University School of Medicine
+Feodor,Lynen,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für Zellchemie
+William Alfred,Fowler,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Max,Born,The Nobel Prize in Physics,Edinburgh University
+Paul,Karrer,The Nobel Prize in Chemistry,University of Zurich
+John,Bardeen,The Nobel Prize in Physics,University of Illinois
+Charles Louis Alphonse,Laveran,The Nobel Prize in Physiology or Medicine,Institut Pasteur
+Frank,Wilczek,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+César,Milstein,The Nobel Prize in Physiology or Medicine,MRC Laboratory of Molecular Biology
+Emil Adolf,von Behring,The Nobel Prize in Physiology or Medicine,Marburg University
+Har Gobind,Khorana,The Nobel Prize in Physiology or Medicine,University of Wisconsin
+Michael,Smith,The Nobel Prize in Chemistry,University of British Columbia
+Nicolay Gennadiyevich,Basov,The Nobel Prize in Physics,P.N. Lebedev Physical Institute
+Henry W.,Kendall,The Nobel Prize in Physics,Massachusetts Institute of Technology (MIT)
+Haldan Keffer,Hartline,The Nobel Prize in Physiology or Medicine,Rockefeller University
+Simon,van der Meer,The Nobel Prize in Physics,CERN
+Robert J.,Shiller,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Yale University
+Francis Harry Compton,Crick,The Nobel Prize in Physiology or Medicine,MRC Laboratory of Molecular Biology
+Edwin G.,Krebs,The Nobel Prize in Physiology or Medicine,University of Washington
+Ivar,Giaever,The Nobel Prize in Physics,General Electric Company
+Avram,Hershko,The Nobel Prize in Chemistry,Technion - Israel Institute of Technology
+Jean,Tirole,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Toulouse School of Economics (TSE)
+Wilhelm,Wien,The Nobel Prize in Physics,Würzburg University
+Joseph L.,Goldstein,The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
+Albert,Einstein,The Nobel Prize in Physics,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik
+Sin-Itiro,Tomonaga,The Nobel Prize in Physics,Tokyo University of Education
+Hamilton O.,Smith,The Nobel Prize in Physiology or Medicine,Johns Hopkins University School of Medicine
+George F.,Smoot,The Nobel Prize in Physics,University of California
+John James Rickard,Macleod,The Nobel Prize in Physiology or Medicine,University of Toronto
+Harold Clayton,Urey,The Nobel Prize in Chemistry,Columbia University
+James M.,Buchanan Jr.,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Center for Study of Public Choice
+Walter Houser,Brattain,The Nobel Prize in Physics,Bell Telephone Laboratories
+Leon M.,Lederman,The Nobel Prize in Physics,Fermi National Accelerator Laboratory
+Daniel C.,Tsui,The Nobel Prize in Physics,Princeton University
+Peter,Grünberg,The Nobel Prize in Physics,Forschungszentrum J&uuml;lich
+Aaron,Ciechanover,The Nobel Prize in Chemistry,Technion - Israel Institute of Technology
+Roger Y.,Tsien,The Nobel Prize in Chemistry,University of California
+Roger Y.,Tsien,The Nobel Prize in Chemistry,Howard Hughes Medical Institute
+Ilya,Prigogine,The Nobel Prize in Chemistry,Université Libre de Bruxelles
+Ilya,Prigogine,The Nobel Prize in Chemistry,University of Texas
+Bengt I.,Samuelsson,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
+Paul Hermann,Müller,The Nobel Prize in Physiology or Medicine,Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.)
+Archibald Vivian,Hill,The Nobel Prize in Physiology or Medicine,London University
+Johannes Andreas Grib,Fibiger,The Nobel Prize in Physiology or Medicine,Copenhagen University
+Lev Davidovich,Landau,The Nobel Prize in Physics,Academy of Sciences
+Yves,Chauvin,The Nobel Prize in Chemistry,Institut Français du Pétrole
+Oliver E.,Williamson,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+Joseph E.,Murray,The Nobel Prize in Physiology or Medicine,Brigham and Women's Hospital
+Johann Friedrich Wilhelm Adolf,von Baeyer,The Nobel Prize in Chemistry,Munich University
+Albert,von Szent-Györgyi Nagyrápolt,The Nobel Prize in Physiology or Medicine,Szeged University
+Dennis,Gabor,The Nobel Prize in Physics,Imperial College
+Henry,Taube,The Nobel Prize in Chemistry,Stanford University
+Ralph M.,Steinman,The Nobel Prize in Physiology or Medicine,Rockefeller University
+Antonio Caetano de Abreu Freire Egas,Moniz,The Nobel Prize in Physiology or Medicine,University of Lisbon
+Antonio Caetano de Abreu Freire Egas,Moniz,The Nobel Prize in Physiology or Medicine,Neurological Institute
+Ralph,Bunche,The Nobel Peace Prize,Harvard University
+Niels Henrik David,Bohr,The Nobel Prize in Physics,Copenhagen University
+Robert E.,Lucas Jr.,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Paul D.,Boyer,The Nobel Prize in Chemistry,University of California
+Earl W.,"Sutherland, Jr.",The Nobel Prize in Physiology or Medicine,Vanderbilt University
+Robert F.,Furchgott,The Nobel Prize in Physiology or Medicine,SUNY Health Science Center
+Peyton,Rous,The Nobel Prize in Physiology or Medicine,Rockefeller University
+George Wells,Beadle,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
+Giulio,Natta,The Nobel Prize in Chemistry,Institute of Technology
+Jules,Bordet,The Nobel Prize in Physiology or Medicine,Brussels University
+Roy J.,Glauber,The Nobel Prize in Physics,Harvard University
+Otto Paul Hermann,Diels,The Nobel Prize in Chemistry,Kiel University
+Richard R.,Schrock,The Nobel Prize in Chemistry,Massachusetts Institute of Technology (MIT)
+Richard Laurence Millington,Synge,The Nobel Prize in Chemistry,Rowett Research Institute
+Erwin,Neher,The Nobel Prize in Physiology or Medicine,Max-Planck-Institut für Biophysikalische Chemie
+Leon Neil,Cooper,The Nobel Prize in Physics,Brown University
+Gerhard,Ertl,The Nobel Prize in Chemistry,Fritz-Haber-Institut der Max-Planck-Gesellschaft
+Ragnar,Frisch,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Oslo
+Sir Chandrasekhara Venkata,Raman,The Nobel Prize in Physics,Calcutta University
+Thomas Hunt,Morgan,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
+Brian P.,Schmidt,The Nobel Prize in Physics,Australian National University
+Ahmed H.,Zewail,The Nobel Prize in Chemistry,California Institute of Technology (Caltech)
+Ferid,Murad,The Nobel Prize in Physiology or Medicine,University of Texas Medical School at Houston
+Robert,Koch,The Nobel Prize in Physiology or Medicine,Institute for Infectious Diseases
+Charles Thomson Rees,Wilson,The Nobel Prize in Physics,University of Cambridge
+John C.,Harsanyi,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of California
+William,Vickrey,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
+Russell A.,Hulse,The Nobel Prize in Physics,Princeton University
+Carlo,Rubbia,The Nobel Prize in Physics,CERN
+Nikolay Nikolaevich,Semenov,The Nobel Prize in Chemistry,Institute for Chemical Physics of the Academy of Sciences of the USSR
+Pyotr Leonidovich,Kapitsa,The Nobel Prize in Physics,Academy of Sciences
+Yoichiro,Nambu,The Nobel Prize in Physics,"Enrico Fermi Institute, University of Chicago"
+Joseph E.,Stiglitz,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Columbia University
+Thomas A.,Steitz,The Nobel Prize in Chemistry,Yale University
+Thomas A.,Steitz,The Nobel Prize in Chemistry,Howard Hughes Medical Institute
+James J.,Heckman,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Thomas Huckle,Weller,The Nobel Prize in Physiology or Medicine,"Research Division of Infectious Diseases, Children's Medical Center"
+Nicholas Murray,Butler,The Nobel Peace Prize,Columbia University
+John Warcup,Cornforth,The Nobel Prize in Chemistry,University of Sussex
+Barry J.,Marshall,The Nobel Prize in Physiology or Medicine,"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre"
+Barry J.,Marshall,The Nobel Prize in Physiology or Medicine,University of Western Australia
+Paul A.,Samuelson,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Massachusetts Institute of Technology (MIT)
+Carl Ferdinand,Cori,The Nobel Prize in Physiology or Medicine,Washington University
+George Richards,Minot,The Nobel Prize in Physiology or Medicine,Harvard University
+Theodore William,Richards,The Nobel Prize in Chemistry,Harvard University
+Sir William Henry,Bragg,The Nobel Prize in Physics,University College
+Christopher A.,Pissarides,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,London School of Economics and Political Science
+Arieh,Warshel,The Nobel Prize in Chemistry,University of Southern California
+Irving,Langmuir,The Nobel Prize in Chemistry,General Electric Company
+Walter Norman,Haworth,The Nobel Prize in Chemistry,Birmingham University
+Arne Wilhelm Kaurin,Tiselius,The Nobel Prize in Chemistry,Uppsala University
+Robert W.,Fogel,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+James E.,Meade,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Cambridge
+Konrad,Lorenz,The Nobel Prize in Physiology or Medicine,"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie"
+James,Tobin,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Yale University
+Ben Roy,Mottelson,The Nobel Prize in Physics,Nordita
+Pierre,Curie,The Nobel Prize in Physics,École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry)
+Sir Edward Victor,Appleton,The Nobel Prize in Physics,Department of Scientific and Industrial Research
+Robert,Huber,The Nobel Prize in Chemistry,Max-Planck-Institut für Biochemie
+Hermann Emil,Fischer,The Nobel Prize in Chemistry,Berlin University
+Kenichi,Fukui,The Nobel Prize in Chemistry,Kyoto University
+Axel Hugo Theodor,Theorell,The Nobel Prize in Physiology or Medicine,"Karolinska Institutet, Nobel Medical Institute"
+Sir John B.,Gurdon,The Nobel Prize in Physiology or Medicine,Gurdon Institute
+Brian K.,Kobilka,The Nobel Prize in Chemistry,Stanford University School of Medicine
+Paul C.,Lauterbur,The Nobel Prize in Physiology or Medicine,University of Illinois
+Camillo,Golgi,The Nobel Prize in Physiology or Medicine,Pavia University
+Tadeus,Reichstein,The Nobel Prize in Physiology or Medicine,Basel University
+Roger,Guillemin,The Nobel Prize in Physiology or Medicine,The Salk Institute
+Sir John Carew,Eccles,The Nobel Prize in Physiology or Medicine,Australian National University
+Walther,Bothe,The Nobel Prize in Physics,Max-Planck-Institut für medizinische Forschung
+Walther,Bothe,The Nobel Prize in Physics,University of Heidelberg
+Frédéric,Joliot,The Nobel Prize in Chemistry,Institut du Radium
+Richard,Kuhn,The Nobel Prize in Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung
+Richard,Kuhn,The Nobel Prize in Chemistry,University of Heidelberg
+Max Ferdinand,Perutz,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
+Milton,Friedman,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Eric,Betzig,The Nobel Prize in Chemistry,"Janelia Research Campus, Howard Hughes Medical Institute"
+Richard,Axel,The Nobel Prize in Physiology or Medicine,Columbia University
+Herbert,Kroemer,The Nobel Prize in Physics,University of California
+Serge,Haroche,The Nobel Prize in Physics,École Normale Supérieure
+Serge,Haroche,The Nobel Prize in Physics,Collège de France
+George Paget,Thomson,The Nobel Prize in Physics,London University
+Norman F.,Ramsey,The Nobel Prize in Physics,Harvard University
+Gustav Ludwig,Hertz,The Nobel Prize in Physics,Halle University
+Jacques,Monod,The Nobel Prize in Physiology or Medicine,Institut Pasteur
+Kenneth G.,Wilson,The Nobel Prize in Physics,Cornell University
+Koichi,Tanaka,The Nobel Prize in Chemistry,Shimadzu Corp.
+K. Barry,Sharpless,The Nobel Prize in Chemistry,The Scripps Research Institute
+E. Donnall,Thomas,The Nobel Prize in Physiology or Medicine,Fred Hutchinson Cancer Research Center
+John Hasbrouck,van Vleck,The Nobel Prize in Physics,Harvard University
+Roald,Hoffmann,The Nobel Prize in Chemistry,Cornell University
+William E.,Moerner,The Nobel Prize in Chemistry,Stanford University
+Gabriel,Lippmann,The Nobel Prize in Physics,Sorbonne University
+William C.,Campbell,The Nobel Prize in Physiology or Medicine,Drew University
+Victor,Grignard,The Nobel Prize in Chemistry,Nancy University
+J. Hans D.,Jensen,The Nobel Prize in Physics,University of Heidelberg
+Andrew V.,Schally,The Nobel Prize in Physiology or Medicine,Veterans Administration Hospital
+Allan M.,Cormack,The Nobel Prize in Physiology or Medicine,Tufts University
+Schack August Steenberg,Krogh,The Nobel Prize in Physiology or Medicine,Copenhagen University
+Charles Brenton,Huggins,The Nobel Prize in Physiology or Medicine,"University of Chicago, Ben May Laboratory for Cancer Research"
+Daniel,Kahneman,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
+Willis Eugene,Lamb,The Nobel Prize in Physics,Stanford University
+Chen Ning,Yang,The Nobel Prize in Physics,Institute for Advanced Study
+Jean-Marie,Lehn,The Nobel Prize in Chemistry,Université Louis Pasteur
+Jean-Marie,Lehn,The Nobel Prize in Chemistry,Collège de France
+Gerardus,'t Hooft,The Nobel Prize in Physics,Utrecht University
+Mario R.,Capecchi,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
+Mario R.,Capecchi,The Nobel Prize in Physiology or Medicine,University of Utah
+Linda B.,Buck,The Nobel Prize in Physiology or Medicine,Fred Hutchinson Cancer Research Center
+Werner,Forssmann,The Nobel Prize in Physiology or Medicine,Mainz University
+George Hoyt,Whipple,The Nobel Prize in Physiology or Medicine,University of Rochester
+Yuan T.,Lee,The Nobel Prize in Chemistry,University of California
+Roger W.,Sperry,The Nobel Prize in Physiology or Medicine,California Institute of Technology (Caltech)
+Hermann Joseph,Muller,The Nobel Prize in Physiology or Medicine,Indiana University
+Peter D.,Mitchell,The Nobel Prize in Chemistry,Glynn Research Laboratories
+Günter,Blobel,The Nobel Prize in Physiology or Medicine,Howard Hughes Medical Institute
+Günter,Blobel,The Nobel Prize in Physiology or Medicine,Rockefeller University
+Otto Fritz,Meyerhof,The Nobel Prize in Physiology or Medicine,Kiel University
+Owen,Chamberlain,The Nobel Prize in Physics,University of California
+Ada E.,Yonath,The Nobel Prize in Chemistry,Weizmann Institute of Science
+Phillip A.,Sharp,The Nobel Prize in Physiology or Medicine,"Massachusetts Institute of Technology (MIT), Center for Cancer Research"
+Gerty Theresa,"Cori, née Radnitz",The Nobel Prize in Physiology or Medicine,Washington University
+Max Karl Ernst Ludwig,Planck,The Nobel Prize in Physics,Berlin University
+Robert Andrews,Millikan,The Nobel Prize in Physics,California Institute of Technology (Caltech)
+Douglass C.,North,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Washington University
+Eric F.,Wieschaus,The Nobel Prize in Physiology or Medicine,Princeton University
+Salvador E.,Luria,The Nobel Prize in Physiology or Medicine,Massachusetts Institute of Technology (MIT)
+F. Sherwood,Rowland,The Nobel Prize in Chemistry,University of California
+Gerald M.,Edelman,The Nobel Prize in Physiology or Medicine,Rockefeller University
+Louis J.,Ignarro,The Nobel Prize in Physiology or Medicine,University of California School of Medicine
+William Francis,Giauque,The Nobel Prize in Chemistry,University of California
+Melvin,Calvin,The Nobel Prize in Chemistry,University of California
+Allvar,Gullstrand,The Nobel Prize in Physiology or Medicine,Uppsala University
+John L.,Hall,The Nobel Prize in Physics,"University of Colorado, JILA"
+John L.,Hall,The Nobel Prize in Physics,National Institute of Standards and Technology
+Kurt,Alder,The Nobel Prize in Chemistry,Cologne University
+Shuji,Nakamura,The Nobel Prize in Physics,University of California
+J. Michael,Bishop,The Nobel Prize in Physiology or Medicine,University of California School of Medicine
+Hannes Olof Gösta,Alfvén,The Nobel Prize in Physics,Royal Institute of Technology
+Sir Martin J.,Evans,The Nobel Prize in Physiology or Medicine,Cardiff University
+Otto,Wallach,The Nobel Prize in Chemistry,Goettingen University
+Zhores I.,Alferov,The Nobel Prize in Physics,A.F. Ioffe Physico-Technical Institute
+Karl,Landsteiner,The Nobel Prize in Physiology or Medicine,Rockefeller Institute for Medical Research
+Barbara,McClintock,The Nobel Prize in Physiology or Medicine,Cold Spring Harbor Laboratory
+Bruce A.,Beutler,The Nobel Prize in Physiology or Medicine,The Scripps Research Institute
+Bruce A.,Beutler,The Nobel Prize in Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas
+James,Franck,The Nobel Prize in Physics,Goettingen University
+John F.,Nash Jr.,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Princeton University
+Ulf,von Euler,The Nobel Prize in Physiology or Medicine,Karolinska Institutet
+Louis,Renault,The Nobel Peace Prize,Sorbonne University
+John Cowdery,Kendrew,The Nobel Prize in Chemistry,MRC Laboratory of Molecular Biology
+Maria,Goeppert Mayer,The Nobel Prize in Physics,University of California
+Roger B.,Myerson,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,University of Chicago
+Ryoji,Noyori,The Nobel Prize in Chemistry,Nagoya University
+Bertil,Ohlin,The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel,Stockholm School of Economics
+Sir Nevill Francis,Mott,The Nobel Prize in Physics,University of Cambridge
+Andre,Geim,The Nobel Prize in Physics,University of Manchester
+Richard R.,Ernst,The Nobel Prize in Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)
+Joseph,Erlanger,The Nobel Prize in Physiology or Medicine,Washington University
+Selman Abraham,Waksman,The Nobel Prize in Physiology or Medicine,Rutgers University
+Eduard,Buchner,The Nobel Prize in Chemistry,Landwirtschaftliche Hochschule (Agricultural College)
+Frederick Chapman,Robbins,The Nobel Prize in Physiology or Medicine,Western Reserve University
+William H.,Stein,The Nobel Prize in Chemistry,Rockefeller University

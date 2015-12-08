@@ -17,7 +17,7 @@ PREFIX dbpprop: <http://dbpedia.org/property/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?givenName (SAMPLE(?familyName) AS ?fN)  (SAMPLE(?test) as ?t) (SAMPLE(?prizeName) as ?pN) (SAMPLE(?uniName) as ?uN)
+SELECT DISTINCT ?givenName ?familyName ?prizeName ?uniName
 WHERE {
   ?laur rdf:type nobel:Laureate .
   ?laur foaf:familyName ?familyName .
@@ -32,4 +32,4 @@ WHERE {
   ?uni rdfs:label ?uniName .
   #?award nobel:contribution ?contribution .
 
-} GROUP BY ?givenName
+}
