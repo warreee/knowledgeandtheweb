@@ -351,7 +351,6 @@
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
 \usepackage{url}
-\usepackage{hyperref}
 % url.sty was written by Donald Arseneau. It provides better support for
 % handling and breaking URLs. url.sty is already installed on most LaTeX
 % systems. The latest version and documentation can be obtained at:
@@ -380,8 +379,6 @@
     url=true
 ]{biblatex}
 \addbibresource{bibliography.bib}
-
-\usepackage{todonotes}
 
 \begin{document}
 %
@@ -680,9 +677,11 @@ Section 3 will focus on the data analysis part. We then show in section 4 our re
 \section{Methodology}
 To answer the research question we will use the following approach:
 \begin{enumerate}
-\item We thought about the data that might be interesting.
-\item We collected this data by the use of SPARQL queries and scraping webpages. Then we combined this is data in one training dataset and one test dataset. The training dataset consist of all the information about.
-\item After all data is colle
+\item We think about which data might be useful and interesting.
+\item We collect this data by the use of SPARQL queries and scraping webpages. Then we combine this data in one training dataset and one test dataset. The training dataset consist of all the information about scientists, engineers, economists, politicians, \dots with a label saying they ever won a Nobel Prize or not. The test data set contains the information about the politicians for which we would like to answer the research question.
+\item We use the training dataset to learn a model that is able to predict how likely a person is to win a Nobel Prize.
+We evaluate the learned model and reason about its accuracy.
+\item We apply the model to our test dataset and interpret the results.
 \end{enumerate}
 
 
@@ -692,23 +691,20 @@ We will use two kinds of sources to answer the research question. The first sour
 The second source is data that we collected ourselves from webpages by scraping. 
 The Perl scripts to reproduce this data can be found in appendix ?B?.
 \subsection{Knowledge bases}
-\paragraph*{\textbf{DBpedia} (\protect\url{http://wiki.dbpedia.org/})} is always a good starting point. 
-Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time. 
-For many projects, Wikipedia is \emph{the} go-to data source, because it contains complete information about relevant topics to our subject. 
-Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators.
+\paragraph*{\textbf{DBpedia} (\protect\url{http://wiki.dbpedia.org/})} is a Linked Open Data source which contains information for just about everything. 
+Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time.
+Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators. For this reason we get a large part of our training set data from DBpedia. 
 
-\paragraph*{\textbf{Nobelprize.org} (\protect\url{http://data.nobelprize.org/})} is the most complete data source concerning nobel prize winners. 
-From 1901 on, it contains all nobel prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. 
+\paragraph*{\textbf{Nobelprize.org} (\protect\url{http://data.nobelprize.org/})} is the most complete Linked Open Data source concerning Nobel Prize winners. 
+From 1901 on, it contains all Nobel Prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. 
 It makes use of the FOAF and DBpedia ontologies and more importantly, laureates have a \emph{owl:sameAs} relation with DBpedia entries for easy lookup of background information.
 
-\paragraph*{\textbf{Talk of Europe} (\protect\url{http://linkedpolitics.ops.few.vu.nl/home})} 
-The dataset covers all plenary debates held in the European Parliament between July 1999 and January 2014, and biographical information about the members of parliament. We are espcially interested in this biographical information because it consists of properties that we can compare with properties of Nobel Prize winners.
+\paragraph*{\textbf{Talk of Europe} (\protect\url{http://linkedpolitics.ops.few.vu.nl/home})} a Linked Open Data source about the European Parliament. The dataset covers all plenary debates held in the European Parliament between July 1999 and January 2014 and biographical information about the members of parliament.
+The politicians in this data source are the ones for which we would like to answer the research question.
+
  
 
 \subsection{Additional data}
-
-\paragraph*{\textbf{University rankings} (\protect\url{http://www.shanghairanking.com/ARWU2015.html})} 
-This webpages gives a ranking of the world universities. We choose this ranking because of their transparant methodology\cite{ranking}. \todo[inline]{Meer tekst}
 
 \subsection{Ontology}
 
