@@ -53,7 +53,7 @@
 % http://www.michaelshell.org/tex/testflow/
 
 
-\documentclass[10pt,journal,compsoc]{IEEEtran}
+\documentclass[11pt,journal,compsoc]{IEEEtran}
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
@@ -572,7 +572,7 @@ Because of the non-triviality of who will win the prize, it would be interesting
 The European politicians which we will investigate are those who settle in the European Parliament. With \textit{a high chance} we mean the numeric probability that one would get awarded.
 
 \subsection{Structure of this paper}
-After this introduction we will discuss the data sources that we will use. Next in section 2 we will elaborate on our methodology. We will explain how we will tackle the problem.
+After this introduction we will elaborate on our methodology. We will explain how we will tackle the problem. Next in section 2 we will discuss the data sources that we will use. 
 Section 3 will focus on the data analysis part. We then show in section 4 our results. To conclude this all we make a conclusion in section 5. Finally we suggest things that can be interesting for future research.
 
 
@@ -675,11 +675,32 @@ Section 3 will focus on the data analysis part. We then show in section 4 our re
 
 
 \section{Methodology}
+To answer the research question we will use the following approach:
+\begin{enumerate}
+\item We thought about the data that might be interesting.
+\item We collected this data by the use of SPARQL queries and scraping webpages. Then we combined this is data in one training dataset and one test dataset. The training dataset consist of all the information about.
+\item After all data is colle
+\end{enumerate}
+
 
 \section{Data}
+We will use two kinds of sources to answer the research question. The first source consist of knowledge bases also known as linked open data in the \textit{Semantic Web}. Here we can use the \textit{SPARQL}\cite{wc3SPARQL} endpoints to query the data. 
 
+The second source is data that we collected ourselves from webpages by scraping. 
+The Perl scripts to reproduce this data can be found in appendix ?B?.
 \subsection{Knowledge bases}
+\paragraph*{\textbf{DBpedia} (\protect\url{http://wiki.dbpedia.org/})} is always a good starting point. 
+Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time. 
+For many projects, Wikipedia is \emph{the} go-to data source, because it contains complete information about relevant topics to our subject. 
+Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators.
 
+\paragraph*{\textbf{Nobelprize.org} (\protect\url{http://data.nobelprize.org/})} is the most complete data source concerning nobel prize winners. 
+From 1901 on, it contains all nobel prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. 
+It makes use of the FOAF and DBpedia ontologies and more importantly, laureates have a \emph{owl:sameAs} relation with DBpedia entries for easy lookup of background information.
+
+\paragraph*{\textbf{Talk of Europe} (\protect\url{http://linkedpolitics.ops.few.vu.nl/home})} 
+
+ 
 
 \subsection{Additional data}
 
