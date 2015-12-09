@@ -92,14 +92,14 @@
 
 % *** CITATION PACKAGES ***
 %
-\ifCLASSOPTIONcompsoc
+%\ifCLASSOPTIONcompsoc
   % IEEE Computer Society needs nocompress option
   % requires cite.sty v4.0 or later (November 2003)
-  \usepackage[nocompress]{cite}
-\else
+  %\usepackage[nocompress]{cite}
+%\else
   % normal IEEE
-  \usepackage{cite}
-\fi
+  %\usepackage{cite}
+%\fi
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of IEEE. Loading the cite package will
@@ -371,6 +371,14 @@
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% OWN:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[
+    backend=biber,
+    url=true
+]{biblatex}
+\addbibresource{bibliography.bib}
 
 \begin{document}
 %
@@ -405,7 +413,7 @@
 % received ..."  text while in non-compsoc journals this is reversed. Sigh.
 
 \author{Katrien Laenen,
-        Ward Schodts,
+        Ward Schodts
         and~Gust Verbruggen\\ 
 \IEEEcompsocitemizethanks{\IEEEcompsocthanksitem katrien.laenen@student.kuleuven.be
 \IEEEcompsocthanksitem ward.schodts@student.kuleuven.be
@@ -475,12 +483,12 @@
 % in the abstract or keywords.
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-The abstract goes here.
+In this paper we try to find the politicians which have a high change of recieving a Nobel Prize. 
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-Open data, linked data, semantic web.
+Open data, linked data, semantic web, Nobel Prize, politician, European Parliament.
 \end{IEEEkeywords}}
 
 
@@ -540,25 +548,25 @@ Open data, linked data, semantic web.
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
-for IEEE Computer Society journal papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8a and later.
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
+\IEEEPARstart{S}{ince} 1901, every year there are 5 Nobel Prizes awarded to people all over the world. Each prize for a specific field namely: Physics, Chemistry, Physiology or Medicine, Literature and Peace. In 1968 the Nobel Prize in Economic Sciences was added to this list and first awarded in 1969.
+These prizes are rewarded in memory of Alfred Nobel.
+\cite{nobelNobel} 
+He was chemist, engineer and inventor who during his lifetime made a fortune because of his large amount of inventions. His last will stated that his fortune be used to create a series of prizes for thosee who confer the "greatest benefit on mankind"\cite{wikiNobel}. 
+Some of these prize are have been been recieved by politicians. Notable ones are: Nelson Mandela (Nobel Peace Prize 1993), Barack Obama (Nobel Peace Prize 2009), Winston Churchill (Nobel Prize in Literature 1953)\cite{nobelNobel2}.
 
-\hfill mds
+We are interested in finding a model that is able to predict the probability of a politican to win a Nobel Prize.
+
+
+
  
-\hfill September 17, 2014
+\hfill December 11, 2015
 
-\subsection{Subsection Heading Here}
+\subsection{Research question}
 Subsection text here.
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
 
 
 % An example of a floating figure using the graphicx package.
@@ -659,11 +667,18 @@ Subsubsection text here.
 
 
 
+\section{Data}
+
+\section{Methodologie}
+
+\section{Data analysis}
+
+
+\section{Results}
+
 \section{Conclusion}
-The conclusion goes here.
 
-
-
+\section{Future work}
 
 
 % if have a single appendix:
@@ -682,12 +697,12 @@ The conclusion goes here.
 
 
 \appendices
-\section{Proof of the First Zonklar Equation}
+\section{Data}
 Appendix one text goes here.
 
 % you can choose not to have a title for an appendix
 % if you want by leaving the argument blank
-\section{}
+\section{Source code}
 Appendix two text goes here.
 
 
@@ -695,13 +710,13 @@ Appendix two text goes here.
 \ifCLASSOPTIONcompsoc
   % The Computer Society usually uses the plural form
   \section*{Acknowledgments}
+  We would like to thank our supervisors professor Bettina Berendt and Sebastijan Dumancic for their enthousiasm and support.
 \else
   % regular IEEE prefers the singular form
   \section*{Acknowledgment}
 \fi
 
 
-The authors would like to thank...
 
 
 % Can use something like this to put references on a page
@@ -734,13 +749,7 @@ The authors would like to thank...
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
-
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
+\printbibliography
 
 
 \end{document}
