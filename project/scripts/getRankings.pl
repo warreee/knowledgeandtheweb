@@ -33,7 +33,7 @@ foreach $r (@rows) {
 	$score = $1;
 
 	# Write to file
-	print $f "$name,$score\n";
+	print $f "$name;$score\n";
 
 }
 close $f;
