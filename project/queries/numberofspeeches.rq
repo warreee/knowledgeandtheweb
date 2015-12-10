@@ -1,0 +1,13 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX lp: <http://purl.org/linkedpolitics/>
+PREFIX lpv: <http://purl.org/linkedpolitics/vocabulary/>
+PREFIX lpv_eu: <http://purl.org/linkedpolitics/vocabulary/eu/plenary/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name ?fname (count(*) as ?count) WHERE {
+  ?speaker rdf:type lpv:Speaker.
+  ?speaker foaf:givenName ?name.
+  ?speaker foaf:familyName ?fname.
+  ?speech rdf:type lpv_eu:Speech.
+  ?speech lpv:speaker ?speaker.
+} GROUP BY ?name ?fname

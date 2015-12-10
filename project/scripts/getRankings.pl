@@ -4,7 +4,9 @@ use LWP::Simple qw(get);
 
 ($out) = @ARGV;
 if (not defined $out) {
-	$out = 'rankings.csv';
+	$out = "../data/rankings.csv";
+} else {
+	$out = "../data/$out.csv";
 }
 
 $html = get "http://www.shanghairanking.com/ARWU2015.html";
