@@ -9,10 +9,18 @@ PREFIX dbpedia2: <http://dbpedia.org/property/>
 PREFIX dbpedia: <http://dbpedia.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX : <http://dbpedia.org/resource/>
-PREFIX yago: <http://yago-knowledge.org/resource/>
 
-SELECT DISTINCT ?person WHERE {
-?person rdf:type yago:Scientist .
-
+SELECT DISTINCT ?givenname ?surname ?almaMater ?sex ?year ?country WHERE {
+?person rdf:type yago:Scientist110560637 .
+?person foaf:givenName ?givenname .
+?person foaf:surname ?surname .
+?person dbo:almaMater ?mater .
+?person dbo:nationality ?c .
+ OPTIONAL{?c rdfs:label ?country .}
+ FILTER langMatches (lang(?country), 'en' )
+ OPTIONAL{?mater rdfs:label ?almaMater . }
+ FILTER langMatches (lang(?almaMater), 'en' )
+ OPTIONAL{?sex dbpedia2:sex ?sex .}
+ OPTIONAL{?person dbo:birthYear ?year .}
 
 }
