@@ -2,15 +2,31 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \title{Politicians and Nobel Prizes}
-\date[ISPN '80]{Knowledge \& the Web 2015-2016}
+\date[ISPN '80]{Prof. Dr. Bettina Berendt\\ Knowledge \& the Web 2015-2016}
 \author{Katrien Laenen \and Gust Verbruggen \and Ward Schodts}
 
 \usepackage{booktabs}
 \usetheme{kuleuvenstijl}
 
+\makeatletter
+\def\beamer@tocaction@only#1{\only<.(1)>{\usebeamertemplate**{#1}}}
+\define@key{beamertoc}{subsectionsonly}[]{\beamer@toc@subsectionstyle{show/only}\beamer@toc@subsubsectionstyle{show/shaded/hide}}
+
+\newif\ifbeamer@pausebeforesubsections
+\define@key{beamertoc}{pausebeforesubsections}[true]{\beamer@pausebeforesubsectionstrue}
+
+\patchcmd{\beamer@tableofcontents}{\beamer@pausesectionsfalse}%
+  {\beamer@pausesectionsfalse\beamer@pausebeforesubsectionsfalse}{}{}
+
+\patchcmd{\beamer@subsectionintoc}{\ifbeamer@pausesubsections\pause\fi}%
+  {\ifbeamer@pausesubsections\pause\else%
+   \ifbeamer@pausebeforesubsections\ifnumequal{#2}{1}{\pause}{}\fi\fi}{}{}
+\makeatother
 
 
 \begin{document}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
@@ -21,7 +37,8 @@
 
 \begin{frame}[noframenumbering]
 \frametitle{Outline} 
-  \tableofcontents
+  \tableofcontents[hideallsubsections
+  ]
 
 \end{frame}
 
@@ -29,16 +46,16 @@
 {
  \begin{frame}<beamer>
  \frametitle{Outline}
- \tableofcontents[currentsection]
+ \tableofcontents[subsectionsonly, pausesections]
  \end{frame}
 }
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{test}
+\section{Introduction}
 \begin{frame}
-\frametitle{There Is No Largest Prime Number} 
-\framesubtitle{The proof uses \textit{reductio ad absurdum}.} 
+\frametitle{Introduction} 
+\framesubtitle{Some history} 
 \begin{theorem}
 There is no largest prime number. \end{theorem} 
 \begin{enumerate} 
@@ -51,7 +68,7 @@ number not in the first $p$ numbers.
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{test 2}
+\subsection{The research question}
 \begin{frame}{A longer title}
 \begin{itemize}
 \item one
