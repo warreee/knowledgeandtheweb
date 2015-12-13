@@ -5,23 +5,9 @@
 \date[ISPN '80]{Prof. Dr. Bettina Berendt\\ Knowledge \& the Web 2015-2016}
 \author{Katrien Laenen \and Gust Verbruggen \and Ward Schodts}
 
-\usepackage{booktabs}
 \usetheme{kuleuvenstijl}
 
-\makeatletter
-\def\beamer@tocaction@only#1{\only<.(1)>{\usebeamertemplate**{#1}}}
-\define@key{beamertoc}{subsectionsonly}[]{\beamer@toc@subsectionstyle{show/only}\beamer@toc@subsubsectionstyle{show/shaded/hide}}
 
-\newif\ifbeamer@pausebeforesubsections
-\define@key{beamertoc}{pausebeforesubsections}[true]{\beamer@pausebeforesubsectionstrue}
-
-\patchcmd{\beamer@tableofcontents}{\beamer@pausesectionsfalse}%
-  {\beamer@pausesectionsfalse\beamer@pausebeforesubsectionsfalse}{}{}
-
-\patchcmd{\beamer@subsectionintoc}{\ifbeamer@pausesubsections\pause\fi}%
-  {\ifbeamer@pausesubsections\pause\else%
-   \ifbeamer@pausebeforesubsections\ifnumequal{#2}{1}{\pause}{}\fi\fi}{}{}
-\makeatother
 
 
 \begin{document}
@@ -46,7 +32,7 @@
 {
  \begin{frame}<beamer>
  \frametitle{Outline}
- \tableofcontents[subsectionsonly, pausesections]
+ \tableofcontents[hideothersubsections,currentsection]
  \end{frame}
 }
 
@@ -81,6 +67,7 @@ One can prove that
 \]
 \end{frame}
 
+\section{test}
 \begin{frame}{Blocks}
 \begin{block}{Block title}
 Block body.
