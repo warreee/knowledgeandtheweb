@@ -12,8 +12,8 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbpedia2: <http://dbpedia.org/property/>
 
-SELECT DISTINCT ?person
+SELECT ?person
 WHERE {
    ?member rdf:type lpv:Speaker .
    ?member owl:sameAs ?person .
-}
+} ORDER BY ?person
