@@ -30,6 +30,9 @@ WHERE {
   ?laur nobel:laureateAward ?award .
   ?award nobel:university ?uni .
   ?uni rdfs:label ?uniName .
-  #?award nobel:contribution ?contribution .
+  ?laur dbo:birthPlace ?c .
+  ?c dbo:country ?co .
+  ?co rdfs:label ?country .
+    FILTER langMatches (lang(?country), 'en' )
 
 }
