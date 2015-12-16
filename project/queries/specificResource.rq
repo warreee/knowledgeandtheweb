@@ -20,5 +20,4 @@ OPTIONAL{<$RESOURCE$> dbo:nationality ?c .
 OPTIONAL{<$RESOURCE$> dbo:almaMater ?mater .
         ?mater rdfs:label ?almaMater .
       FILTER langMatches (lang(?almaMater), 'en' )}
-
 }
