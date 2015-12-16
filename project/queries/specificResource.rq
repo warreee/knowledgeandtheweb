@@ -10,20 +10,14 @@ PREFIX dbpedia: <http://dbpedia.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX : <http://dbpedia.org/resource/>
 
-SELECT DISTINCT ?givenname ?surname ?by ?country ?almaMater WHERE {
+SELECT ?givenname ?surname ?country ?almaMater WHERE {
 # Resource is replaced by a resource on dbpedia
 <$RESOURCE$> foaf:givenName ?givenname .
 <$RESOURCE$> foaf:surname ?surname .
-<$RESOURCE$> dbo:birthPlace ?c .
-        ?c dbo:country ?co .
-        ?co rdfs:label ?country .
-      FILTER langMatches (lang(?country), 'en' )
-<$RESOURCE$> dbo:almaMater ?mater .
-?mater rdfs:label ?almaMater .
-FILTER langMatches (lang(?almaMater), 'en' )
-<$RESOURCE$> dbo:birthYear ?by .
-FILTER (?by > "1850"^^<http://www.w3.org/2001/XMLSchema#gYear>)
+OPTIONAL{<$RESOURCE$> dbo:nationality ?c .
+        ?c rdfs:label ?country .
+      FILTER langMatches (lang(?country), 'en' )}
+OPTIONAL{<$RESOURCE$> dbo:almaMater ?mater .
+        ?mater rdfs:label ?almaMater .
+      FILTER langMatches (lang(?almaMater), 'en' )}
 }
-
-
-

@@ -15,5 +15,5 @@ PREFIX dbpedia2: <http://dbpedia.org/property/>
 SELECT ?person
 WHERE {
    ?member rdf:type lpv:Speaker .
-   ?member owl:sameAs* ?person .
+   ?member owl:sameAs ?person .
 } ORDER BY ?person

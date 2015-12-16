@@ -7,12 +7,6 @@
 
 \usetheme{kuleuvenstijl}
 
-\usepackage{float}
-\usepackage{graphicx}
-\usepackage{caption}
-\usepackage{subcaption}
-\graphicspath{ {images/} }
-
 
 
 
@@ -47,92 +41,52 @@
 \section{Introduction}
 \subsection{Some history}
 \begin{frame}
-\frametitle{Some history}
-\framesubtitle{Nobelprizes, what are they?}
-\begin{center}
-
-
-\begin{figure}[H]
-    
-    \hfill
-    \begin{subfigure}[b]{0.33\textwidth}
-        \includegraphics[width=\textwidth]{alfred.jpg}
-        \caption{Alfred Nobel}
-    \end{subfigure}
-    \hfill%
-    \begin{subfigure}[b]{0.33\textwidth}
-        \includegraphics[width=\textwidth]{nobel.jpg}
-        \caption{Alfred Nobel}
-    \end{subfigure}
-    \hfill
-\end{figure}
-\end{center}
+\frametitle{Introduction} 
+\framesubtitle{Some history} 
+\begin{theorem}
+There is no largest prime number. \end{theorem} 
+\begin{enumerate} 
+\item<1-| alert@1> Suppose $p$ were the largest prime number. 
+\item<2-> Let $q$ be the product of the first $p$ numbers. 
+\item<3-> Then $q+1$ is not divisible by any of them. 
+\item<1-> But $q + 1$ is greater than $1$, thus divisible by some prime
+number not in the first $p$ numbers.
+\end{enumerate}
 \end{frame}
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The research question}
 \begin{frame}
 \frametitle{Our research question} 
 
-\begin{center}
-\textit{\Large Which European politicians have a high chance of
-receiving a Nobel Prize?}
-\end{center}
-
+\textit{\textbf{\Large ``Which European politicians have a high chance of
+receiving a Nobel Prize?''}}
 
 
 \end{frame}
 
 \section{Methodology}
-\begin{frame}
-\frametitle{Methodology}
-\framesubtitle{How we will tackle this problem}
-\begin{enumerate}
-\item<1-> Looking and finding available data
-\item<2-> Collecting the data (SPARQL, scraping...)
-\item<3-> Processing of data (training set \& research set (ToE))
-\item<4-> Learning the model
-\item<5-> Interpreting the results
-\item<6-> Have a drink
-\end{enumerate}
+\begin{frame}{Blocks}
+\begin{block}{Block title}
+Block body.
+qsdfdqsf\\
+qdsqf\\
+\end{block}
+\begin{example}
+For clarity:
+\begin{itemize}
+	\item[$\rightarrow$] first bullet point \ldots
+	\item[$\rightarrow$] second bullet  point \ldots
+\end{itemize}
+\end{example}
 \end{frame}
 
 \section{Data}
-\subsection{Feature selection}
-\begin{frame}
-\frametitle{Feature selection}
-\framesubtitle{Which features do we look for?}
-
-\begin{enumerate}
-\item<1-> First- \& surname
-\item<2-> Birthyear \& birthplace
-\item<3-> Ranking almamater
-\item<4-> Number of publications/speeches
-\item<5-> Popularity (likes on Facebook)
-\item<6-> Nobel Prize: yes/no
-\end{enumerate}
-
-\end{frame}
-
-\subsection{Data scheme}
-\begin{frame}
-\frametitle{Data scheme}
-\framesubtitle{Our data sources: an overview}
-
-\end{frame}
-
-\subsection{Retrieved data}
-\begin{frame}
-\frametitle{Retrieved data}
-\framesubtitle{What do we currently have?}
-
-\end{frame}
-
 
 \section{Data analysis}
+
 \subsection{Outlier detection}
+
 
 \section{Results}
 

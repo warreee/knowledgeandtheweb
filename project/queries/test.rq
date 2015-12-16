@@ -1,11 +1,6 @@
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?givenname ?surname ?by WHERE {
+SELECT ?givenname ?surname WHERE {
 <http://dbpedia.org/resource/Paul_Nuttall> foaf:givenName ?givenname .
 <http://dbpedia.org/resource/Paul_Nuttall> foaf:surname ?surname .
-<http://dbpedia.org/resource/Paul_Nuttall> dbo:birthYear ?by .
-FILTER (?by > "1850"^^<http://www.w3.org/2001/XMLSchema#gYear>)
 }

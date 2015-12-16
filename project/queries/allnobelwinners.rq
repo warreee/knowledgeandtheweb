@@ -28,7 +28,5 @@ WHERE {
   ?laur nobel:laureateAward ?award .
   ?award nobel:university ?uni .
   ?uni rdfs:label ?uniName .
-  ?laur dbo:birthPlace ?c .
-
 
 }
