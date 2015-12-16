@@ -14,13 +14,14 @@ SELECT DISTINCT ?givenname ?surname ?almaMater ?sex ?year ?country WHERE {
 ?person rdf:type dbo:Writer .
 ?person foaf:givenName ?givenname .
 ?person foaf:surname ?surname .
+?person dbo:birthPlace ?c .
+?c dbo:country ?co .
+?co rdfs:label ?country .
+  FILTER langMatches (lang(?country), 'en' )
 ?person dbo:almaMater ?mater .
-?person dbo:nationality ?c .
- OPTIONAL{?c rdfs:label ?country .}
- FILTER langMatches (lang(?country), 'en' )
- OPTIONAL{?mater rdfs:label ?almaMater . }
- FILTER langMatches (lang(?almaMater), 'en' )
- OPTIONAL{?sex dbpedia2:sex ?sex .}
- OPTIONAL{?person dbo:birthYear ?year .}
+?mater rdfs:label ?almaMater .
+  FILTER langMatches (lang(?almaMater), 'en' )
+?person dbo:birthYear ?by .
+  FILTER (?by > "1850"^^<http://www.w3.org/2001/XMLSchema#gYear>)
 
 }
