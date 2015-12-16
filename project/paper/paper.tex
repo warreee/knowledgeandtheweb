@@ -680,10 +680,11 @@ Section 3 will focus on the data analysis part. We then show in section 4 our re
 To answer the research question we will use the following approach:
 \begin{enumerate}
 \item We think about which data might be useful and interesting.
-\item We collect this data by the use of SPARQL queries and scraping webpages. Then we combine this data in one training dataset and one test dataset. The training dataset consist of all the information about scientists, engineers, economists, politicians, \dots with a label saying they ever won a Nobel Prize or not. The test data set contains the information about the politicians for which we would like to answer the research question.
+\item We collect this data by the use of SPARQL queries and scraping webpages. Then we combine this data in one training dataset and one research dataset. The training dataset consist of all the information about scientists, writers, economists and politicians with a label saying they ever won a Nobel Prize or not. The research data set contains the information about the politicians for which we would like to answer the research question.
+\item We process the data and put everything together.
 \item We use the training dataset to learn a model that is able to predict how likely a person is to win a Nobel Prize.
 We evaluate the learned model and reason about its accuracy.
-\item We apply the model to our test dataset and interpret the results.
+\item We apply the model to our research dataset and interpret the results.
 \end{enumerate}
 
 
@@ -695,15 +696,17 @@ The Perl scripts to reproduce this data can be found in appendix ?B?.
 \subsection{Knowledge bases}
 \paragraph*{\textbf{DBpedia} (\protect\url{http://wiki.dbpedia.org/})} is a Linked Open Data source which contains information for just about everything. 
 Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time.
-Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators. For this reason we get a large part of our training set data from DBpedia. 
+Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators. For this reason we get a large part of our training set data from DBpedia.
+\todo[inline]{Duidelijker zeggen welke data en welke features we hiervan halen.}
 
 \paragraph*{\textbf{Nobelprize.org} (\protect\url{http://data.nobelprize.org/})} is the most complete Linked Open Data source concerning Nobel Prize winners. 
 From 1901 on, it contains all Nobel Prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. 
 It makes use of the FOAF and DBpedia ontologies and more importantly, laureates have a \emph{owl:sameAs} relation with DBpedia entries for easy lookup of background information.
+\todo[inline]{Duidelijker zeggen welke data en welke features we hiervan halen. \emph{owl:sameAs} relation with DBpedia entries for easy lookup of background information : klopt niet, enkel same as links met land en stad op dbpedia, niet met personen en dit maakte het eigenlijk lastig.}
 
 \paragraph*{\textbf{Talk of Europe} (\protect\url{http://linkedpolitics.ops.few.vu.nl/home})} is a Linked Open Data source about the European Parliament. The dataset covers all plenary debates held in the European Parliament between July 1999 and January 2014 and biographical information about the members of parliament.
 The politicians in this data source are the ones for which we would like to answer the research question.
-
+\todo[inline]{Duidelijker zeggen welke data en welke features we hiervan halen.}
  
 
 \subsection{Additional data}
@@ -712,9 +715,22 @@ The politicians in this data source are the ones for which we would like to answ
 This webpages gives a ranking of the world universities. We choose this ranking because of their transparant methodology\cite{ranking}. \todo[inline]{Meer tekst}
 
 \todo[inline]{data van genomineerden sinds het begin temf 1964}
+\todo[inline]{Iets zeggen over publicaties en facebook likes}
+
 \subsection{Ontology}
-\todo[inline]{todo}
+\todo[inline]{Niet echt iets zeggen over ontology? Eerder gewoon zeggen welke features we nu uiteindelijk hebben.}
+
+\todo[inline]{Alinea over hoe we data samen zetten. Name matching, problemen hierbij, Aantal entries in training dataset en research set, aantal positieve voorbeelden t.o.v. negatieve voorbeelden (en vermelden dat dit een probleem is en hoe we dit oplossen/compenseren), andere statistieken i.v.m. data, outliers}
+\todo[inline]{data enkel vanaf 1820}
+
+
 \section{Data analysis}
+
+\todo[inline]{Statistieken i.v.m training en research sets hier?}
+
+\todo[inline]{figuren hier ter visualisatie data}
+
+\todo[inline]{Sectie over difficulties (training data veel negatieve en weinig positieve examples, links die er niet zijn}
 
 
 \section{Results}
@@ -796,3 +812,4 @@ Appendix two text goes here.
 
 
 \end{document}
+
