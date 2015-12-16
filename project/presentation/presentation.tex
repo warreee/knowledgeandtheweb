@@ -1,6 +1,7 @@
 \documentclass[nonav,sleutel]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+
 \title{Politicians and Nobel Prizes}
 \date[ISPN '80]{Prof. Dr. Bettina Berendt\\ Knowledge \& the Web 2015-2016}
 \author{Katrien Laenen \and Gust Verbruggen \and Ward Schodts}
@@ -13,6 +14,9 @@
 \usepackage{subcaption}
 \graphicspath{ {images/} }
 
+\definecolor{Green7}{RGB}{0, 165, 80}
+\definecolor{Red7}{RGB}{200, 8, 21}
+
 \begin{document}
 
 \begin{frame}
@@ -24,7 +28,6 @@
 \frametitle{Outline} 
   \tableofcontents[hideallsubsections
   ]
-
 \end{frame}
 
 \AtBeginSection[]
@@ -70,8 +73,6 @@
 receiving a Nobel Prize?}
 \end{center}
 
-
-
 \end{frame}
 
 \section{Methodology}
@@ -89,19 +90,32 @@ receiving a Nobel Prize?}
 
 \section{Data}
 
+\newcounter{featureCounter}
 \subsection{Feature selection}
 \begin{frame}
 \frametitle{Feature selection}
-\framesubtitle{What features do we look for?}
-
+To learn our model, we use the following features\\[.5cm]
 \begin{enumerate}
 \item<1-> Birth year and -place
 \item<2-> Award ranking of alma mater
 \item<3-> Number of publications $\leftrightarrow$ speeches
+	\begin{itemize}
+		\item[$\rightarrow$] Normalized for each category by dividing by maximum value 
+	\end{itemize}
 \item<4-> Popularity (likes on Facebook)
-\item<5-> Nobel Prize: yes/no
+	\begin{itemize}
+		\item[$\rightarrow$] Also normalized for each category
+	\end{itemize}
+\setcounter{featureCounter}{\theenumi}
 \end{enumerate}
-
+\vspace{.5cm}
+\only<5->{
+in order to distinguish the class label\\[.5cm]
+\begin{enumerate}
+\setcounter{enumi}{\thefeatureCounter}
+	\item Whether they have won an award
+\end{enumerate}
+}
 \end{frame}
 
 \subsection{Data collection}
@@ -117,7 +131,7 @@ receiving a Nobel Prize?}
 
 \begin{frame}
 \frametitle{Data scheme}
-\framesubtitle{Where do we get our \textbf{training} data?}
+\framesubtitle{Where do we get our \textbf{\textcolor{Green7}{training}} data?}
 
 \begin{figure}
 	\includegraphics{images/dataschema_training}
@@ -127,19 +141,33 @@ receiving a Nobel Prize?}
 
 \begin{frame}
 \frametitle{Data scheme}
-\framesubtitle{Where do we get our \textbf{research} data?}
-
+\framesubtitle{Where do we get our \textbf{\textcolor{Red7}{research}} data?}
 \begin{figure}
 	\includegraphics{images/dataschema_research}
 \end{figure}
-
 \end{frame}
 
+\begin{frame}
+\frametitle{Data scheme}
+\framesubtitle{What data do we already have?}
+\begin{figure}
+	\includegraphics{images/dataschema_original}
+\end{figure}
+\end{frame}
 
 \section{Analysis}
 
 \subsection{Outlier detection}
+\begin{frame}{Outlier detection}
+For better analysis, we remove outliers from the data by drawing \textbf{boxplots}.
+\end{frame}
+
+
 \subsection{Learning the model}
+
+\begin{frame}{Logistic regression}
+	
+\end{frame}
 
 \section{Results}
 
@@ -150,13 +178,6 @@ receiving a Nobel Prize?}
 Any questions?
 \end{center}
 
-\end{frame}
-
-\begin{frame}
-\frametitle{Our questions}
-\begin{enumerate}
-\item 
-\end{enumerate}
 \end{frame}
 
 \end{document}
