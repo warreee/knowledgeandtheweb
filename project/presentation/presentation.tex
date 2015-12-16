@@ -1,4 +1,4 @@
-\documentclass[nonav,sleutel,handout]{beamer}
+\documentclass[nonav,sleutel]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \title{Politicians and Nobel Prizes}
@@ -13,19 +13,12 @@
 \usepackage{subcaption}
 \graphicspath{ {images/} }
 
-
-
-
 \begin{document}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \titlepage
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[noframenumbering]
 \frametitle{Outline} 
@@ -43,7 +36,6 @@
 }
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \subsection{Some history}
 \begin{frame}
@@ -52,19 +44,16 @@
 \begin{center}
 
 
-\begin{figure}[H]
-    
-    \hfill
+\begin{figure}[H]    
     \begin{subfigure}[b]{0.33\textwidth}
         \includegraphics[width=\textwidth]{alfred.jpg}
         \caption{Alfred Nobel}
     \end{subfigure}
-    \hfill%
+    \hspace{2cm}
     \begin{subfigure}[b]{0.33\textwidth}
         \includegraphics[width=\textwidth]{nobel.jpg}
         \caption{Alfred Nobel}
     \end{subfigure}
-    \hfill
 \end{figure}
 \end{center}
 \end{frame}
@@ -90,49 +79,84 @@ receiving a Nobel Prize?}
 \frametitle{Methodology}
 \framesubtitle{How we will tackle this problem}
 \begin{enumerate}
-\item<1-> Looking and finding available data
-\item<2-> Collecting the data (SPARQL, scraping...)
-\item<3-> Processing of data (training set \& research set (ToE))
-\item<4-> Learning the model
-\item<5-> Interpreting the results
-\item<6-> Have a drink
+\item<1-> Feature selection: determine features and look for available data
+\item<2-> Collecting and combining the data (SPARQL, scraping,...)
+\item<3-> Data analysis: learning the model
+\item<4-> Interpreting the results
+\item<5-> Have a drink
 \end{enumerate}
 \end{frame}
 
 \section{Data}
+
 \subsection{Feature selection}
 \begin{frame}
 \frametitle{Feature selection}
-\framesubtitle{Which features do we look for?}
+\framesubtitle{What features do we look for?}
 
 \begin{enumerate}
-\item<1-> Birth year \& -place
-\item<2-> Ranking almamater
-\item<3-> Number of publications/speeches
+\item<1-> Birth year and -place
+\item<2-> Award ranking of alma mater
+\item<3-> Number of publications $\leftrightarrow$ speeches
 \item<4-> Popularity (likes on Facebook)
 \item<5-> Nobel Prize: yes/no
 \end{enumerate}
 
 \end{frame}
 
-\subsection{Data scheme}
+\subsection{Data collection}
 \begin{frame}
 \frametitle{Data scheme}
-\framesubtitle{Our data sources: an overview}
+\framesubtitle{Where do we get our data?}
+
+\begin{figure}
+	\includegraphics{images/dataschema_original}
+\end{figure}
 
 \end{frame}
 
-\subsection{Retrieved data}
 \begin{frame}
-\frametitle{Retrieved data}
-\framesubtitle{What do we currently have?}
+\frametitle{Data scheme}
+\framesubtitle{Where do we get our \textbf{training} data?}
+
+\begin{figure}
+	\includegraphics{images/dataschema_training}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Data scheme}
+\framesubtitle{Where do we get our \textbf{research} data?}
+
+\begin{figure}
+	\includegraphics{images/dataschema_research}
+\end{figure}
 
 \end{frame}
 
 
-\section{Data analysis}
+\section{Analysis}
+
 \subsection{Outlier detection}
+\subsection{Learning the model}
+
 \section{Results}
 
 \section{Conclusion}
+\begin{frame}
+\begin{center}
+\Large{Thanks for listening}\\
+Any questions?
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Our questions}
+\begin{enumerate}
+\item 
+\end{enumerate}
+\end{frame}
+
 \end{document}
