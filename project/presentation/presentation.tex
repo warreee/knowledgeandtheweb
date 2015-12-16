@@ -98,7 +98,7 @@ To learn our model, we use the following features\\[.5cm]
 \begin{enumerate}
 \item<1-> Birth year and -place
 \item<2-> Award ranking of alma mater
-\item<3-> Number of publications $\leftrightarrow$ speeches
+\item<3-> Work productivity: \# publications $\leftrightarrow$ \# speeches
 	\begin{itemize}
 		\item[$\rightarrow$] Normalized for each category by dividing by maximum value 
 	\end{itemize}
@@ -160,6 +160,9 @@ in order to distinguish the class label\\[.5cm]
 \subsection{Outlier detection}
 \begin{frame}{Outlier detection}
 For better analysis, we remove outliers from the data by drawing \textbf{boxplots}.
+\begin{figure}
+	\includegraphics[scale=0.5]{images/boxplot.png}
+\end{figure}
 \end{frame}
 
 
@@ -186,15 +189,15 @@ Using RapidMiner, such model can be easily learned and applied.
 
 \begin{frame}{Difficulties}
 \begin{itemize}
-	\item Few positive examples compared to negative examples
+	\item<1-> Few positive examples compared to negative examples
 		\begin{itemize}
 			\item[$\rightarrow$] Sampling?
 		\end{itemize}
-	\item Data that's not already linked is hard to link
+	\item<2-> Data that's not already linked is hard to link
 		\begin{itemize}
 			\item[$\rightarrow$] E.g. fuzzy matching of university names
 		\end{itemize}
-	\item Google Scholar is being lame
+	\item<3-> Google Scholar is being lame
 		\begin{itemize}
 			\item[$\rightarrow$] Blocks us from scraping
 		\end{itemize}
