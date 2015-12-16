@@ -1,12 +1,14 @@
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.RDFNode;
 
 import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -15,24 +17,58 @@ public class Main {
 
     private List<String> strings = new ArrayList<>();
 
-    public static void main(String[] args) throws IOException {
-        outerQuery();
+    public static void main(String[] args) throws Exception {
+
+        //outerQuery();
+        dbPedia("scientist.rq");
+        dbPedia("politician.rq");
+        dbPedia("economist.rq");
+        dbPedia("writer.rq");
+        uniques("data.csv");
     }
 
-    private static void outerQuery() throws IOException {
-        String queryString = readFile(System.getProperty("user.dir") + "/queries/ToEpoliticians.rq", Charset.defaultCharset());
+    private static void dbPedia(String queryFile) throws IOException {
+        String queryString = readFile(System.getProperty("user.dir") + "/queries/" + queryFile);
         Query query = QueryFactory.create(queryString);
-        QueryExecution qexec = QueryExecutionFactory.sparqlService("http://linkedpolitics.ops.few.vu.nl/sparql/", query);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService("http://dbpedia.org/sparql/", query);
 
         try {
             ResultSet results = qexec.execSelect();
 
+
+            for (; results.hasNext(); ) {
+                QuerySolution solution = results.nextSolution();
+                System.out.println(solution);
+                List<String> res = results.getResultVars().stream().map(rv -> getSolutionLiteral(solution, rv)).collect(Collectors.toList());
+                writeToCSV(res, "data.csv");
+                System.out.println(solution);
+            }
+
+
+        } finally {
+            qexec.close();
+        }
+    }
+
+    private static void outerQuery() throws IOException {
+        String queryString = readFile(System.getProperty("user.dir") + "/queries/ToEpoliticians.rq");
+        Query query = QueryFactory.create(queryString);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService("http://linkedpolitics.ops.few.vu.nl/sparql/", query);
+
+        try {
+
+            ResultSet results = qexec.execSelect();
+            HashSet<String> seenPersons = new HashSet<>();
             for (; results.hasNext(); ) {
                 QuerySolution solution = results.nextSolution();
 
+                if (!seenPersons.contains(solution.get("person").toString())
+                        && !solution.get("person").toString().contains("http://dati.camera.it/ocd/persona.rdf")
+                        && !solution.get("person").toString().contains("http://purl.org/linkedpolitics")) {
                     innerQuery(solution.get("person").toString(), "http://dbpedia.org/sparql/");
 
-
+                }
+                seenPersons.add(solution.get("person").toString());
             }
         } finally {
             qexec.close();
@@ -44,37 +80,83 @@ public class Main {
         String queryString = replaceResource(resource);
         Query query = QueryFactory.create(queryString);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);
-
+        System.out.println(resource);
         try {
             ResultSet results = qexec.execSelect();
-            System.out.println(resource);
+
+
             for (; results.hasNext(); ) {
                 QuerySolution solution = results.nextSolution();
-
+                List<String> res = results.getResultVars().stream().map(rv -> getSolutionLiteral(solution, rv)).collect(Collectors.toList());
+                writeToCSV(res, "data.csv");
                 System.out.println(solution);
-
             }
+
+
         } finally {
             qexec.close();
         }
 
     }
 
-    private static List<String> readLines(String path, Charset encoding) throws IOException {
-        return Files.readAllLines(Paths.get(path), encoding);
+    public static String getSolutionLiteral(QuerySolution solution, String rv) {
+        try {
+            return solution.getLiteral(rv).getValue().toString();
+        } catch (NullPointerException e) {
+            return " ";
+        }
+    }
+
+    public static List<String> readLines(String path) throws IOException {
+        return Files.readAllLines(Paths.get(path), Charset.defaultCharset());
 
     }
 
-    private static String replaceResource(String resource) throws IOException{
-        return readLines(System.getProperty("user.dir") + "/queries/specificResource.rq", Charset.defaultCharset())
+    private static String replaceResource(String resource) throws IOException {
+        return readLines(System.getProperty("user.dir") + "/queries/specificResource.rq")
                 .stream().map(s -> s.replace("$RESOURCE$", resource)).collect((Collectors.joining("\n")));
     }
 
 
-    private static String readFile(String path, Charset encoding)
+    public static String readFile(String path)
             throws IOException {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
-        return new String(encoded, encoding);
+        return new String(encoded, Charset.defaultCharset());
+    }
+
+
+    public static void writeToCSV(List<String> strings, String fileName) {
+        try {
+            FileWriter writer = new FileWriter(fileName, true);
+
+
+            for (int i = 0; i < strings.size() - 1; i++) {
+
+                writer.append(strings.get(i).replace("\n","")).append(", ");
+            }
+
+                writer.append(strings.get(strings.size() - 1)).append("\n");
+
+
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void uniques(String fileName) throws Exception {
+        List<String> lines = readLines(System.getProperty("user.dir") + "/" + fileName);
+        HashSet<String> user = new HashSet<>();
+        for (String l : lines) {
+            String[] line = l.split(", ");
+
+            user.add(line[0] + line[1]);
+
+
+        }
+
+        System.out.println(user.size());
     }
 
 }
