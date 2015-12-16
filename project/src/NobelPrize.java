@@ -26,12 +26,10 @@ public class NobelPrize {
             for (; results.hasNext(); ) {
                 QuerySolution solution = results.nextSolution();
                 System.out.println(results.getResultVars());
-                for (String str: results.getResultVars()){
-                    System.out.println(Main.getSolutionLiteral(solution,str));
-                }
-                //List<String> res = results.getResultVars().stream().map(rv -> Main.getSolutionLiteral(solution, rv)).collect(Collectors.toList());
-                //Main.writeToCSV(res, "data.csv");
-                //System.out.println(solution);
+
+                List<String> res = results.getResultVars().stream().map(rv -> Main.getSolutionLiteral(solution, rv)).collect(Collectors.toList());
+                Main.writeToCSV(res, "data.csv");
+                System.out.println(solution);
             }
 
 
