@@ -17,13 +17,11 @@ PREFIX dbpprop: <http://dbpedia.org/property/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?givenName ?familyName ?prizeName ?uniName
+SELECT DISTINCT ?givenName ?familyName ?prizeName ?uniName ?c
 WHERE {
   ?laur rdf:type nobel:Laureate .
   ?laur foaf:familyName ?familyName .
   ?laur foaf:givenName ?givenName .
-  ?laur dbo:birthPlace ?Country .
-  ?Country rdfs:label ?test .
   ?laur nobel:nobelPrize ?prijs .
   ?prijs nobel:category ?var .
   ?var skos:altLabel ?prizeName .
@@ -31,8 +29,6 @@ WHERE {
   ?award nobel:university ?uni .
   ?uni rdfs:label ?uniName .
   ?laur dbo:birthPlace ?c .
-  ?c dbo:country ?co .
-  ?co rdfs:label ?country .
-    FILTER langMatches (lang(?country), 'en' )
+
 
 }

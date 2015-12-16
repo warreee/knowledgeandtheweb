@@ -99,7 +99,7 @@ public class Main {
 
     }
 
-    private static String getSolutionLiteral(QuerySolution solution, String rv) {
+    public static String getSolutionLiteral(QuerySolution solution, String rv) {
         try {
             return solution.getLiteral(rv).getValue().toString();
         } catch (NullPointerException e) {
@@ -107,7 +107,7 @@ public class Main {
         }
     }
 
-    private static List<String> readLines(String path) throws IOException {
+    public static List<String> readLines(String path) throws IOException {
         return Files.readAllLines(Paths.get(path), Charset.defaultCharset());
 
     }
@@ -118,14 +118,14 @@ public class Main {
     }
 
 
-    private static String readFile(String path)
+    public static String readFile(String path)
             throws IOException {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
         return new String(encoded, Charset.defaultCharset());
     }
 
 
-    private static void writeToCSV(List<String> strings, String fileName) {
+    public static void writeToCSV(List<String> strings, String fileName) {
         try {
             FileWriter writer = new FileWriter(fileName, true);
 
@@ -145,7 +145,7 @@ public class Main {
         }
     }
 
-    private static void uniques(String fileName) throws Exception {
+    public static void uniques(String fileName) throws Exception {
         List<String> lines = readLines(System.getProperty("user.dir") + "/" + fileName);
         HashSet<String> user = new HashSet<>();
         for (String l : lines) {
