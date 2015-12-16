@@ -18,7 +18,7 @@ $url->query_form(
 # Initialize user agent
 $ua = LWP::UserAgent->new;
 $ua->timeout(10);
-$ua->agent("Mozilla/5.0");
+$ua->agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36");
 
 # Get content and parse number of results
 $html = $ua->get($url);
