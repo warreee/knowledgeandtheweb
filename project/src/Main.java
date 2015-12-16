@@ -84,7 +84,8 @@ public class Main {
     }
 
 
-<<<<<<< HEAD
+
+    
     public static String readFile(String path)
             throws IOException {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
@@ -124,12 +125,12 @@ public class Main {
         }
 
         System.out.println(user.size());
-=======
+
     private static String readFile(String path, Charset encoding)
             throws IOException {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
         return new String(encoded, encoding);
->>>>>>> b019cd76a76e35735647ab50b7a1d931bd448cc3
+
     }
 
 }
