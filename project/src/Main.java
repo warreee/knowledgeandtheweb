@@ -19,11 +19,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-//        outerQuery();
-//        dbPedia("scientist.rq");
-//        dbPedia("politician.rq");
-//        dbPedia("economist.rq");
-//        dbPedia("writer.rq");
+        outerQuery();
+        dbPedia("scientist.rq");
+        dbPedia("politician.rq");
+        dbPedia("economist.rq");
+        dbPedia("writer.rq");
         uniques("data.csv");
     }
 

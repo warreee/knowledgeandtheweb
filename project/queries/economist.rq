@@ -10,7 +10,7 @@ PREFIX dbpedia: <http://dbpedia.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX : <http://dbpedia.org/resource/>
 
-SELECT DISTINCT ?givenname ?surname ?almaMater ?sex ?year ?country WHERE {
+SELECT DISTINCT ?givenname ?surname ?by ?country ?almaMater WHERE {
 ?person rdf:type dbo:Economist .
 ?person foaf:givenName ?givenname .
 ?person foaf:surname ?surname .
