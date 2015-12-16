@@ -2,6 +2,7 @@ import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.tdb.store.Hash;
 
 import java.io.*;
 import java.nio.charset.Charset;
@@ -20,10 +21,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         //outerQuery();
-        dbPedia("scientist.rq");
-        dbPedia("politician.rq");
-        dbPedia("economist.rq");
-        dbPedia("writer.rq");
+
         uniques("data.csv");
     }
 
@@ -148,15 +146,38 @@ public class Main {
     public static void uniques(String fileName) throws Exception {
         List<String> lines = readLines(System.getProperty("user.dir") + "/" + fileName);
         HashSet<String> user = new HashSet<>();
+        HashSet<String> names = new HashSet<>();
         for (String l : lines) {
             String[] line = l.split(", ");
 
             user.add(line[0] + line[1]);
 
+            names.add(line[0] + " " + line[1] + "\n");
+
 
         }
 
+        writeListToCSV(new ArrayList<>(names), "names.csv");
+
         System.out.println(user.size());
+    }
+
+    public static void writeListToCSV(List<String> strings, String fileName) {
+        try {
+            FileWriter writer = new FileWriter(fileName, true);
+
+
+            for (int i = 0; i < strings.size(); i++) {
+
+                writer.append(strings.get(i));
+            }
+
+
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
