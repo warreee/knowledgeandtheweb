@@ -679,7 +679,7 @@ Section 3 will focus on the data analysis part. We then show in section 4 our re
 \section{Methodology}
 To answer the research question we will use the following approach:
 \begin{enumerate}
-\item We think about which data might be useful and interesting.
+\item We think about which data might be useful and interesting. We also select our features, which we will use to learn the model.
 \item We collect this data by the use of SPARQL queries and scraping webpages. Then we combine this data in one training dataset and one research dataset. The training dataset consist of all the information about scientists, writers, economists and politicians with a label saying they ever won a Nobel Prize or not. The research data set contains the information about the politicians for which we would like to answer the research question.
 \item We process the data and put everything together.
 \item We use the training dataset to learn a model that is able to predict how likely a person is to win a Nobel Prize.
@@ -687,8 +687,20 @@ We evaluate the learned model and reason about its accuracy.
 \item We apply the model to our research dataset and interpret the results.
 \end{enumerate}
 
+\section{Features}
+To learn our model, we decided to use the following features:
+\begin{enumerate}
+\item Birth year and -place:\\
+Currently the average age of a laureate is 59\cite{age}. Evidently this plays a role in the decision if somebody makes a chance for a Nobel Price.
+\item Award ranking of alma mater:\\
+We suppose that there's a link between the alma mater and...
+\item Work productivity
+\todo[inline]{we maken hier een link naar de discussie met Bettina}
+\item Popularity
+\end{enumerate}
 
 \section{Data}
+
 We will use two kinds of sources to answer the research question. The first source consist of knowledge bases also known as linked open data in the \textit{Semantic Web}. Here we can use the \textit{SPARQL}\cite{wc3SPARQL} endpoints to query the data. 
 
 The second source is data that we collected ourselves from webpages by scraping. 
@@ -723,6 +735,7 @@ This webpages gives a ranking of the world universities. We choose this ranking 
 \todo[inline]{Alinea over hoe we data samen zetten. Name matching, problemen hierbij, Aantal entries in training dataset en research set, aantal positieve voorbeelden t.o.v. negatieve voorbeelden (en vermelden dat dit een probleem is en hoe we dit oplossen/compenseren), andere statistieken i.v.m. data, outliers}
 \todo[inline]{data enkel vanaf 1820}
 
+\subsection{Processing and merging}
 
 \section{Data analysis}
 
