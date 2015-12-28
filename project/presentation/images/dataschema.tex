@@ -1,0 +1,64 @@
+\documentclass[preview,tikz,border=10pt]{standalone}
+\usetikzlibrary{positioning,shapes,shadows,arrows,fit}
+
+\definecolor{Green7}{RGB}{0, 165, 80}
+\definecolor{Red7}{RGB}{200, 8, 21}
+
+\begin{document}
+
+\tikzstyle{source}=[rectangle, rectangle split, rectangle split parts=2, draw=black, fill = white, drop shadow]
+
+\begin{tikzpicture}[
+	every one node part/.style={font=\bfseries},
+	every two node part/.style={align=left,
+	                            text width=4cm}
+	]
+
+	\node (NobelPrize) [source] {
+		\nodepart{one} NobelPrize
+		\nodepart{two} 
+			-- Award
+	};
+	
+	\node (DBPedia) [source, 
+					 right of = NobelPrize,
+					 node distance = 5cm,
+					 draw = Red7,
+					 text = Red7] {
+		\nodepart{one} DBPedia
+		\nodepart{two} 
+			-- Full name\\
+			-- Year of birth\\
+			-- Country of birth\\
+			-- Alma mater
+	};
+	
+	\node (ToE) [source,
+				 below of = NobelPrize,
+				 node distance = 3cm,
+				 draw = Red7,
+				 text = Red7] {
+		\nodepart{one} ToE
+		\nodepart{two} 
+			-- Number of speeches
+	};
+	
+	\node (External) [source,
+					  right of = ToE,
+					  node distance = 5cm,
+					  draw = Red7,
+					  text = Red7] {
+		\nodepart{one} External sources
+		\nodepart{two}
+			$\bullet$ Facebook\\
+			\hspace{1em} -- Likes\\
+			\textcolor{black}{
+			$\bullet$ Google Scholar\\
+			\hspace{1em} -- Publications}\\
+			\textcolor{Red7}{
+			$\bullet$ Shanghai Rankings\\
+			\hspace{1em} -- Award ranking}
+	};
+	
+\end{tikzpicture}
+\end{document}
