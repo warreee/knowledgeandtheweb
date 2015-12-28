@@ -21,7 +21,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         //outerQuery();
-
+        dbPedia("scientist.rq");
+        dbPedia("economist.rq");
         uniques("data.csv");
     }
 
