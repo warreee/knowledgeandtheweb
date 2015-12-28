@@ -693,10 +693,11 @@ To learn our model, we decided to use the following features:
 \item Birth year and -place:\\
 Currently the average age of a laureate is 59\cite{age}. Evidently this plays a role in the decision if somebody makes a chance for a Nobel Price.
 \item Award ranking of alma mater:\\
-We suppose that there's a link between the alma mater and...
+We suppose that there's a link between the alma mater of somebody and...
 \item Work productivity
 \todo[inline]{we maken hier een link naar de discussie met Bettina}
-\item Popularity
+\item Popularity:\\
+To measure to popularity of a person we use the number of Facebook likes. 
 \end{enumerate}
 
 \section{Data}
@@ -709,7 +710,9 @@ The Perl scripts to reproduce this data can be found in appendix ?B?.
 \paragraph*{\textbf{DBpedia} (\protect\url{http://wiki.dbpedia.org/})} is a Linked Open Data source which contains information for just about everything. 
 Coming straight from Wikipedia, it is updated daily and should thus be up-to-date all the time.
 Although it can be edited by anyone, data correctness is verified thoroughly by a team of content moderators. For this reason we get a large part of our training set data from DBpedia.
-\todo[inline]{Duidelijker zeggen welke data en welke features we hiervan halen.}
+More specifically we get the birth place and date for all our subjects as well their alma mater and of cource their first- and surname. 
+We omit persons where not all this data is available.
+
 
 \paragraph*{\textbf{Nobelprize.org} (\protect\url{http://data.nobelprize.org/})} is the most complete Linked Open Data source concerning Nobel Prize winners. 
 From 1901 on, it contains all Nobel Prizes that have been won. Moreover, it is maintained by the official organisation responsible for the Nobel Prize and should thus be complete and correct. 
