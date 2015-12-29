@@ -31,7 +31,7 @@ print "| G7's Google Scholar Rank Downloader |\n";
 print "'-------------------------------------'\n";
 
 # Read all names
-%rankings = {};
+%rankings;
 $toFind = 0;
 while (<$file>) {
   chomp;
@@ -105,7 +105,7 @@ foreach $k (keys %rankings) {
     $n = `perl getScholarRanking.pl \"$k\"`;
   }
   # print "perl getScholarRanking.pl \"$k\" $proxy\n";
-  if ($n != "") {
+  if (defined $n) {
     $rankings{$k} = $n;
   }
   print "\t$k\t$n\n";
@@ -116,7 +116,7 @@ foreach $k (keys %rankings) {
   }
 
   if ($TIMING) {
-    sleep (15 + int(rand(45)));
+    sleep (15 + int(rand(15)));
   }
 }
 
@@ -125,7 +125,7 @@ close $file;
 print " -> Done! Writing to file...\n";
 open $file, '>', "../data/scholarrankings.csv";
 
-foreach $k (keys %rankings) {
+foreach $k (sort keys %rankings) {
   print $file join(',', $k, $rankings{$k}) . "\n";
 }
 
