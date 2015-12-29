@@ -100,6 +100,9 @@ public class Main {
 
     public static String getSolutionLiteral(QuerySolution solution, String rv) {
         try {
+            if (rv.equals("by")){
+                return solution.getLiteral(rv).getValue().toString().substring(0,4);
+            }
             return solution.getLiteral(rv).getValue().toString();
         } catch (NullPointerException e) {
             return " ";
@@ -128,7 +131,7 @@ public class Main {
         try {
             FileWriter writer = new FileWriter(fileName, true);
 
-            writer.append(strings.get(0).replace("\n","") + " " + strings.get(1).replace("\n","")).append(";");
+            writer.append(strings.get(0).replace("\n", "") + " " + strings.get(1).replace("\n","")).append(";");
             for (int i = 2; i < strings.size() - 1; i++) {
 
                 writer.append(strings.get(i).replace("\n","")).append(";");
