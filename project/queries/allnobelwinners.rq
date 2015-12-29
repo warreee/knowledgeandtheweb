@@ -16,17 +16,20 @@ PREFIX freebase: <http://rdf.freebase.com/ns/>
 PREFIX dbpprop: <http://dbpedia.org/property/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX db: <http://dbpedia.org/>
 
-SELECT DISTINCT ?givenName ?familyName ?prizeName ?uniName 
+SELECT DISTINCT ?givenName ?familyName ?by ?country ?uniName
 WHERE {
   ?laur rdf:type nobel:Laureate .
   ?laur foaf:familyName ?familyName .
   ?laur foaf:givenName ?givenName .
-  #?laur nobel:nobelPrize ?prijs .
-  #?prijs nobel:category ?var .
-  #?var skos:altLabel ?prizeName .
-  #?laur nobel:laureateAward ?award .
-  #?award nobel:university ?uni .
-  #?uni rdfs:label ?uniName .
+  ?laur nobel:laureateAward ?award .
+  ?award nobel:university ?uni .
+  ?uni rdfs:label ?uniName .
+  ?laur dbo:birthPlace ?bp .
+  ?bp rdf:type dbo:Country .
+  ?bp rdfs:label ?country .
+  ?laur dbpprop:dateOfBirth ?by .
+
 
 }
