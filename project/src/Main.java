@@ -128,10 +128,10 @@ public class Main {
         try {
             FileWriter writer = new FileWriter(fileName, true);
 
+            writer.append(strings.get(0).replace("\n","") + " " + strings.get(1).replace("\n","")).append("; ");
+            for (int i = 2; i < strings.size() - 1; i++) {
 
-            for (int i = 0; i < strings.size() - 1; i++) {
-
-                writer.append(strings.get(i).replace("\n","")).append(", ");
+                writer.append(strings.get(i).replace("\n","")).append("; ");
             }
 
                 writer.append(strings.get(strings.size() - 1)).append("\n");
@@ -149,11 +149,11 @@ public class Main {
         HashSet<String> user = new HashSet<>();
         HashSet<String> names = new HashSet<>();
         for (String l : lines) {
-            String[] line = l.split(", ");
+            String[] line = l.split("; ");
 
-            user.add(line[0] + line[1]);
+            user.add(line[0]);
 
-            names.add(line[0] + " " + line[1] + "\n");
+            names.add(line[0] + "\n");
 
 
         }
