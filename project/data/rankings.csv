@@ -1,0 +1,499 @@
+Harvard University;100.0
+Stanford University;89.6
+Massachusetts Institute of Technology (MIT);80.7
+University of California, Berkeley;79.4
+University of Cambridge;96.6
+Princeton University;93.4
+California Institute of Technology;66.7
+Columbia University;65.9
+University of Chicago;86.3
+University of Oxford;54.9
+Yale University;50.4
+University of California, Los Angeles;47.1
+Cornell University;49.8
+University of California, San Diego;35.5
+University of Washington;31.6
+Johns Hopkins University;33.6
+University of Pennsylvania;33.8
+University College London;36.2
+University of California, San Francisco;39.9
+Swiss Federal Institute of Technology Zurich;35.5
+The University of Tokyo;14.1
+University of Michigan-Ann Arbor;0.0
+The Imperial College of Science, Technology and Medicine;35.8
+University of Wisconsin - Madison;34.8
+University of Toronto;17.2
+Kyoto University;37.2
+New York University;31.9
+Northwestern University;22.1
+University of Illinois at Urbana-Champaign;36.2
+University of Minnesota, Twin Cities;16.3
+Duke University;14.9
+Washington University in St. Louis;24.9
+Rockefeller University;59.8
+University of Colorado at Boulder;34.1
+University of Copenhagen;18.8
+Pierre and Marie  Curie University - Paris 6;27.4
+The University of Texas at Austin;16.3
+University of California, Santa Barbara;39.1
+University of North Carolina at Chapel Hill;16.3
+University of British Columbia;18.8
+The University of Manchester;32.6
+University of Paris-Sud (Paris 11);54.3
+University of Maryland, College Park;20.0
+The University of Melbourne;13.3
+The University of Texas Southwestern Medical Center at Dallas;34.5
+Heidelberg University;25.3
+The University of Edinburgh;24.9
+Karolinska Institute;26.6
+University of Southern California;31.7
+University of California, Irvine;29.3
+Technical University Munich;21.6
+University of Munich;19.1
+Vanderbilt University;29.0
+University of Zurich;24.0
+King's College London;21.0
+Utrecht University;20.0
+University of California, Davis;0.0
+University of Geneva;28.2
+University of Oslo;32.6
+Pennsylvania State University - University Park;0.0
+Carnegie Mellon University;31.6
+Purdue University - West Lafayette;23.1
+Uppsala University;27.4
+McGill University;0.0
+Rutgers, The State University of New Jersey - New Brunswick;18.8
+University of Bristol;16.3
+The Hebrew University of Jerusalem;28.2
+The Ohio State University - Columbus;0.0
+University of Helsinki;16.3
+University of Pittsburgh, Pittsburgh Campus;0.0
+Ghent University;13.3
+Ecole Normale Superieure - Paris;28.0
+Aarhus University;22.1
+Boston University;11.5
+Brown University;13.3
+University of Groningen;18.8
+Nagoya University;25.3
+Stockholm University;27.4
+Technion-Israel Institute of Technology;37.6
+The Australian National University;19.2
+The University of Queensland;0.0
+Leiden University;9.4
+University of Florida;0.0
+Rice University;21.7
+Osaka University;0.0
+Moscow State University;33.0
+The University of Western Australia;14.1
+University of Basel;16.3
+University of Strasbourg;28.8
+KU Leuven;0.0
+University of Arizona;0.0
+University of Warwick;29.8
+Arizona State University;20.0
+University of California, Santa Cruz;0.0
+University of Utah;11.5
+McMaster University;18.8
+University of Bonn;19.8
+VU University Amsterdam;0.0
+Michigan State University;0.0
+Texas A&M University;0.0
+Aix Marseille University;0.0
+Baylor College of Medicine;0.0
+Case Western Reserve University;10.9
+Emory University;0.0
+Université libre de Bruxelles (ULB);26.6
+Georgia Institute of Technology;0.0
+Icahn School of Medicine at Mount Sinai;0.0
+Indiana University Bloomington;21.6
+London School of Economics and Political Science;16.3
+Lund University;0.0
+Mayo Medical School;0.0
+Monash University;0.0
+National University of Singapore;0.0
+Norwegian University of Science and Technology - NTNU;21.0
+Peking University;0.0
+Radboud University Nijmegen;0.0
+Seoul National University;0.0
+Shanghai Jiao Tong University;0.0
+Swiss Federal Institute of Technology Lausanne;0.0
+Technical University of Denmark;11.5
+The University of Glasgow;0.0
+The University of New South Wales;0.0
+The University of Sheffield;13.3
+The University of Texas M. D. Anderson Cancer Center;0.0
+Tohoku University;0.0
+Tsinghua University;0.0
+Tufts University;16.3
+University of Alberta;0.0
+University of Amsterdam;0.0
+University of Birmingham;9.4
+University of California, Riverside;0.0
+University of Frankfurt;0.0
+University of Freiburg;18.8
+University of Goettingen;14.9
+University of Leeds;0.0
+University of Liverpool;13.3
+University of Massachusetts Amherst;0.0
+University of Massachusetts Medical School - Worcester;20.0
+University of Montreal;0.0
+University of Muenster;13.3
+University of Nottingham;20.0
+University of Rochester;7.7
+University of Sao Paulo;0.0
+University of Southampton;0.0
+University of Sydney;0.0
+University of Virginia;0.0
+University of Wageningen;0.0
+University Paris Diderot - Paris 7;9.4
+Weizmann Institute of Science;16.3
+Zhejiang University;0.0
+Cardiff University;16.3
+Catholic University of Louvain;13.3
+Erasmus University;14.9
+Fudan University;0.0
+George Mason University;31.9
+Hokkaido University;16.3
+Iowa State University;0.0
+Joseph Fourier University (Grenoble 1);14.9
+King Abdulaziz University;0.0
+King Saud University;0.0
+Nanyang Technological University;0.0
+National Taiwan University;0.0
+North Carolina State University - Raleigh;0.0
+Oregon Health and Science University;0.0
+Oregon State University;0.0
+Queen Mary University of London;0.0
+Sapienza University of Rome;13.3
+Sun Yat-sen University;0.0
+Tel Aviv University;0.0
+The Chinese University of Hong Kong;14.1
+The University of Adelaide;0.0
+The University of Georgia;0.0
+The University of Hong Kong;0.0
+Tokyo Institute of Technology;0.0
+Trinity College Dublin;13.3
+University of Barcelona;0.0
+University of Bern;0.0
+University of Buenos Aires;24.0
+University of Delaware;16.3
+University of Exeter;0.0
+University of Gothenburg;15.4
+University of Hamburg;0.0
+University of Hawaii at Manoa;0.0
+University of Illinois at Chicago;0.0
+University of Iowa;0.0
+University of Kiel;13.3
+University of Koeln;11.5
+University of Miami;0.0
+University of Milan;0.0
+University of Padua;0.0
+University of Paris Descartes (Paris 5);9.4
+University of Pisa;23.1
+University of Science and Technology of China;0.0
+University of Sussex;22.4
+University of Tennessee - Knoxville;0.0
+University of Tuebingen;0.0
+University of Turin;0.0
+University of Vienna;0.0
+University of Wuerzburg;0.0
+Virginia Commonwealth University;14.1
+Autonomous University of Barcelona;0.0
+Autonomous University of Madrid;0.0
+Beijing Normal University;0.0
+Brandeis University;0.0
+Charles University in Prague;0.0
+City University of Hong Kong;0.0
+Claude Bernard University Lyon 1;0.0
+Colorado State University;0.0
+Complutense University of Madrid;0.0
+Curtin University;0.0
+Dalhousie University;0.0
+Dartmouth College;0.0
+Delft University of Technology;0.0
+Durham University;0.0
+Ecole Normale Superieure - Lyon;20.0
+Florida State University;0.0
+Vrije Universiteit Brussel (VUB);0.0
+Harbin Institute of Technology;0.0
+Huazhong University of Science and Technology;0.0
+Indiana University-Purdue University at Indianapolis;0.0
+Jilin University;0.0
+Karlsruhe Institute of Technology (KIT);0.0
+Korea Advanced Institute of Science and Technology;0.0
+Korea University;0.0
+KTH Royal Institute of Technology;14.9
+Kyushu University;0.0
+Laval University;0.0
+Louisiana State University - Baton Rouge;0.0
+Maastricht University;0.0
+Macquarie University;0.0
+Medical University of Vienna;9.4
+Nanjing University;0.0
+National Autonomous University of Mexico;0.0
+National Tsing Hua University;0.0
+Newcastle University;0.0
+Northeastern University;0.0
+Paul Sabatier University (Toulouse 3);0.0
+Polytechnic Institute of Milan;14.9
+Pompeu Fabra University;0.0
+Queen's University;0.0
+RWTH Aachen University;0.0
+Simon Fraser University;0.0
+Stony Brook University;0.0
+Sungkyunkwan University;0.0
+Swedish University of Agricultural Sciences;0.0
+The George Washington University;0.0
+The Hong Kong University of Science and Technology;0.0
+The University of Auckland;0.0
+The University of Calgary;0.0
+The University of Dundee;0.0
+The University of New Mexico - Albuquerque;0.0
+The University of Texas Health Science Center at Houston;15.4
+Toulouse School of Economics;29.8
+TU Dresden;0.0
+University at Buffalo, the State University of New York;0.0
+University of Aberdeen;13.3
+University of Alabama at Birmingham;0.0
+University of Bergen;0.0
+University of Bologna;0.0
+University of Bordeaux;0.0
+University of Cape Town;0.0
+University of Cincinnati;0.0
+University of East Anglia;0.0
+University of Erlangen-Nuremberg;0.0
+University of Florence;0.0
+University of Guelph;0.0
+University of Houston;0.0
+University of Innsbruck;9.4
+University of Kansas;0.0
+University of Kentucky;0.0
+University of Lausanne;0.0
+University of Leicester;0.0
+University of Leipzig;13.3
+University of Liege;0.0
+University of Lisbon;8.1
+University of Lorraine;16.3
+University of Mainz;7.7
+University of Marburg;0.0
+University of Maryland, Baltimore;0.0
+University of Montpellier;0.0
+University of Nebraska - Lincoln;0.0
+University of Notre Dame;0.0
+University of Otago;0.0
+University of Ottawa;0.0
+University of South Carolina - Columbia;0.0
+University of South Florida;0.0
+University of Southern Denmark;0.0
+University of Stuttgart;0.0
+University of Tehran;0.0
+University of the Witwatersrand;0.0
+University of Tsukuba;19.6
+University of Victoria;0.0
+University of Waterloo;0.0
+University of Wollongong;0.0
+University of York;0.0
+Virginia Polytechnic Institute and State University;0.0
+Western University;0.0
+Xian Jiao Tong University;0.0
+Yeshiva University;0.0
+Yonsei University;0.0
+Aalborg University;0.0
+Beihang University;0.0
+Brigham Young University;0.0
+Central South University;0.0
+Chalmers University of Technology;0.0
+Chiba University;0.0
+China Agricultural University;0.0
+China Medical University;0.0
+City University of New York City College;0.0
+Dalian University of Technology;0.0
+Deakin University;0.0
+Drexel University;0.0
+Ecole Polytechnique;0.0
+Eindhoven University of Technology;0.0
+ESPCI ParisTech;18.8
+Federal University of Rio de Janeiro;0.0
+Flinders University;0.0
+Georgetown University;0.0
+Griffith University;0.0
+Hannover Medical School;0.0
+Hanyang University;0.0
+Indian Institute of Science;0.0
+Jagiellonian University;0.0
+James Cook University;0.0
+Keio University;0.0
+King Abdullah University of Science and Technology;0.0
+Kobe University;0.0
+Kyung Hee University;0.0
+Lancaster University;0.0
+Lanzhou University;0.0
+Linkoping University;0.0
+London School of Hygiene & Tropical Medicine;0.0
+Nankai University;0.0
+National and Kapodistrian University of Athens;0.0
+National Cheng Kung University;0.0
+National Chiao Tung University;0.0
+Paris Dauphine University (Paris 9);26.6
+Pohang University of Science and Technology;0.0
+Polytechnic University of Valencia;0.0
+Queen's University Belfast;0.0
+Rensselaer Polytechnic Institute;0.0
+Saint Petersburg State University;0.0
+San Diego State University;0.0
+Scuola Normale Superiore - Pisa;0.0
+Shandong University;0.0
+Sichuan University;0.0
+South China University of Technology;0.0
+Southeast University;0.0
+Swinburne University of Technology;0.0
+Technical University of Berlin;0.0
+Temple University;0.0
+The Hong Kong Polytechnic University;0.0
+The University of Newcastle, Australia;0.0
+The University of Reading;0.0
+The University of Texas at Dallas;0.0
+The University of Texas Health Science Center at San Antonio;0.0
+Thomas Jefferson University;0.0
+Tianjin University;0.0
+Tongji University;0.0
+Tulane University;0.0
+Umea University;0.0
+UNESP;0.0
+University at Albany (State University of New York);0.0
+University College Dublin;0.0
+University of Antwerp;0.0
+University of Belgrade;0.0
+University of Bochum;0.0
+University of Campinas;0.0
+University of Central Florida;0.0
+University of Chile;0.0
+University of Colorado at Denver;0.0
+University of Connecticut;0.0
+University of Duesseldorf;0.0
+University of Duisburg-Essen;0.0
+University of Giessen;0.0
+University of Granada;0.0
+University of Malaya;0.0
+University of Manitoba;0.0
+University of Missouri - Columbia;0.0
+University of Montana - Missoula;0.0
+University of Naples Federico II;0.0
+University of New Hampshire - Durham;0.0
+University of Oregon;0.0
+University of Oulu;0.0
+University of Porto;0.0
+University of Saskatchewan;0.0
+University of St Andrews;0.0
+University of Tasmania;0.0
+University of Technology, Sydney;0.0
+University of Turku;0.0
+University of Twente;0.0
+University of Ulm;0.0
+University of Valencia;0.0
+University of Vermont;0.0
+University of Warsaw;0.0
+University of Wyoming;0.0
+Washington State University;0.0
+Wayne State University;0.0
+Wuhan University;0.0
+Xiamen University;0.0
+Aalto University;0.0
+Aristotle University of Thessaloniki;0.0
+Auburn University;0.0
+Bar-Ilan University;0.0
+Ben-Gurion University of the Negev;0.0
+Bielefeld University;0.0
+Boston College;0.0
+Brunel University;0.0
+Cairo University;0.0
+Capital Medical University;0.0
+Carleton University;0.0
+Catholic University of Chile;0.0
+Catholic University of Korea;0.0
+Catholic University of the Sacred Heart;0.0
+Chang Gung University;0.0
+Clemson University;0.0
+East China University of Science and Technology;0.0
+Eotvos Lorand University;0.0
+Ewha Womans University;0.0
+Federal University of Minas Gerais;0.0
+Federal University of Rio Grande do Sul;0.0
+Florida International University;0.0
+Hiroshima University;0.0
+Istanbul University;0.0
+Kanazawa University;0.0
+Kansas State University;0.0
+King Fahd University of Petroleum & Minerals;0.0
+Kyungpook National University;0.0
+Medical University of Graz;9.4
+Medical University of South Carolina;0.0
+MINES ParisTech;24.9
+Nanjing Medical University;0.0
+Nara Institute of Science and Technology;0.0
+National Sun Yat-Sen University;0.0
+Okayama University;0.0
+Oklahoma State University;0.0
+Peking Union Medical College;0.0
+Polytechnic University of Catalonia;0.0
+Pusan National University;0.0
+Queensland University of Technology;0.0
+Rush University;0.0
+Saint Louis University;11.5
+Sharif University of Technology;0.0
+Soochow University;0.0
+State University of New York Health Science Center at Brooklyn;15.4
+Stellenbosch University;0.0
+Stockholm School of Economics;16.3
+Syracuse University;0.0
+Technical University Darmstadt;0.0
+Technical University of Braunschweig;0.0
+Texas Tech University;0.0
+The University of Texas Medical Branch at Galveston;0.0
+The University of Tokushima;0.0
+Tokyo Medical and Dental University;0.0
+University College Cork;0.0
+University of Alaska - Fairbanks;0.0
+University of Arkansas at Fayetteville;0.0
+University of Arkansas at Little Rock;0.0
+University of Auvergne;0.0
+University of Bath;0.0
+University of Bayreuth;0.0
+University of Bremen;0.0
+University of Coimbra;0.0
+University of Eastern Finland;0.0
+University of Essex;0.0
+University of Ferrara;0.0
+University of Genoa;0.0
+University of Graz;9.4
+University of Halle-Wittenberg;6.7
+University of Hannover;0.0
+University of Jena;0.0
+University of Jyvaskyla;0.0
+University of Konstanz;0.0
+University of KwaZulu-Natal;0.0
+University of Ljubljana;0.0
+University of Maryland, Baltimore County;0.0
+University of Milan - Bicocca;0.0
+University of Nice Sophia Antipolis;0.0
+University of Oklahoma - Norman;0.0
+University of Palermo;0.0
+University of Parma;0.0
+University of Pavia;0.0
+University of Perugia;0.0
+University of Quebec;0.0
+University of Regensburg;0.0
+University of Rennes 1;0.0
+University of Rhode Island;0.0
+University of Roma - Tor Vergata;0.0
+University of Rostock;0.0
+University of Santiago Compostela;0.0
+University of Science, Malaysia;0.0
+University of Seville;0.0
+University of Surrey;0.0
+University of Szeged;13.3
+University of the Basque Country;0.0
+University of Trieste;0.0
+University of Zaragoza;0.0
+Utah State University;0.0
+Vienna University of Technology;0.0
