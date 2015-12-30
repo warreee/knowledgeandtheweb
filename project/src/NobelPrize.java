@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class NobelPrize {
 
     public static void main(String[] args) throws Exception {
-        //nobelQuery("allnobelwinners.rq");
+        nobelQuery("allnobelwinners.rq");
         Main.uniques("data.csv");
     }
 
