@@ -34,6 +34,7 @@ while(<$f>) {
   $universityScores{$u[0]} = $u[1];
 }
 
+# Match universities
 @notFound = ();
 $found = 0;
 foreach $k (keys %data) {
@@ -53,7 +54,7 @@ foreach $k (keys %data) {
 print " -> Found $found scientists with ranked university.\n";
 print " -> Didn't find " . ($#notFound + 1) . " universities.\n";
 print " -> Performing fuzzy search.\n";
-# 
+#
 # foreach $u (@notFound) {
 #   $match = `perl getUniversityRanking.pl \"$u\"`;
 #   print "\t$u -> $match\n";

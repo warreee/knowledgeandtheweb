@@ -29,6 +29,7 @@ foreach $r (@rows) {
 	# Get university name
 	$cells[1] =~ /<a.*?>(.*?)<\/a>/;
 	$name = $1;
+	$name =~ s/\s*\(.+\)//g;
 
 	# Get award score
 	$cells[6] =~ /<div>(.*?)\s<\/div>/;
