@@ -1,6 +1,6 @@
 Harvard University;100.0
 Stanford University;89.6
-Massachusetts Institute of Technology (MIT);80.7
+Massachusetts Institute of Technology;80.7
 University of California, Berkeley;79.4
 University of Cambridge;96.6
 Princeton University;93.4
@@ -39,7 +39,7 @@ University of California, Santa Barbara;39.1
 University of North Carolina at Chapel Hill;16.3
 University of British Columbia;18.8
 The University of Manchester;32.6
-University of Paris-Sud (Paris 11);54.3
+University of Paris-Sud;54.3
 University of Maryland, College Park;20.0
 The University of Melbourne;13.3
 The University of Texas Southwestern Medical Center at Dallas;34.5
@@ -102,7 +102,7 @@ Aix Marseille University;0.0
 Baylor College of Medicine;0.0
 Case Western Reserve University;10.9
 Emory University;0.0
-Universitï¿½ libre de Bruxelles (ULB);26.6
+Université libre de Bruxelles;26.6
 Georgia Institute of Technology;0.0
 Icahn School of Medicine at Mount Sinai;0.0
 Indiana University Bloomington;21.6
@@ -155,7 +155,7 @@ Fudan University;0.0
 George Mason University;31.9
 Hokkaido University;16.3
 Iowa State University;0.0
-Joseph Fourier University (Grenoble 1);14.9
+Joseph Fourier University;14.9
 King Abdulaziz University;0.0
 King Saud University;0.0
 Nanyang Technological University;0.0
@@ -188,7 +188,7 @@ University of Koeln;11.5
 University of Miami;0.0
 University of Milan;0.0
 University of Padua;0.0
-University of Paris Descartes (Paris 5);9.4
+University of Paris Descartes;9.4
 University of Pisa;23.1
 University of Science and Technology of China;0.0
 University of Sussex;22.4
@@ -214,12 +214,12 @@ Delft University of Technology;0.0
 Durham University;0.0
 Ecole Normale Superieure - Lyon;20.0
 Florida State University;0.0
-Vrije Universiteit Brussel (VUB);0.0
+Vrije Universiteit Brussel;0.0
 Harbin Institute of Technology;0.0
 Huazhong University of Science and Technology;0.0
 Indiana University-Purdue University at Indianapolis;0.0
 Jilin University;0.0
-Karlsruhe Institute of Technology (KIT);0.0
+Karlsruhe Institute of Technology;0.0
 Korea Advanced Institute of Science and Technology;0.0
 Korea University;0.0
 KTH Royal Institute of Technology;14.9
@@ -234,7 +234,7 @@ National Autonomous University of Mexico;0.0
 National Tsing Hua University;0.0
 Newcastle University;0.0
 Northeastern University;0.0
-Paul Sabatier University (Toulouse 3);0.0
+Paul Sabatier University;0.0
 Polytechnic Institute of Milan;14.9
 Pompeu Fabra University;0.0
 Queen's University;0.0
@@ -334,7 +334,7 @@ Nankai University;0.0
 National and Kapodistrian University of Athens;0.0
 National Cheng Kung University;0.0
 National Chiao Tung University;0.0
-Paris Dauphine University (Paris 9);26.6
+Paris Dauphine University;26.6
 Pohang University of Science and Technology;0.0
 Polytechnic University of Valencia;0.0
 Queen's University Belfast;0.0
@@ -360,7 +360,7 @@ Tongji University;0.0
 Tulane University;0.0
 Umea University;0.0
 UNESP;0.0
-University at Albany (State University of New York);0.0
+University at Albany;0.0
 University College Dublin;0.0
 University of Antwerp;0.0
 University of Belgrade;0.0
