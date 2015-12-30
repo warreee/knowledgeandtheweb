@@ -18,6 +18,7 @@ open $f, '<', $rankingFile;
 # Parse university scores
 %universityScores;
 while(<$f>) {
+	chomp;
   @u = split /;/, $_;
   $universityScores{$u[0]} = $u[1];
 }
@@ -30,6 +31,6 @@ foreach $u (keys %universityScores) {
   $universityDistances{$u} = pdistance($university, $u, $set, \&distance);
 }
 
-foreach $name (sort { $universityDistances{$a} <=> $universityDistances{$b} } keys %universityDistances) {
-    printf "%-8s %s\n", $name, $universityDistances{$name};
-}
+@sorted = sort { $universityDistances{$a} <=> $universityDistances{$b} }
+				  keys %universityDistances;
+print "$sorted[0] ($universityDistances{$sorted[0]})";
