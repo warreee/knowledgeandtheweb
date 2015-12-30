@@ -14,7 +14,7 @@ public class NobelPrize {
         Main.uniques("data.csv");
     }
 
-    private static void nobelQuery(String queryFile) throws IOException {
+    public static void nobelQuery(String queryFile) throws IOException {
         String queryString = Main.readFile(System.getProperty("user.dir") + "/queries/" + queryFile);
         Query query = QueryFactory.create(queryString);
         QueryExecution qexec = QueryExecutionFactory.sparqlService("http://data.nobelprize.org/sparql", query);
@@ -28,7 +28,7 @@ public class NobelPrize {
                 System.out.println(results.getResultVars());
 
                 List<String> res = results.getResultVars().stream().map(rv -> Main.getSolutionLiteral(solution, rv)).collect(Collectors.toList());
-                Main.writeToCSV(res, "data.csv");
+                Main.writeToCSV(res, true, "data.csv");
                 System.out.println(solution);
             }
 
@@ -37,4 +37,5 @@ public class NobelPrize {
             qexec.close();
         }
     }
+
 }

@@ -1,17 +1,13 @@
 import org.apache.jena.query.*;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.tdb.store.Hash;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -21,9 +17,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         //outerQuery();
-        //dbPedia("scientist.rq");
-        //dbPedia("economist.rq");
-        uniques("data.csv");
+        dbPedia("scientist.rq");
+        dbPedia("economist.rq");
+        NobelPrize.nobelQuery("allnobelwinners.rq");
+        removeAmbiguity("data.csv");
+        uniques("yesno.csv");
     }
 
     private static void dbPedia(String queryFile) throws IOException {
@@ -39,7 +37,7 @@ public class Main {
                 QuerySolution solution = results.nextSolution();
                 System.out.println(solution);
                 List<String> res = results.getResultVars().stream().map(rv -> getSolutionLiteral(solution, rv)).collect(Collectors.toList());
-                writeToCSV(res, "data.csv");
+                writeToCSV(res, false, "data.csv");
                 System.out.println(solution);
             }
 
@@ -87,7 +85,7 @@ public class Main {
             for (; results.hasNext(); ) {
                 QuerySolution solution = results.nextSolution();
                 List<String> res = results.getResultVars().stream().map(rv -> getSolutionLiteral(solution, rv)).collect(Collectors.toList());
-                writeToCSV(res, "data.csv");
+                writeToCSV(res, false, "data.csv");
                 System.out.println(solution);
             }
 
@@ -100,8 +98,8 @@ public class Main {
 
     public static String getSolutionLiteral(QuerySolution solution, String rv) {
         try {
-            if (rv.equals("by")){
-                return solution.getLiteral(rv).getValue().toString().substring(0,4);
+            if (rv.equals("by")) {
+                return solution.getLiteral(rv).getValue().toString().substring(0, 4);
             }
             return solution.getLiteral(rv).getValue().toString();
         } catch (NullPointerException e) {
@@ -127,17 +125,20 @@ public class Main {
     }
 
 
-    public static void writeToCSV(List<String> strings, String fileName) {
+    public static void writeToCSV(List<String> strings, boolean nobel, String fileName) {
         try {
             FileWriter writer = new FileWriter(fileName, true);
 
-            writer.append(strings.get(0).replace("\n", "") + " " + strings.get(1).replace("\n","")).append(";");
-            for (int i = 2; i < strings.size() - 1; i++) {
+            writer.append(strings.get(0).replace("\n", "") + " " + strings.get(1).replace("\n", "")).append(";");
+            for (int i = 2; i < strings.size(); i++) {
 
-                writer.append(strings.get(i).replace("\n","")).append(";");
+                writer.append(strings.get(i).replace("\n", "").replace(";"," ")).append(";");
             }
-
-                writer.append(strings.get(strings.size() - 1)).append("\n");
+            if (nobel) {
+                writer.append("yes\n");
+            } else {
+                writer.append("no\n");
+            }
 
 
             writer.flush();
@@ -165,6 +166,30 @@ public class Main {
 
         System.out.println(user.size());
     }
+
+    public static void removeAmbiguity(String fileName) throws IOException {
+        List<String> lines = readLines(System.getProperty("user.dir") + "/" + fileName);
+        List<String> newLines = new ArrayList<>(lines);
+        for (String l : lines){
+            String[] line = l.split(";");
+            if (line[line.length-1].equals("yes")){
+                String laur = line[0];
+                for (String l2 : lines){
+                    String[] line2 = l2.split(";");
+                    if (laur.equals(line2[0]) && line2[line2.length-1].equals("no")) {
+                        newLines.remove(l2);
+                    }
+                }
+            }
+        }
+        List<String> newLines2 = new ArrayList<>();
+        for (String l : newLines){
+            newLines2.add(l + "\n");
+        }
+
+        writeListToCSV(new ArrayList<>(newLines2), "yesno.csv");
+    }
+
 
     public static void writeListToCSV(List<String> strings, String fileName) {
         try {
