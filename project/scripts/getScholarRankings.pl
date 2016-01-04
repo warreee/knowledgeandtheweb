@@ -4,7 +4,7 @@ use LWP::UserAgent::ProxyHopper;
 use Data::Dumper;
 use List::Util qw(shuffle);
 
-$MAX = 10;
+$MAX = 100;
 $PROXY = 0;
 $TIMING = 1;
 
@@ -116,7 +116,7 @@ foreach $k (keys %rankings) {
   }
 
   if ($TIMING) {
-    sleep (15 + int(rand(15)));
+    sleep (10 + int(rand(20)));
   }
 }
 
