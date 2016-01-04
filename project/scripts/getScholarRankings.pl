@@ -4,7 +4,7 @@ use LWP::UserAgent::ProxyHopper;
 use Data::Dumper;
 use List::Util qw(shuffle);
 
-$MAX = 100;
+$MAX = 1;
 $PROXY = 0;
 $TIMING = 1;
 
