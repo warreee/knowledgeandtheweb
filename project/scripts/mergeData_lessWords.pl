@@ -3,7 +3,7 @@
 use Data::Dumper;
 
 # Read DBPedia file.
-open $dbp, '<', '../data/mergedDBpediaNobel2_lessWords.csv';
+open $dbp, '<', '../data/mergedDBpediaNobelNewUni_Final.csv';
 %data;
 while(<$dbp>) {
   chomp;
@@ -22,7 +22,7 @@ while(<$dbp>) {
 }
 
 # Read university scores
-$rankingFile = "../data/rankings2_lessWords.csv";
+$rankingFile = "../data/rankings_final.csv";
 if (not -e $rankingFile) {
   `perl getRankings.pl rankings`;
 }
@@ -56,8 +56,8 @@ print " -> Didn't find " . ($#notFound + 1) . " universities.\n";
 print " -> Performing fuzzy search.\n";
 
 #foreach $u (@notFound) {
-#   $match = `perl getUniversityRanking.pl \"$u\"`;
+#   $match = `perl getUniversityRanking_lessWords.pl \"$u\"`;
 #   print "\t$u -> $match\n";
-# }
-#print "$notFound[0]\n";
-#print `perl getUniversityRanking.pl $notFound[0]`;
+ #}
+# print "$notFound[0]\n";
+# print `perl getUniversityRanking.pl $notFound[0]`;
