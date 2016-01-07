@@ -41,7 +41,7 @@ Abraham Esau,34
 Abraham H. Taub,7
 Abraham Klein,380
 Abraham Nitzan,348
-Abraham Robinson,
+Abraham Robinson,269
 Abraham Seidenberg,41
 Abraham Sinkov,13
 Abram I. Fet,1
@@ -113,7 +113,7 @@ Alan J. Perlis,82
 Alan Jay Heeger,1
 Alan Kotok,
 Alan Lightman,197
-Alan Lindsay Mackay,
+Alan Lindsay Mackay,9
 Alan Lloyd Hodgkin,11
 Alan M. Taylor,343
 Alan Mackworth,173
@@ -125,7 +125,7 @@ Alan S. Kaufman,292
 Alan Stern,649
 Alan Theodore Sherman,1
 Alan Tower Waterman,5
-Alan Ward,
+Alan Ward,690
 Alan. Ashworth,520
 Alanna Schepartz,170
 Alastair Denniston,72
@@ -221,9 +221,9 @@ Alexander van Oudenaarden,180
 Alexandre Joel Chorin,62
 Alexandre Kirillov,23
 Alexandre Schwartsman,24
-Alexandros Chapsiadis,
+Alexandros Chapsiadis,0
 Alexandru Froda,7
-Alexandru Ghika,
+Alexandru Ghika,5
 Alexandru Proca,4
 Alexei A. Abrikosov,18
 Alexei Borodin,135
@@ -240,11 +240,11 @@ Alfred G. Gilman,
 Alfred G. Knudson,152
 Alfred Haskell Conrad,
 Alfred Henry Sturtevant,29
-Alfred Hershey,
+Alfred Hershey,28
 Alfred J. Marrow,36
 Alfred Kastler,86
 Alfred Kinsey,220
-Alfred Lodge,
+Alfred Lodge,24
 Alfred R. Lindesmith,
 Alfred Rene Jean Paul Ubbelohde,0
 Alfred Rieche,135
@@ -358,7 +358,7 @@ Andrei Andreevich Bolibrukh,0
 Andrei Dmitrievich Sakharov,27
 Andrei Knyazev,0
 Andrei Linde,319
-Andrei Sergeevich Monin,
+Andrei Sergeevich Monin,36
 Andrei Shleifer,850
 Andrei Suslin,
 Andrei Yuryevich Okounkov,0
@@ -380,7 +380,7 @@ Andrew J. Majda,338
 Andrew Keller,326
 Andrew Lang,1.140
 Andrew Liddle,351
-Andrew Michael Bruckner,
+Andrew Michael Bruckner,1
 Andrew Michael Spence,11
 Andrew Nelson Lytle,43
 Andrew Odlyzko,369
@@ -389,7 +389,7 @@ Andrew Sherratt,157
 Andrew Targowski,151
 Andrew V. Schally,
 Andrew Wiles,104
-Andrew Wilson,
+Andrew Wilson,4.010
 Andrew Z. Fire,
 Andrey Kapitsa,3
 Andrey Korolev,51
@@ -578,8 +578,8 @@ Artyom Shneyerov,
 Arvid Carlsson,395
 Arvind Mohan Kayastha,
 Arvind Varma,299
-Asad Naqvi,
-Asaph Hall Jr.,
+Asad Naqvi,53
+Asaph Hall Jr.,20
 Ascher H. Shapiro,
 Asghar Aghamohammadi,223
 Asghar Qadir,230
@@ -599,7 +599,7 @@ Astrid Cleve,124
 Astro Teller,50
 Athanassios S Fokas,
 Athar Ali,200
-Atilla Yayla,
+Atilla Yayla,53
 Atle Selberg,62
 Atta Ur Rahman,555
 Attilio Celant,
@@ -652,7 +652,7 @@ Bartel Leendert van der Waerden,109
 Bartley Christopher Frueh,4
 Barton H. Warnock,26
 Barton Zwiebach,
-Baruch S. Blumberg,
+Baruch S. Blumberg,280
 Baruj Benacerraf,450
 Barun De,151
 Barys Kit,
@@ -791,7 +791,7 @@ Brison Dowling Gooch,10
 Bruce A. Beutler,
 Bruce Ackerman,546
 Bruce Alberts,
-Bruce Ames,
+Bruce Ames,652
 Bruce Bastian,41
 Bruce C. Heezen,198
 Bruce Churchill Murray,
@@ -885,9 +885,9 @@ Carolyn Sherif,126
 Carolyn Talcott,337
 Carsten Carlberg,239
 Carsten Lund,
-Carsten Olsen,
+Carsten Olsen,133
 Casimir Albrecht Willem Jeekel,14
-Casimir Funk,
+Casimir Funk,173
 Cassius Jackson Keyser,54
 Catharine Alice MacKinnon,1
 Catharine Cox,61
@@ -920,7 +920,7 @@ Charles Atwood Kofoid,181
 Charles Bachman,105
 Charles Bradfield Jr. Morrey,0
 Charles Branch Wilson,81
-Charles Brenton Huggins,
+Charles Brenton Huggins,5
 Charles Chinedu Okeahalam,0
 Charles Christian Lauritsen,
 Charles Cotton,304
@@ -998,7 +998,7 @@ Charlotte Johnson Baker,
 Charlotte Moore Sitterly,7
 Charusita Chakravarty,102
 Chaudhry Abdul Majeed,13
-Chaudry Mohammad Aslam,
+Chaudry Mohammad Aslam,0
 Chauncey D. Beadle,
 Chen Ning Franklin Yang,1
 Chen Ning Yang,312
@@ -1126,7 +1126,7 @@ Cyril Ponnamperuma,230
 Cyrus Derman,86
 César Milstein,63
 D. Carleton Gajdusek,430
-D. D. Wall,
+D. D. Wall,87
 D. K. Ray-Chaudhuri,173
 D. Kent Morest,102
 D. R. Fulkerson,210
@@ -1227,7 +1227,7 @@ David Drysdale,60
 David E. Cane,341
 David E. Kuhl,227
 David Eagleman,155
-David Eisenberg,
+David Eisenberg,881
 David Evans,10.300
 David Forbes Hendry,
 David Fowler,1.680
@@ -1243,7 +1243,7 @@ David Goodstein,300
 David Gordon,4.360
 David Green,6.010
 David H Cushing,20
-David H. Hubel,
+David H. Hubel,137
 David Hammond Shepard,2
 David Harbater,70
 David Harvey,3.070
@@ -1446,7 +1446,7 @@ Douglas Dean Osheroff,3
 Douglas Hartree,42
 Douglas Houghton Campbell,137
 Douglas Richard Hofstadter,
-Douglas Robert Stinson,
+Douglas Robert Stinson,20
 Douglas W. Owsley,
 Douglas Youvan,88
 Douglass C. North,469
@@ -1581,7 +1581,7 @@ Edward Witten,561
 Edwin Butterworth Mains,44
 Edwin Catmull,29
 Edwin Evariste Moise,
-Edwin G. Krebs,
+Edwin G. Krebs,278
 Edwin Grant Conklin,
 Edwin H. Colpitts,20
 Edwin Hall,
@@ -1635,7 +1635,7 @@ Ellen Dorrit Hoffleit,0
 Ellen Hayes,65
 Ellen Silbergelld,
 Elliot Aronson,369
-Elliot Montroll,
+Elliot Montroll,5
 Elliott Lieb,522
 Elman Service,
 Elmer Belt,58
@@ -1752,11 +1752,11 @@ Ernest de Koven Leffingwell,2
 Ernesto Enkerlin,
 Ernst Adolph Guillemin,10
 Ernst Antevs,
-Ernst Boris Chain,
+Ernst Boris Chain,23
 Ernst G. Straus,24
 Ernst Levy,202
 Ernst Otto Fischer,
-Ernst Peschl,
+Ernst Peschl,75
 Ernst R. G. Eckert,32
 Ernst Rexer,24
 Ernst Ruska,91
@@ -1775,7 +1775,7 @@ Eshel Ben-Jacob,395
 Eslanda Goode Robeson,7
 Estate V. Khmaladze,33
 Esther Boise Van Deman,15
-Esther Duflo,
+Esther Duflo,543
 Esther Miriam Zimmer Lederberg,0
 Esther Takeuchi,391
 Estia J. Eichten,38
@@ -1798,14 +1798,14 @@ Eugene Van Tamelen,
 Eugenia del Pino,
 Eugenio Bianchi,47
 Eugenio Calabi,70
-Eugenio Elia Levi,
+Eugenio Elia Levi,19
 Eugenio Gaddini,69
 Eugeny Pchelov,0
 Eunseong Kim,51
-Eva Bayer-Fluckiger,
+Eva Bayer-Fluckiger,103
 Eva Joy Pell,0
 Evan Caminker,51
-Evan Durbin,
+Evan Durbin,31
 Evan Flatow,270
 Evelyn M. Witkin,67
 Evgeni Babsky,0
@@ -1929,7 +1929,7 @@ Frank Morley,
 Frank Moulaert,341
 Frank Oppenheimer,118
 Frank Pasquill,15
-Frank Philip Bowden,
+Frank Philip Bowden,17
 Frank Pieter Israel,8
 Frank Pommersheim,
 Frank Popoff,23
@@ -2052,7 +2052,7 @@ G.V. Rao,2.310
 G.W. Pierce,
 Gabriel Carroll,
 Gabriel Lippmann,60
-Gabriel 　Kron,
+Gabriel 　Kron,114
 Gabriele Marranci,
 Gaetano Fichera,
 Gang Tian,
@@ -2071,7 +2071,7 @@ Gary Schuster,
 Gary Seitz,135
 Gary Westfall,58
 Gaston Julia,83
-Gauss Moutinho Cordeiro,
+Gauss Moutinho Cordeiro,37
 Gautam R Desiraju,423
 Geerat J. Vermeij,221
 Gene Amdahl,58
@@ -2085,7 +2085,7 @@ Geoffrey F. Chew,127
 Geoffrey Grant,110
 Geoffrey Grimmett,197
 Geoffrey Ingram Taylor,65
-Geoffrey Marcy,
+Geoffrey Marcy,414
 Geoffrey West,372
 Geoffrey Wilkinson,430
 Geofrrey Fox,
@@ -2095,7 +2095,7 @@ Georg Gottlob,
 Georg Wittig,256
 Georg Zundel,232
 Georg von Békésy,55
-Georg von Tiesenhausen,
+Georg von Tiesenhausen,18
 George A. Akerlof,288
 George A. Miller,
 George A. Olah,1.560
@@ -2178,7 +2178,7 @@ George Wald,311
 George Wells Beadle,
 George Weston,146
 George Whipple,237
-George Whitehead,
+George Whitehead,292
 George Whitesides,1.820
 George Willard Martin,64
 George Wilton Field,8
@@ -2255,7 +2255,7 @@ Ghil'ad Zuckermann,91
 Gholam A. Peyman,702
 Gia Dvali,200
 Giacomo Boni,58
-Giacomo Rizzolatti,
+Giacomo Rizzolatti,301
 Gian Francesco Giudice,129
 Gian Nicola Babini,
 Gian-Carlo Rota,
@@ -2279,7 +2279,7 @@ Gio Wiederhold,514
 Gioacchino Failla,
 Giorgio Parisi,
 Giovanni Alberti,
-Giovanni Arrighi,
+Giovanni Arrighi,545
 Giovanni Battista Grassi,35
 Giovanni Battista Rizza,
 Giovanni Vailati,130
@@ -2305,7 +2305,7 @@ Glenn W Burton,247
 Glenn Watkins,63
 Godfrey Matthew Hewitt,0
 Godfrey N. Hounsfield,40
-Gopal Prasad,
+Gopal Prasad,223
 Gopalasamudram Narayana Iyer Ramachandran,1
 Gopinath Kallianpur,89
 Gordon Allport,665
@@ -2328,7 +2328,7 @@ Graham Budd,131
 Graham Kendall,349
 Graham Robert Allan,1
 Greg Forbes,87
-Gregor Wentzel,
+Gregor Wentzel,79
 Gregorio Baró,6
 Gregorio Ricci-Curbastro,12
 Gregory Abowd,522
@@ -2367,7 +2367,7 @@ Gustav Herglotz,
 Gustav Ludwig Hertz,13
 Gustav Mie,67
 Gustavo Colonnetti,43
-Guy Consolmagno,
+Guy Consolmagno,111
 Guy H. Orcutt,73
 Guy Lloyd-Jones,158
 Guy Walters,
@@ -2375,7 +2375,7 @@ Gwilym Jenkins,93
 Günter Blobel,
 H. C. Verma,
 H. Clyde Wilson,26
-H. David Politzer,
+H. David Politzer,74
 H. Eugene Stanley,1.190
 H. F. Baker,
 H. Jeff Kimble,73
@@ -2404,7 +2404,7 @@ Hamilton O. Smith,169
 Hannah Monyer,178
 Hannes Olof Gösta Alfvén,
 Hanns Malissa,94
-Hans Adolf Krebs,
+Hans Adolf Krebs,65
 Hans Albrecht Bethe,112
 Hans Berger,657
 Hans Bethe,405
@@ -2433,7 +2433,7 @@ Hans Meerwein,111
 Hans Ris,260
 Hans Rosling,116
 Hans Rupe,107
-Hans Samelson,
+Hans Samelson,71
 Hans Schwerdtfeger,
 Hans Sennholz,
 Hans Spemann,101
@@ -2620,7 +2620,7 @@ Henry Harold Welch Pearson,20
 Henry Harpending,191
 Henry Head,182
 Henry Joel Cadbury,110
-Henry Kandrup,
+Henry Kandrup,169
 Henry Kitchener,211
 Henry Leon Feffer,0
 Henry Ludwell Moore,
@@ -2658,7 +2658,7 @@ Herbert Robbins,290
 Herbert S. Green,
 Herbert S. Gutowsky,
 Herbert Scarf,168
-Herbert Spencer Gasser,
+Herbert Spencer Gasser,9
 Herbert Stanley Allen,13
 Herbert Stein,447
 Herbert Wechsler,108
@@ -2997,7 +2997,7 @@ James J. Stoker,8
 James Joseph Heckman,22
 James L. Patton,238
 James L. Pharr,1
-James L. Powell,
+James L. Powell,121
 James Lovelock,
 James M. Buchanan Jr.,0
 James March,
@@ -3079,7 +3079,7 @@ Jean Davignon,312
 Jean Hanson,
 Jean Kuntzmann,
 Jean Piccard,79
-Jean Tirole,
+Jean Tirole,829
 Jean Yves Girard,199
 Jean-Christophe Yoccoz,113
 Jean-Jacques Laffont,568
@@ -3088,7 +3088,7 @@ Jean-Marie Lehn,985
 Jean-Michel Bismut,
 Jean-Michel Coron,182
 Jean-Paul Delahaye,479
-Jean-Pierre Bourguignon,
+Jean-Pierre Bourguignon,294
 Jean-Pierre Changeux,811
 Jean-Pierre Serre,643
 Jean-Pierre Wintenberger,
@@ -3106,7 +3106,7 @@ Jeffrey Sean Lehman,
 Jennifer Rohn,171
 Jens C. Skou,17
 Jerald Ericksen,22
-Jere Humphreys,
+Jere Humphreys,108
 Jeremiah P. Ostriker,
 Jeremy Black,1.550
 Jeremy Nathans,210
@@ -3121,7 +3121,7 @@ Jerome Karle,115
 Jerome Vinograd,110
 Jerome W. Conn,163
 Jerre Noe,
-Jerrold Marsden,
+Jerrold Marsden,727
 Jerry A. Hausman,
 Jerry J. Paul,
 Jerry L. Bona,115
@@ -3164,7 +3164,7 @@ Jocelyne Couture-Nowak,0
 Joe Bastardi,5
 Joe L. Kincheloe,344
 Joe Lutkenhaus,95
-Joe Silk,
+Joe Silk,40
 Joe Thomson,
 Joel Aaron Tropp,0
 Joel Emer,170
@@ -3204,7 +3204,7 @@ John Anthony Pople,4
 John Archibald Wheeler,264
 John Argyris,
 John Augustus Larson,9
-John Avise,
+John Avise,401
 John Axel Nannfeldt,26
 John B. Fenn,131
 John B. Goodenough,
@@ -3393,7 +3393,7 @@ John Warner Backus,1
 John Warnock,173
 John Wayne Mason,0
 John Willard Milnor,70
-John William Heslop Harrison,
+John William Heslop Harrison,14
 John William Scott Cassels,23
 John William Scott Macfie,7
 John Williamson,3.280
@@ -3506,7 +3506,7 @@ Julia Bell,281
 Julian B. Rotter,154
 Julian Besag,74
 Julian Cecil Stanley,
-Julian Cole,
+Julian Cole,150
 Julian Coolidge,
 Julian Huxley,850
 Julian Monge Najera,
@@ -3598,7 +3598,7 @@ Katherine Johnson,524
 Kathleen Carley,757
 Kathleen Kenyon,184
 Kathleen Lonsdale,175
-Kathleen Ollerenshaw,
+Kathleen Ollerenshaw,48
 Kathrin Bringmann,
 Kathryn Hach-Darrow,0
 Kathryn Stephenson,48
@@ -3630,7 +3630,7 @@ Kelvin Lancaster,
 Ken A. Dill,390
 Ken Freeman,162
 Kenichi Fukui,421
-Kenjiro Shoda,
+Kenjiro Shoda,63
 Kenneth A. Ross,302
 Kenneth Appel,195
 Kenneth Arrow,
@@ -3673,7 +3673,7 @@ Kiril Tenekedjiev,54
 Kirill Gurov,
 Kirill Ivanovich Shchelkin,2
 Kirk Bryan,
-Kirsopp Lake,
+Kirsopp Lake,226
 Kitty Poon,6
 Klaus Biemann,152
 Klaus Fuchs,
@@ -3686,7 +3686,7 @@ Klaus von Klitzing,91
 Klim Ivanovich Churyumov,1
 Koenraad W Swart,24
 Kofler Eduard,23
-Kofler Kofler,
+Kofler Kofler,0
 Koichi Tanaka,1.590
 Kollagunta Gopalaiyer Ramanathan,2
 Komaravolu S. Chandrashekhar,0
@@ -3721,7 +3721,7 @@ Kurt Mehlhorn,687
 Kurt Mendelssohn,
 Kurt Reidemeister,
 Kurt Thoroughman,28
-Kurt W. Fischer,
+Kurt W. Fischer,235
 Kurt Wüthrich,569
 Kwanghee Lee,338
 Ky Fan,377
@@ -3731,7 +3731,7 @@ L. David Mech,398
 L. R. Ford,
 L. V. Vaidyanathan,
 Ladislaus Bortkiewicz,
-Lafayette B. Mendel,
+Lafayette B. Mendel,308
 Lal Jayawardane,
 Lalji Singh,297
 Lamberto Cesari,266
@@ -3765,7 +3765,7 @@ Lawrence Krauss,559
 Lawrence Paul Horwitz,
 Lawrence R. Klein,553
 Lawrence Robert Klein,120
-Lawrence Whitaker Morley,
+Lawrence Whitaker Morley,1
 Leah Jamieson,
 Leason Heberling Adams,
 Ledyard Tucker,132
@@ -3812,7 +3812,7 @@ Leonard Carmichael,
 Leonard E. Gillman,0
 Leonard Erskine Hill,10
 Leonard Eugene Dickson,288
-Leonard Herzenberg,
+Leonard Herzenberg,384
 Leonard Jimmie Savage,3
 Leonard Kleinrock,406
 Leonard L. Jr. Northrup,0
@@ -3985,7 +3985,7 @@ M. Mahadevappa,
 M. P. Parameswaran,37
 M. Postman,587
 M. Qasim Jan,145
-M. S. Bartlett,
+M. S. Bartlett,883
 M. Stanley Livingston,91
 M. Susan Montgomery,
 M.S. Swaminathan,1.420
@@ -4112,7 +4112,7 @@ Mark Gillachrist Marlborough Pryor,0
 Mark Guzdial,363
 Mark H. Beers,108
 Mark H. Overmars,262
-Mark Hersam,
+Mark Hersam,437
 Mark Inghram,116
 Mark Kac,205
 Mark Keane,
@@ -4219,7 +4219,7 @@ Maurice Ewing,495
 Maurice Goldhaber,78
 Maurice Hugh Frederick Wilkins,6
 Maurice Lenz,46
-Maurice Marie Alfred Couette,
+Maurice Marie Alfred Couette,0
 Maurice Nivat,
 Maurice Obstfeld,614
 Maurice Rabb Jr.,0
@@ -4227,7 +4227,7 @@ Maurice S. Fox,66
 Maurice Vincent Wilkes,
 Maurice W. Long,32
 Mauro Galetti,190
-Mauro Picone,
+Mauro Picone,110
 Maw-Kuen Wu,126
 Max Barrett,14
 Max Bodenstein,
@@ -4262,7 +4262,7 @@ Meemann Chang,
 Megh Nad Saha,21
 Mehdi Ghalibafian,5
 Mehmet Toner,524
-Mehrdad Abedi,
+Mehrdad Abedi,129
 Meie Ren,27
 Meir Wilchek,357
 Melanie Sanford,212
@@ -4321,7 +4321,7 @@ Michael Healy,502
 Michael Hudson,1.350
 Michael Inzlicht,133
 Michael J. C. Gordon,86
-Michael J. Drake,
+Michael J. Drake,170
 Michael J. Flynn,
 Michael J. Kuhar,467
 Michael James Gaffey,5
@@ -4348,7 +4348,7 @@ Michael Ristow,149
 Michael Rosbach,3
 Michael Rothschild,350
 Michael Roukes,158
-Michael S Engel,
+Michael S Engel,579
 Michael S. Brown,948
 Michael Schroeder,
 Michael Segal,
@@ -4407,13 +4407,13 @@ Miles Reid,
 Milica Kacin Wohinz,28
 Milomir Kovac,4
 Miltiadis Papanikolaou,3
-Milton Friedman,
+Milton Friedman,2.050
 Milton Harris,
 Milton S. Plesset,77
 Milton Van Dyke,110
 Min Chiu Li,9
 Minhyong Kim,68
-Miriam Elizabeth Simpson,
+Miriam Elizabeth Simpson,13
 Miron Nicolescu,
 Mitchell Joachim,23
 Mitsuhiro Yanagida,294
@@ -4431,7 +4431,7 @@ Monica Wilson,
 Montgomery Atwater,11
 Montgomery Knight,45
 Montgomery McFate,23
-Montrose Wolf,
+Montrose Wolf,115
 Moonis Ahmar,106
 Morikazu Toda,114
 Morris E. Leeds,30
@@ -4446,7 +4446,7 @@ Moses Gomberg,
 Moshe Kam,287
 Moshe Y. Vardi,672
 Mourad E. H. Ismail,
-Moustapha Kassem,
+Moustapha Kassem,296
 Mstislav Keldysh,16
 Mu Guoguang,184
 Mubarak Alhammad,1
@@ -4468,7 +4468,7 @@ Murray Newton Rothbard,79
 Murray Protter,109
 Murray Roston,85
 Muzafer Sherif,253
-Myhailo Yadrenko,
+Myhailo Yadrenko,0
 Mylswamy Annadurai,6
 Myron S. Scholes,206
 Myron Scholes,287
@@ -4483,7 +4483,7 @@ Nahum Sonenberg,593
 Nalini Ambady,234
 Nancy Andrews,332
 Nancy Davis Griffeth,4
-Nancy M. Adams,
+Nancy M. Adams,20
 Nancy Rothwell,335
 Naomi Feinbrun-Dothan,18
 Naomi Meara,72
@@ -4499,7 +4499,7 @@ Nathan Marcuvitz,32
 Nathan Myhrvold,
 Nathan Rosen,250
 Nathan Seiberg,
-Nathan Wolfe,
+Nathan Wolfe,150
 Naum Akhiezer,
 Naum Meiman,10
 Neal Menzies,156
@@ -4661,7 +4661,7 @@ Oreste Piro,118
 Orrin Frink Jr.,
 Osamu Hayaishi,737
 Osamu Shimomura,407
-Oscar Kempthorne,
+Oscar Kempthorne,218
 Oscar Zariski,193
 Oskar Anderson,152
 Oskar Bolza,78
@@ -4683,7 +4683,7 @@ Otto Lehmann,369
 Otto Loewi,67
 Otto Newman,66
 Otto Paul Hermann Diels,2
-Otto Rank,
+Otto Rank,407
 Otto Redlich,96
 Otto Schmidt,1.120
 Otto Schott,57
@@ -4691,7 +4691,7 @@ Otto Stern,95
 Otto Struve,
 Otto Wallach,28
 Otto Wichterle,73
-Owen Chamberlain,
+Owen Chamberlain,104
 Owen Willans Richardson,39
 P. B. Gajendragadkar,29
 P. Eline Slagboom,286
@@ -4717,7 +4717,7 @@ Patrick Brosnan,
 Patrick Christopher Steptoe,6
 Patrick David Wall,6
 Patrick E. Haggerty,37
-Patrick Geddes,
+Patrick Geddes,277
 Patrick J. Hayes,192
 Patrick Maynard Stuart Blackett,45
 Patrick O. Brown,
@@ -4745,7 +4745,7 @@ Paul C.W. Davies,109
 Paul Calaway,7
 Paul Cohn,149
 Paul Corkum,256
-Paul Crawford,
+Paul Crawford,532
 Paul D. Boyer,235
 Paul Davidson,1.150
 Paul De Grauwe,926
@@ -4774,10 +4774,10 @@ Paul I. Terasaki,577
 Paul J. Bohannan,18
 Paul J. Cohen,48
 Paul J. Crutzen,331
-Paul J. Flory,
+Paul J. Flory,250
 Paul J. Sachs,22
 Paul J. Turek,149
-Paul Johnsgard,
+Paul Johnsgard,506
 Paul Joskow,393
 Paul Julian,509
 Paul Kalas,139
@@ -4798,7 +4798,7 @@ Paul Meehl,244
 Paul Meier,567
 Paul Midgley,194
 Paul Milgrom,
-Paul Newbold,
+Paul Newbold,268
 Paul Newman,1.300
 Paul Olum,22
 Paul Patterson,1.010
@@ -4808,12 +4808,12 @@ Paul R. Ehrlich,798
 Paul Radin,256
 Paul Sabatier,819
 Paul Saltman,
-Paul Samuelson,
-Paul Scherrer,
+Paul Samuelson,1.630
+Paul Scherrer,237
 Paul Schlack,62
 Paul Seidel,388
 Paul Shrivastava,195
-Paul Steinhardt,
+Paul Steinhardt,376
 Paul Terence Callaghan,
 Paul Tseng,228
 Paul V. Kroskrity,103
@@ -4871,8 +4871,8 @@ Peter Debye,134
 Peter Doherty,
 Peter Drysdale,317
 Peter Duesberg,298
-Peter Elias,
-Peter Fibiger Bang,
+Peter Elias,1.040
+Peter Fibiger Bang,127
 Peter Finke,238
 Peter Freund,
 Peter Fulde,289
@@ -4885,7 +4885,7 @@ Peter Hall,
 Peter Henrici,297
 Peter Heszler,
 Peter Higgs,285
-Peter Hilton,
+Peter Hilton,548
 Peter Hirsch,358
 Peter Hotez,542
 Peter Huttenlocher,
@@ -5108,7 +5108,7 @@ Ray C. Dougherty,23
 Ray DR. Crist,0
 Ray Huang,362
 Ray Hyman,125
-Ray Lannom Watts,
+Ray Lannom Watts,1
 Ray Wendland,17
 Raymond A. Price,
 Raymond B. Cattell,
@@ -5146,7 +5146,7 @@ Reuven Amitai,
 Revaz Gamkrelidze,80
 Reviel Netz,113
 Reynold C. Fuson,301
-Reza Sadeghi,
+Reza Sadeghi,729
 Riadh Sidaoui,3
 Riaz Ahsan,5
 Ricardo Bressani,617
@@ -5201,7 +5201,7 @@ Richard Herrnstein,182
 Richard J. Puddephatt,566
 Richard J. Roberts,345
 Richard Janko,123
-Richard Klein,
+Richard Klein,2.320
 Richard Kuhn,
 Richard Lashof,
 Richard Laurence Millington Synge,
@@ -5223,7 +5223,7 @@ Richard N. Aslin,268
 Richard N. Zare,956
 Richard Nelson Frye,
 Richard P. Feynman,275
-Richard P. Smiraglia,
+Richard P. Smiraglia,177
 Richard Perham,251
 Richard Pollack,251
 Richard Portes,435
@@ -5260,11 +5260,11 @@ Robert A. Millikan,177
 Robert A. Mundell,
 Robert A. Sutermeister,
 Robert A. Woodruff,124
-Robert Abbe,
+Robert Abbe,92
 Robert Ackman,240
 Robert Adler,1.270
 Robert Agnew,242
-Robert Alan Frosch,
+Robert Alan Frosch,3
 Robert Alan Good,6
 Robert Alexander Rankin,89
 Robert Allen Phillips,4
@@ -5272,7 +5272,7 @@ Robert Andrews Millikan,
 Robert Anthony Kowalski,2
 Robert Aumann,289
 Robert Ayres,695
-Robert B Merrifield,
+Robert B Merrifield,21
 Robert B. Darnell,149
 Robert B. Jr. Ekelund,1
 Robert B. Laughlin,71
@@ -5319,7 +5319,7 @@ Robert F. Engle,368
 Robert F. Engle III,5
 Robert F. Furchgott,110
 Robert F. Tinker,
-Robert Firestone,
+Robert Firestone,100
 Robert Folinsbee,
 Robert Frascino,
 Robert Frederick Christy,4
@@ -5379,7 +5379,7 @@ Robert Metzenberg,117
 Robert Millner Shackleton,6
 Robert Mond,
 Robert Mundell,429
-Robert Noble,
+Robert Noble,608
 Robert O. Mendelsohn,
 Robert Otto Becker,2
 Robert Perloff,138
@@ -5438,7 +5438,7 @@ Roberto Refinetti,140
 Robin Boadway,524
 Robin Charon,0
 Robin Coombs,30
-Robin Hartshorne,
+Robin Hartshorne,184
 Robin Hill,314
 Robin Oliver Gandy,5
 Robin Tolmach Lakoff,75
@@ -5447,7 +5447,7 @@ Robion Kirby,77
 Robley C. Williams,206
 Robley D. Evans,146
 Roderic Ai Camp,178
-Roderick J. McDavis,
+Roderick J. McDavis,33
 Roderick MacKinnon,174
 Roderick Mackinnon,
 Roderick Sprague,191
@@ -5455,7 +5455,7 @@ Rodger Doxsey,20
 Rodney Allen Brooks,
 Rodney H. Banks,49
 Rodney R. Porter,39
-Rodney Robert Porter,
+Rodney Robert Porter,6
 Rodrigue Tremblay,96
 Roel Nusse,184
 Roel Vertegaal,156
@@ -5492,7 +5492,7 @@ Rolf Singer,
 Rollin D. Salisbury,84
 Roman Frydman,239
 Roman Ivanovich Personov,0
-Roman Juszkiewicz,
+Roman Juszkiewicz,46
 Roman Sexl,169
 Roman Sikorski,115
 Ron Eglash,102
@@ -5507,7 +5507,7 @@ Ronald David Ekers,3
 Ronald Ernest Aitchison,2
 Ronald Fagin,276
 Ronald Fisher,1.540
-Ronald George Wreyford Norrish,
+Ronald George Wreyford Norrish,13
 Ronald Graham,
 Ronald Greeley,599
 Ronald H. Coase,
@@ -5651,7 +5651,7 @@ Sankar K Pal,498
 Santiago Ramón y Cajal,429
 Santosh Vempala,233
 Sara Arber,
-Sara Billey,
+Sara Billey,68
 Sara Seager,293
 Sarah Elizabeth Stewart,9
 Sarah Franklin,
@@ -5673,7 +5673,7 @@ Scott Cowen,85
 Scott D. Sampson,93
 Scott Ellsworth Forbush,0
 Scott Shenker,603
-Scott Tremaine,
+Scott Tremaine,256
 Seale Harris,62
 Seamus Deane,252
 Sean B. Carroll,
@@ -5683,7 +5683,7 @@ Sean Michael Carroll,10
 Seishi Kikuchi,57
 Selman Abraham Waksman,
 Semen Altshuler,1
-Semyon Gluzman,
+Semyon Gluzman,30
 Serge Haroche,192
 Sergei Alexandrovich Zhevakin,0
 Sergei Godunov,97
@@ -5691,7 +5691,7 @@ Sergei Gukov,102
 Sergei Kapitsa,
 Sergei Lvovich Sobolev,12
 Sergei Natanovich Bernstein,1
-Sergei Vasiljevich Lebedev,
+Sergei Vasiljevich Lebedev,0
 Sergei Voloshin,57
 Sergei Winogradsky,5
 Sergey Borisovich Stechkin,
@@ -5718,7 +5718,7 @@ Seymour Benzer,160
 Seymour Ginsburg,181
 Seymour Itzkoff,64
 Seymour Lester Hess,0
-Seymour Roger Cray,
+Seymour Roger Cray,0
 Shafi Goldwasser,234
 Shahn Majid,202
 Shakuntala Singh,49
@@ -5731,7 +5731,7 @@ Sheela Basrur,21
 Sheila Patricia Violet Sherlock,
 Shekhar C. Mande,70
 Sheldon Lee Glashow,
-Sheldon Weinbaum,
+Sheldon Weinbaum,205
 Shelton H. Davis,100
 Shere Hite,140
 Sheridan Titman,
@@ -5772,14 +5772,14 @@ Silvio A. Bedini,151
 Silvio Micali,
 Simeon Burt Wolbach,29
 Simion Stoilow,
-Simon Conway Morris,
+Simon Conway Morris,238
 Simon Flexner,265
 Simon Henry Gage,67
 Simon Kirwan Donaldson,6
 Simon Kuznets,682
 Simon Levay,93
 Simon Mitton,140
-Simon Penny,
+Simon Penny,89
 Simon Ramo,176
 Simon Saunders,
 Simon Schaffer,338
@@ -5863,7 +5863,7 @@ Stefan Th. Gries,218
 Stefan W. Hell,422
 Stefanie Dimmeler,640
 Stefano Zamagni,411
-Sten Grillner,
+Sten Grillner,344
 Stepan Malkhasyants,0
 Stephan W. Koch,375
 Stephen Arthur Cook,2
@@ -5944,7 +5944,7 @@ Susan Athey,188
 Susan Beth Horwitz,0
 Susan D. Shaw,36
 Susan Leeman,
-Susan Lindquist,
+Susan Lindquist,416
 Susan Miller Rambo,0
 Susan Watts,342
 Susanne Albers,151
@@ -5955,7 +5955,7 @@ Svante August Arrhenius,
 Sven Windahl,68
 Svend Oluf Heiberg,
 Svetlana Ivanovna Gerasimenko,0
-Swapan Chattopadhyay,
+Swapan Chattopadhyay,100
 Swayambar Prasad Sudrania,0
 Sy D. Friedman,77
 Sydney Brenner,539
@@ -5966,7 +5966,7 @@ Syed Mahmood Naqvi,2
 Syed Zahoor Qasim,9
 Sylvain Cappell,
 Sylvester James Gates,
-Syun-Ichi Akasofu,
+Syun-Ichi Akasofu,192
 Szolem Mandelbrojt,
 T K Sreeprada Rao,0
 T. A. Springer,1.440
@@ -6148,7 +6148,7 @@ Tord Palander,24
 Torey L. Hayden,
 Torsten N. Wiesel,81
 Torsten Persson,465
-Toshihide Maskawa,
+Toshihide Maskawa,69
 Toshikazu Sunada,132
 Toshio Hirano,446
 Tracy Kay Camp,2
@@ -6275,7 +6275,7 @@ Volker Berghahn,245
 W. Brian Harland,24
 W. E. B. Du Bois,1.280
 W. I. Thomas,477
-W. Michael Hanemann,
+W. Michael Hanemann,261
 W. Richard Stevens,236
 W. Roger Graham,0
 Waheed Qureshi,55
@@ -6357,7 +6357,7 @@ Wendelin Werner,139
 Wendell Meredith Stanley,20
 Wengyik Yeong,10
 Werner Arber,252
-Werner E. Reichardt,
+Werner E. Reichardt,4
 Werner Forssmann,
 Werner Hildenbrand,171
 Werner Karl Heisenberg,18
@@ -6450,7 +6450,7 @@ William Francis Giauque,
 William Francis Hillebrand,35
 William Fulton,
 William G. Doerner,64
-William Gardner Smith,
+William Gardner Smith,20
 William George MacCallum,40
 William George Unruh,2
 William Giauque,34
@@ -6481,7 +6481,7 @@ William J. Clench,62
 William J. Dreyer,176
 William J. Youden,7
 William Jaco,
-William James Mayo,
+William James Mayo,24
 William Jason Morgan,3
 William Joscelyn Arkell,
 William Julius Wilson,453
@@ -6518,7 +6518,7 @@ William Ralph Maxon,28
 William Ramsey,400
 William Rapson,36
 William Robert Freudenburg,0
-William Roush,
+William Roush,489
 William Shainline Middleton,14
 William Shockley,341
 William Standish Knowles,5
@@ -6557,7 +6557,7 @@ Wolfgang Franz,970
 Wolfgang Hahn,
 Wolfgang Ketterle,292
 Wolfgang Paul,698
-Wolfgang Pauli,
+Wolfgang Pauli,644
 Wolfgang Pree,174
 Wolfgang Sachs,474
 Wolfram Burgard,641
