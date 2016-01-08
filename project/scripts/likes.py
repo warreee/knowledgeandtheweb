@@ -20,13 +20,14 @@ def getLikes(persons):
         try:
             nbLikes = subprocess.Popen("perl getLikes.pl '{}'".format(person.replace("'","")), shell=True, stdout=subprocess.PIPE).stdout.read()
             nb = nbLikes.decode(encoding="utf-8")
-
+            if nb == 'Invalid access token.\n':
+                break #usekey probably expired
             if nb == '':
                 nb = '0'
             print([person, nb])
             likes.append([person, nb])
         except Exception as e:
-            print("The following error occured:")
+            print("The following error occurred:")
             print(e)
             print("Unable to find {}".format(person))
             likes.append([person, '$$$'])
@@ -51,7 +52,7 @@ def getNames(csv):
 
 
 def printCSV(list):
-    ofile = open('likes.csv', "wt")
+    ofile = open('likes.csv', "at")
     writer = CSV.writer(ofile, delimiter=';')
     for i in list:
         writer.writerow(i)
