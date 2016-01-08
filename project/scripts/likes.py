@@ -24,7 +24,6 @@ def getLikes(persons):
                 break #usekey probably expired
             if nb == '':
                 nb = '0'
-            print([person, nb])
             likes.append([person, nb])
         except Exception as e:
             print("The following error occurred:")

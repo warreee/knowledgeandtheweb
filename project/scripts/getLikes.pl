@@ -7,7 +7,7 @@ use Data::Dumper;
 use List::Util qw(max);
 
 $name = $ARGV[0];
-$access_token = "CAACEdEose0cBAEnbk3ut3sJmu46UNSAtJbOyZCvqX89pOuL22pKGXkxgtsgYuB09XHpDJNp007cfc5EpZB2ChfVOmeNo7AUReA9t7sUVvl1WDlzDKhThZBIOeXoNjhiEIEVLD5TZCBi0F38MRMwCcTPhNGPy7Mw9tFqniRJZAxtqmRnufZCugT2J2gwILjAujlQZC2ZBqZB0yHgZDZD";
+$access_token = "CAACEdEose0cBAD4PthZAsdoo7iwRYUErLyBXjNh8oxwT2RWWzfyZB13DpkPCju7kCw6ZCNbX3ZBqj404jZCSkOShmgOeL8pYYw7lQiS8l0gNQLm62QZCKZAicDp77jDhTvr6HYvgyQiktsftt2XXd4SDwJeZBbHrC2nxyoSXu0AQqNmYWHV9BhZCYnz7O0ckRBdd9LcLBM14pP2ZChLcZBpUn2f";
 
 sub getLikes {
   ($id) = @_;
