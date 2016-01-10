@@ -6,6 +6,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,10 +18,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         //outerQuery();
-        dbPedia("scientist.rq");
-        dbPedia("economist.rq");
-        NobelPrize.nobelQuery("allnobelwinners.rq");
-        removeAmbiguity("data.csv");
+        //dbPedia("scientist.rq");
+        //dbPedia("economist.rq");
+        //NobelPrize.nobelQuery("allnobelwinners.rq");
+        //removeAmbiguity("data.csv");
         uniques("yesno.csv");
     }
 
@@ -135,9 +136,9 @@ public class Main {
                 writer.append(strings.get(i).replace("\n", "").replace(";"," ")).append(";");
             }
             if (nobel) {
-                writer.append("yes\n");
+                writer.append("nobel;yes\n");
             } else {
-                writer.append("no\n");
+                writer.append("economist;no\n");
             }
 
 
@@ -178,6 +179,9 @@ public class Main {
                     String[] line2 = l2.split(";");
                     if (laur.equals(line2[0]) && line2[line2.length-1].equals("no")) {
                         newLines.remove(l2);
+                        newLines.remove(l);
+                        line[line.length-2] = line2[line2.length-2];
+                        newLines.add(String.join(";",line));
                     }
                 }
             }

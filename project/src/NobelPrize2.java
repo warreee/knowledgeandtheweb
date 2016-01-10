@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * Created by warreee on 12/16/15.
  */
-public class NobelPrize {
+public class NobelPrize2 {
 
     public static void main(String[] args) throws Exception {
         //nobelQuery("allNobelNames.rq", "allNobelNames.csv");
@@ -41,7 +41,7 @@ public class NobelPrize {
     
     // Get all universities of nobel prize winners from nobelprize.org which were not found on dbpedia
     public static void nobelQuery2(String namesFile, String queryFile, String resultFile, String notFoundFile) throws IOException {
-    	Main.getUniversitiesOfPersons("allNobelNames_notOnDBPedia.csv", "almaMaterOfPerson_nobel.rq", "almaMaterOfPersonNobel.csv", "allNobelNames_notOnNobel.csv", "http://data.nobelprize.org/sparql");
+    	Main2.getUniversitiesOfPersons("allNobelNames_notOnDBPedia.csv", "almaMaterOfPerson_nobel.rq", "almaMaterOfPersonNobel.csv", "allNobelNames_notOnNobel.csv", "http://data.nobelprize.org/sparql");
     }
 
 }
