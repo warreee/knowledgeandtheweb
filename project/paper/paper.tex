@@ -60,9 +60,6 @@
 % \documentclass[10pt,journal,compsoc]{../sty/IEEEtran}
 
 
-
-
-
 % Some very useful LaTeX packages include:
 % (uncomment the ones you want to load)
 
@@ -415,37 +412,11 @@
 \usepackage{hyperref}	
 \usepackage{todonotes}	
 
+\usepackage[english]{babel}
+
 \begin{document}
 %
-% paper title
-% Titles are generally capitalized except for words such as a, an, and, as,
-% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
-% not capitalized unless they are the first or last word of the title.
-% Linebreaks \\ can be used within to get better formatting as desired.
-% Do not put math or special symbols in the title.
 \title{Politicians and Nobel Prizes}
-%
-%
-% author names and IEEE memberships
-% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
-% a structure at a ~ so this keeps an author's name from being broken across
-% two lines.
-% use \thanks{} to gain access to the first footnote area
-% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
-% was not built to handle multiple paragraphs
-%
-%
-%\IEEEcompsocitemizethanks is a special \thanks that produces the bulleted
-% lists the Computer Society journals use for "first footnote" author
-% affiliations. Use \IEEEcompsocthanksitem which works much like \item
-% for each affiliation group. When not in compsoc mode,
-% \IEEEcompsocitemizethanks becomes like \thanks and
-% \IEEEcompsocthanksitem becomes a line break with idention. This
-% facilitates dual compilation, although admittedly the differences in the
-% desired content of \author between the different types of papers makes a
-% one-size-fits-all approach a daunting prospect. For instance, compsoc 
-% journal papers have the author affiliations above the "Manuscript
-% received ..."  text while in non-compsoc journals this is reversed. Sigh.
 
 \author{Katrien Laenen,
         Ward Schodts
@@ -453,8 +424,7 @@
 \IEEEcompsocitemizethanks{\IEEEcompsocthanksitem katrien.laenen@student.kuleuven.be
 \IEEEcompsocthanksitem ward.schodts@student.kuleuven.be
 \IEEEcompsocthanksitem gust.verbruggen@student.kuleuven.be}%
-%\IEEEcompsocthanksitem J. Doe and J. Doe are with Anonymous University.}% <-this % stops an unwanted space
-%\thanks{Manuscript received April 19, 2005; revised September 17, 2014.}
+
 }
 
 % note the % following the last \IEEEmembership and also \thanks - 
@@ -599,12 +569,12 @@ We are interested in finding a model that is able to predict the probability of 
 \subsubsection{Motivation}
 There is a whole process of nominations and selection before the Nobel Prizes are handed out. This is a complex process that takes some time \cite{nobelNomination}.
 Because of the non-triviality of who will win the prize, it would be interesting to have a model that is able to predict how likely a person is to win the prize based on his characteristics. We are mainly interested how this would apply to politicians. 
-\subsubsection{The question}
-\par Therefore the research question which is the center of this paper is:
+\subsubsection{Research question}
+\par For this reason, the question which this paper attempts to answer is:
 \begin{center}
 \textit{"Which European politicians have a high chance of receiving a Nobel Prize?"}	
 \end{center}
-The European politicians which we will investigate are those who settle in the European Parliament. With \textit{a high chance} we mean the numeric probability that one would get awarded.
+In this context, European politicians are those who settle in the European Parliament. With \textit{a high chance} we mean the probability that one would get awarded.
 
 \subsection{Structure of this paper}
 After this introduction we will elaborate on our methodology. We will explain how we will tackle the problem. Next in section 2 we will discuss the data sources that we will use. 
