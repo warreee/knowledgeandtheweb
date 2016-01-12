@@ -12,7 +12,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Main2 {
 
     static int nbNobelWinners;
 	static int nbNobelWinnersFound;
