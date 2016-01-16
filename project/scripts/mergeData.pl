@@ -2,13 +2,13 @@
 
 use Data::Dumper;
 
-$dFile = "mergedDBpediaNobelNewUni_Final.csv";
+$dFile = "mergedDBpediaNobelNewUni_economist_or_scientist_Final.csv";
 $uFile = "rankings_final.csv";
 $lFile = "likes.csv";
 $sFile = "scholarrankings.csv";
 
 %data;              # Main data file
-%rankings;  # University rankings
+%rankings;          # University rankings
 %likes;             # Likes
 %scholar;           # Scholar rankings
 
@@ -18,7 +18,7 @@ $sFile = "scholarrankings.csv";
 open $dbp, '<', "../data/$dFile";
 while(<$dbp>) {
   chomp;
-  ($name, $year, $country, $university) = split ";", $_;
+  ($name, $year, $country, $university, $type) = split ";", $_;
   if (defined $data{$name}) {
     # Already exists, add university.
     push $data{$name}{'university'}, $university;
@@ -27,7 +27,8 @@ while(<$dbp>) {
     $data{$name} = {
       year => $year,
       country => $country,
-      university => [$university]
+      university => [$university],
+      type => $type
     };
   }
 }
