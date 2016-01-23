@@ -1,0 +1,6 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?givenname ?surname WHERE {
+<http://dbpedia.org/resource/Paul_Rubig> foaf:givenName ?givenname .
+<http://dbpedia.org/resource/Paul_Rubig> foaf:surname ?surname .
+}
