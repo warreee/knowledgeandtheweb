@@ -5,19 +5,22 @@
 \centering
 \begin{tabular}{l|l}
 	\textbf{\textsc{Source}} & \textbf{\textsc{Sparql endpoint}} \\ \hline
-	\rule{0pt}{4mm}DBPedia &  \\
-	Year of birth & \textbf{DBPedia} \\
-	University ranking & \textbf{DBPedia} + Shanghai Ranking 2015\\
-	Work Productivity & Google Scholar, \textbf{ToE}\\
-	Popularity & Facebook\\
-	Nobel Prize& \textbf{Nobelprize.org}
+	\rule{0pt}{4mm}DBPedia & \texttt{http://dbpedia.org/sparql/} \\
+	ToE &  \texttt{http://linkedpolitics.ops.few.vu.nl} \\
+	& \texttt{/sparql/} \\
+	Nobel Prize & \texttt{http://data.nobelprize.org/sparql}
 \end{tabular}
-\caption{Overview of used features and their respective sources.}
+\caption{Overview of used Sparql endpoints.}
 \end{table}
 \subsection{Difficulites with LoD}
 In this section we discuss our difficulties that we experienced with linked open data (LoD). These are worth mentioning because they influenced our results.
 
 \subsubsection{The language barrier}
-The great thing about LoD is that it comes in different languages, what means that you have a bigger and a broader information source. 
+The great thing about LoD is that it comes in different languages, what means that you have a bigger and a broader information source.
+Unfortunately it also brings a lot of difficulties with it.
+Not only do the names of people, institutions and other features differ from each other, also the arguments that you give in the queries are sometimes spelled differently.
+All these different namings made it more difficult to match the the right names with the right features.
+That's why we decided to filter everything out that wasn't available in English. One could say that this would create a bias. We decided not to worry about this because the biggest part of LoD is available in English.
 
-\subsubsection{LoD is sometimes broken}
+\subsubsection{It just doesn't work sometimes}
+
