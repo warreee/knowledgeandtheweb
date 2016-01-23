@@ -2,15 +2,27 @@
 
 use Data::Dumper;
 
-$dFile = "mergedDBpediaNobelNewUni_economist_or_scientist_Final.csv";
+$dFile = "mergedDBpediaNobelNewUni_economist_or_scientist_Final_PARSED.csv";
 $uFile = "rankings_final.csv";
 $lFile = "likes.csv";
 $sFile = "scholarrankings.csv";
+$oFile = "finalData.csv";
 
 %data;              # Main data file
 %rankings;          # University rankings
 %likes;             # Likes
 %scholar;           # Scholar rankings
+
+# Header
+@header = (
+  "Nobel",
+  "Country",
+  "Year",
+  "Type",
+  "UniversityScore",
+  "Productivity",
+  "Popularity"
+);
 
 # READ EVERYTHING
 
@@ -18,7 +30,7 @@ $sFile = "scholarrankings.csv";
 open $dbp, '<', "../data/$dFile";
 while(<$dbp>) {
   chomp;
-  ($name, $year, $country, $university, $type) = split ";", $_;
+  ($name, $year, $country, $university, $type, $nobel) = split ";", $_;
   if (defined $data{$name}) {
     # Already exists, add university.
     push $data{$name}{'university'}, $university;
@@ -28,7 +40,8 @@ while(<$dbp>) {
       year => $year,
       country => $country,
       university => [$university],
-      type => $type
+      type => $type,
+      nobel => $nobel
     };
   }
 }
@@ -60,12 +73,42 @@ while(<$sf>) {
 # MERGE EVERYTHING
 
 foreach $name (keys %data) {
+  # Insert likes and publications
   $data{$name}{'likes'} = $likes{$name};
   $data{$name}{'scholar'} = $scholar{$name};
-  print Dumper($data{$name});
-  last;
+  # University matching
+  $score = 0;
+  $c = 0;
+  foreach $uni (@{$data{$name}{'university'}}) {
+    if ($rankings{$uni} != 0) {
+      $score += $rankings{$uni};
+      $c++;
+    }
+  }
+  if ($score > 0) {
+    $score = $score / $c;
+  }
+  $data{$name}{'score'} = $score;
 }
 
+
+open $out, '>', "../data/$oFile";
+$h = join(";", @header);
+print $out "$h\n";
+foreach $name (keys %data) {
+  @properties = (
+    $data{$name}{'nobel'},
+    $data{$name}{'country'},
+    $data{$name}{'year'},
+    $data{$name}{'type'},
+    $data{$name}{'score'},
+    $data{$name}{'scholar'},
+    $data{$name}{'likes'}
+  );
+  $p = join(';', @properties);
+  print $out "$p\n";
+}
+close $out;
 
 # # Match universities
 # @notFound = ();
