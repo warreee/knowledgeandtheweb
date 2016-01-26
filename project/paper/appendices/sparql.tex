@@ -28,12 +28,13 @@ That's why we decided to filter everything out that wasn't available in English.
 Apart from the language problem there seem to be Byzantine problems that are really weird. We don't have an explanation nor a solution to address these problems.
 
 \begin{enumerate}
-\item \textbf{Links are not broken but queries on them don't work}\\
-Take for example the person Paul R\"ubig. There is an data item about him on DBpedia: http://dbpedia.org/page/Paul\_R\"ubig. But if you query this specific resource with the query in listing \ref{lst:dbpedia} you will not get any results.
-\lstinputlisting[language=SQL, caption=Query that doesn't work, label={lst:dbpedia}]{queries/dbpedia.rq}
+\item \textbf{Links are not broken but queries on them don't work.}\\
+Take for example the person Paul R\"ubig. There is an data item about him on DBpedia: \url{http://dbpedia.org/page/Paul\_Rubig}. But if you query this specific resource with the query in Listing~\ref{lst:dbpedia} you will not get any results. 
 
-\item \textbf{\texttt{dati.camera.it} doesn't work at all}\\
-In the ToE database there are lot of reference to the Italian linked open data source \texttt{dati.camera.it}. Unfortunately none of our queries seem to give any result. Even not for a really simple one, as you can see in listing \ref{lst:dati} and this even though its link \url{http://dati.camera.it/ocd/persona.rdf/p35360} seems to work fine.
-
-\lstinputlisting[language=SQL, caption=Query that doesn't work on \texttt{dati.camera.it}, label={lst:dati}]{queries/dati.rq}
+\item \textbf{\texttt{dati.camera.it} doesn't work at all.}\\
+In the ToE database there are lot of reference to the Italian linked open data source \url{dati.camera.it}. Unfortunately none of our queries seem to give any result. Even not for a really simple one, as given in Listing~\ref{lst:dati} and this even though its link \url{http://dati.camera.it/ocd/persona.rdf/p35360} seems to work fine.
 \end{enumerate}
+
+
+\lstinputlisting[language=SQL, caption={Query that doesn't work}, label={lst:dbpedia}, xleftmargin=2em]{queries/dbpedia.rq}
+\lstinputlisting[language=SQL, caption={Query that doesn't work on \texttt{dati.camera.it}}, label={lst:dati}, xleftmargin=2em]{queries/dati.rq}

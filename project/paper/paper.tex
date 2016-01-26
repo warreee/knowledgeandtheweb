@@ -30,12 +30,19 @@
 \usepackage{float}
 \usepackage{stfloats}
 \usepackage{caption}
-\captionsetup{font=scriptsize,labelfont=scriptsize}
+\captionsetup{
+	font=scriptsize,
+	labelfont=scriptsize,
+}
+\captionsetup[lstlisting]{justification=centering}
 
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
-\usepackage{url}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{
+ urlcolor = blue
+}
 
 % Correct bad hyphenation here
 \hyphenation{}
@@ -68,7 +75,7 @@
     showspaces=false,                
     showstringspaces=false,
     showtabs=false,                  
-    tabsize=2
+    tabsize=2,
 }
  
 \lstset{style=mystyle}
@@ -84,7 +91,7 @@
 \usepackage{hyperref}	
 \usepackage{todonotes}	
 
-
+\usepackage{multirow}
 
 \usepackage[english]{babel}
 
@@ -164,9 +171,8 @@ Section~\ref{sec:analysis} focuses on data analysis. This covers some statistics
 
 \section{Future work}
 
-We could broaden our training dataset by not only including people that won a Nobel Prize, but also gathering people who were ever nominated for one. They are not available on the LoD from Nobelprize.org but can be found on the website itself\cite{nominated}. A problem that this data might pose, is the fact that the names of the nominated people are only made public 50 years after their nomination.
-This might create a bias in the data, however this is something that should be investigated.
-Our dataset could maybe also be enlarged with individuals who nominate other candidates. These people might be interesting because they are usually also influencual in the field of study from their proposed candidate.
+We could broaden our training dataset by not only including people that won a Nobel Prize, but also gathering people who were ever nominated for one. They are not available on the LoD from Nobelprize.org but can be found on the website itself\cite{nominated}.
+Our dataset could maybe also be enlarged with individuals who nominate other candidates. These people might be interesting because they are usually also influencial in the field of study from their proposed candidate.
 
 
 \todo[inline]{Nog iets extra?}
@@ -235,6 +241,7 @@ Our dataset could maybe also be enlarged with individuals who nominate other can
 \clearpage
 \input{appendices/googlescholar}
 
+\clearpage
 \input{appendices/sparql}
 
 

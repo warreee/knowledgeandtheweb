@@ -1,6 +1,11 @@
-\pagebreak
 \section{Retrieving data from Google Scholar}
 \label{sec:googlescholar}
 
-Retrieving data from Google Scholar is a laborous task.
-This appendix provides our experience and also our tips on how to scrape Google Scholar.
+Retrieving data from Google Scholar is a laborious task. This appendix provides our experience and also our tips on how to scrape Google Scholar. The idea is mimic a user searching stuff trough a browser.
+
+
+\subsection{Randomised timing.} Halting random amounts of seconds between successive requests vastly increases the number of requests we can do before getting blocked. This happens on two levels: between 15 and 30 seconds between each individual request and another 5 minutes after each 25 requests. 
+
+\subsection{Using cookies.} By performing a search via browser and passing the cookies along with our requests, we trick the server into thinking we are using an actual browser.
+
+\subsection{Using proxies.} We created a script that first scrapes a number of proxies from the internet, verifies if they are not yet blocked by Google Scholar and then performs requests using those proxies. Note that this is very slow, because most random proxies we find are blocked by Google also.
