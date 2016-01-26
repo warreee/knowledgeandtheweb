@@ -7,12 +7,11 @@ use Data::Dumper;
 use List::Util qw(max);
 
 $name = $ARGV[0];
-$access_token = "CAACEdEose0cBAD4PthZAsdoo7iwRYUErLyBXjNh8oxwT2RWWzfyZB13DpkPCju7kCw6ZCNbX3ZBqj404jZCSkOShmgOeL8pYYw7lQiS8l0gNQLm62QZCKZAicDp77jDhTvr6HYvgyQiktsftt2XXd4SDwJeZBbHrC2nxyoSXu0AQqNmYWHV9BhZCYnz7O0ckRBdd9LcLBM14pP2ZChLcZBpUn2f";
+$access_token = "CAACEdEose0cBALUtd3RWhT61HfTF2YRLkvMoUSNGpaGwSZAiAyCs887DauHCN5YMkC7EuOYjUu6E8Ssi5FAZBCevHD4CAH5okwGdGxiOPOCG2k63osgOZCZCHcivBeDhTLC18QrNyfaOdaLK2wLZCzZB4PhHrZATg4LNXQhgdMZAE7TknPb4pzhjKLgXmtwPa0NZCeBMvZAmwmxEiN7Q3efbwS";
 
 sub getLikes {
   ($id) = @_;
   $l_url = URI->new("https://graph.facebook.com/$id");
-
   $l_url->query_form(
     "access_token" => $access_token,,
     "fields" => "likes"
@@ -42,7 +41,6 @@ $json = decode_json $html;
 
 @likes = ();
 foreach $page (@data) {
-
   if ($page->{'name'} =~ /^$name$/) {
     $like = getLikes $page->{'id'};
     push @likes, $like;
