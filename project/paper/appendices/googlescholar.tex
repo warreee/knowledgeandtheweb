@@ -1,16 +1,16 @@
 \section{Retrieving data from Google Scholar}
 \label{sec:googlescholar}
 
-Retrieving data from Google Scholar is a laborious task. This appendix provides our experience and also our tips on how to scrape Google Scholar. The idea is mimic a user searching stuff querying the service trough a browser. All in all, it still took us about 4 days to scrape all 6600 results.
+Retrieving data from Google Scholar is a laborious task. This appendix provides our experience and also our tips on how to scrape Google Scholar. The idea is to mimic a user searching stuff querying the service trough a browser. All in all, it still took us about 4 days to scrape all 6600 results.
 
-\subsection{Randomised timing.} 
+\subsection{Randomised timing} 
 Halting random amounts of seconds between successive requests vastly increases the number of requests we can do before getting blocked. This happens on two levels: between 15 and 30 seconds between each individual request and another 5 minutes after each 25 requests. 
 
-\subsection{Using cookies.} 
+\subsection{Using cookies} 
 By performing a search via browser and passing the cookies along with our requests, we trick the server into thinking we are using an actual browser. It is important that cookies are changed with each request. Luckily, the \texttt{HTTP::Cookie} module for Perl automatically supports this.
 
-\subsection{Using proxies.}
+\subsection{Using proxies}
 We created a script that first scrapes a number of proxies from the internet, verifies if they are not yet blocked by Google Scholar and then performs requests using those proxies. Note that this is very slow, because most random proxies we find are also blocked by Google.
 
-\subsection{Switching IP addresses.}
-Once all other methods fail, switching IP address is the only viable option. An easy way to do this is using mobile networking. By setting up a wireless hotspot on a cellphone, we can query Google Scholar trough mobile carrier networks. Once detected, toggling mobile internet off and on will get you a new IP address from the provider.
+\subsection{Switching IP addresses}
+Once all other methods fail, switching IP addresses is the only viable option. An easy way to do this is using mobile networking. By setting up a wireless hotspot on a cellphone, we can query Google Scholar through mobile carrier networks. Once detected, toggling mobile internet off and on will get you a new IP address from the provider.
