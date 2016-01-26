@@ -70,6 +70,22 @@ The following table gives an overview of which feature information was collected
 
 \subsection{Processing and merging}
 \label{ssec:merging}
-After collecting the data from different sources, it has to be combined in some way. For the most part, this was pretty easy by matching names. The hardest part was matching universities from DBPedia to those retrieved by scraping the ARWU rankings.
-We used a fuzzy matcher that used ... ...
-\todo[inline]{Gust of Katrien, wie had hier nu juist de matching gedaan?, ik ken in ider geval de details niet}
+After collecting the data from different sources, it has to be combined in some way. For the most part, this was pretty easy by matching names. The hardest part was matching the universities of the people with those in the Shanghai rankings to retrieve the correct ranking score. We discuss how we did this in subsection 2.5.1.
+Another difficulty was getting the universities for the Nobel Prize winners. More on this issue can be found in subsection 2.5.2.
+We also performed a small transformation on the countries, as explained in subsection 2.5.3.
+
+\subsubsection{Matching of universities}
+Not all the universities of the people (found on DBpedia) were an exact match with some university from the Shanghai rankings.
+When taking a closer look at these, we discovered that some of them actually were in the list of Shanghai rankings, but with different spelling.
+For this reason, we first applied some transformations on both the universities of the people and those from the Shangai rankings before matching them. These transformations include : setting everything to lowercase, removing everything in parentheses, removing all punctuation, removing the words 'university', 'college', 'state', 'of' and 'the' and removing all white spaces.
+Universities which still not can be found in this way are just expected to have a ranking score of 0.
+
+\subsubsection{Getting the universities for the Nobel Prize winners}
+
+Another problem we encountered was while getting the universities for the Nobel Prize winners. Nobelprize.org does not contain the alma mater for the Nobel Prize winners. Instead, they store the unversity or research institution the Nobel Prize winner was affiliated with when winning the prize. For this reason we had to get the alma maters for the Nobel Prize winners from DBpedia. As Nobelprize.org does not have a \textit{sameAs} link with DBpedia, this also has to be done with simple name matching on the first and last name of the Nobel Prize winner.
+However, DBpedia does not have an alma mater for 580 out of the total of 866 Nobel Prize winners. Since we already have to deal with a situation in which we have a lot of negative examples and a few positive examples, we want to use as many Nobel Prize winners as possible. For this reason, we settled for the universities stored on Nobelprize.org for all Nobel Prize winners for whom we could not find their alma mater on DBpedia.
+However, there are still 191 Nobel Prize winners for whom we could not find a university both on DBpedia and Nobelprize.org and that we omit for this reason.
+
+\subsubsection{Transforming the countries}
+
+We noticed that some Nobel Prize winners had as a country something like 'Germany (now Poland)'. For this reason, we transformed the countries so that everything between parentheses gets removed. We also set all countries to lowercase.
