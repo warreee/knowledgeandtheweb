@@ -3,6 +3,10 @@
 
 First, we determine features of people that might influence their probability of winning a Nobel Prize. They are elaborated in Section~\ref{ssec:features}. Next, we research whether and where this information can be found. The main data source are knowledge bases, also known as Linked Open Data in the Semantic Web. We can use SPARQL queries on an endpoint to easily retrieve structured data \cite{wc3SPARQL}. The used knowledge bases are discussed in Section~\ref{ssec:knowledgebases}. Needed information that is not (yet) linked has to be scraped from websites. These are discussed in Section~\ref{ssec:additional}. We use Perl scripts and regular expressions to extract the data from plain HTML text. All the retrieved data and all the used scripts can be found at the webpage for this paper: \url{kaw.wardschodts.ws}.
 
+\subsection{Training dataset and research dataset}
+% Training : scientist, economist, nobel prize winners (3 categorien) : willen een dataset die sterk op elkaar lijkt: nobelprijs winnaars en niet nobelprijs winnaars en waarvoor we gelijkaardige features kunnen gebruiken
+% Research : european politicians van ToE 
+
 \subsection{Feature selection}
 \label{ssec:features}
 In order to determine whether someone will win a Nobel Prize, a set of reasonable features that the model can base its decisions on is needed. A summary of the chosen features is given here. 
