@@ -1,7 +1,6 @@
 \section{Results}
 \label{sec:results}
 Now that a model is created, we can apply it on our training data. In total, we have 70 politicians for which we found all needed features. The popularity measure for politicians is also transformed using Equation~\ref{eq:logtransform}. Because productivity is not included in the final model, we can discard the number of speeches. Out of those 70 politicians, 4 are classified as positive, although just barely passing the threshold. They are shown, along with their confidence level, in Table~\ref{tbl:confidences}.
-
 \begin{table}[H]
 \centering
 \begin{tabular}{l|c}
@@ -14,3 +13,17 @@ Jerzy Buzek&0.525
 \caption{Confidence for positively predicted politicians.}
 \label{tbl:confidences}
 \end{table}
+\noindent In order to get an idea of how we get these results, we can look at their values for the different features, as shown in Table~\ref{tbl:posfeatures}.
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c}
+\textsc{\textbf{Confidence}}&\textsc{\textbf{Year}}&\textsc{\textbf{\shortstack{University\\Score}}}&\textsc{\textbf{Popularity}}\\ \hline
+\rule{0pt}{4mm}0.555&1925&0&75.315\\
+0.569&1964&0&89.375\\
+0.661&1973&0&100\\
+0.525&1940&0&77.964
+\end{tabular}
+\caption{Features for positively predicted politicians from Table~\ref{tbl:confidences}.}
+\label{tbl:posfeatures}
+\end{table}
+\noindent It shows that Popularity is by far the most important feature according to our model. Note that a lot of popularity is probably acquired by winning a Nobel Prize, so while being a good indicator for whether someone has won a Nobel Prize, using it for prediction might be dangerous without further interpretation. Surprisingly, university score does not play a large role in predicting politicians as positive. Intuitively, since the score is based on producing Nobel Prize winners, this should have more influence.
