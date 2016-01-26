@@ -3,8 +3,8 @@
 To answer the research question we will use the approach described below. The next sections will explain the steps more thoroughly.
 \begin{enumerate}
 \item We think about what properties of previous Nobel Prize winners might be interesting to incorporate in learning a model. This is the feature selection step. Furthermore, we determine whether and where this information can be found.
-\item The available data is then collected by the aid of SPARQL queries and scraping webpages. This is combined into a training dataset and a research dataset. The training dataset consist of all features for scientists and economists that have or have not won a Nobel Prize. This can be used to learn a predictive model. The research data set contains the same features, but then for politicians for which we would like to answer the research question.
-\item Some statistics are applied to the training data to assess its quality. For example, because collecting the data is prone to errors, some outlier detection and removal has to be perfomed.
+\item The available data is then collected by the aid of SPARQL queries and scraping webpages. This is combined into a training dataset and a research dataset. The training dataset consist of all features for scientists and economists that have or have not won a Nobel Prize. This can be used to learn a predictive model. The research dataset contains the same features, but then for politicians for which we would like to answer the research question.
+\item Some statistics are applied to the training data to assess its quality. For example, because collecting the data is prone to errors, some outlier detection and removal has to be performed.
 \item The final training dataset is used to learn a model that is able to predict how likely a person is to win a Nobel Prize. A logistic regression model is used. Because it predicts the probability of particular outcomes, it is perfectly suited to answer the research question. The model's accuracy is assessed using cross-validation on the training dataset.
-\item The final step is applying the learned model on the training dataset and discussing its results. 
+\item The final step is applying the learned model on the research dataset and discussing the results. 
 \end{enumerate}

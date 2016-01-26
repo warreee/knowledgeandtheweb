@@ -147,11 +147,11 @@ Because of the non-triviality of who will win the prize, it would be interesting
 \begin{center}
 \textit{"Which European politicians have a high chance of receiving a Nobel Prize?"}	
 \end{center}
-In this context, European politicians are those who settle in the European Parliament. With \textit{a high chance} we mean the probability that someone would get awarded a Nobel Prize during their lifetime.
+In this context, European politicians are those who settle in the European Parliament. With \textit{a high chance} we mean the probability that someone would get awarded a Nobel Prize during his lifetime.
 
 \subsection{Structure of this paper}
 After this introduction we will elaborate on our methodology. The first section explains how we tackled the problem. The following sections will elaborate on each of these steps. In Section~\ref{sec:data} we discuss the data needed to answer our question and where we get it. 
-Section~\ref{sec:analysis} focuses on data analysis. This covers some statistics to assess the quality of our data and introduces the learned model. We then show the results of applying the model in Section~\ref{sec:results}. To conclude this all we make a conclusion in section 5. Finally, we suggest things that can be interesting for future research.
+Section~\ref{sec:analysis} focuses on data analysis. This covers some statistics to assess the quality of our data and introduces the learned model. We then show the results of applying the model in Section~\ref{sec:results}. To conclude this all we make a conclusion in section 5. Finally, we suggest some things that can be interesting for future research.
 
 \input{sections/methodology}
 \input{sections/data}
@@ -164,8 +164,12 @@ Section~\ref{sec:analysis} focuses on data analysis. This covers some statistics
 
 \section{Future work}
 
-We could broaden our training set by gathering people who were ever nominated for a nobel prize. They can be found on the website form Nobelprize.org. The problem is, that these nominations are only made public 50 years after they were...
-\todo[inline]{verder afmakne}
+We could broaden our training dataset by not only including people that won a Nobel Prize, but also gathering people who were ever nominated for one. They are not available on the LoD from Nobelprize.org but can be found on the website itself\cite{nominated}. A problem that this data might pose, is the fact that the names of the nominated people are only made public 50 years after their nomination.
+This might create a bias in the data, however this is something that should be investigated.
+Our dataset could maybe also be enlarged with individuals who nominate other candidates. These people might be interesting because they are usually also influencual in the field of study from their proposed candidate.
+
+
+\todo[inline]{Nog iets extra?}
 
 % use section* for acknowledgment
 \ifCLASSOPTIONcompsoc

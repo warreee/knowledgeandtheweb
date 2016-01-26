@@ -1,3 +1,4 @@
+\pagebreak
 \section{Linked open data}
 \label{sec:lod}
 \subsection{Sparql endpoints}
@@ -12,27 +13,27 @@
 \end{tabular}
 \caption{Overview of used Sparql endpoints.}
 \end{table}
-\subsection{Difficulites with LoD}
-In this section we discuss our difficulties that we experienced with linked open data (LoD). These are worth mentioning because they influenced our results.
+\subsection{Difficulties with LoD}
+In this section we discuss the difficulties that we experienced with linked open data (LoD). These are worth mentioning because they influenced our results.
 
 \subsubsection{The language barrier}
 The great thing about LoD is that it comes in different languages, what means that you have a bigger and a broader information source.
 Unfortunately it also brings a lot of difficulties with it.
 Not only do the names of people, institutions and other features differ from each other, also the arguments that you give in the queries are sometimes spelled differently.
-All these different namings made it more difficult to match the the right names with the right features.
+All these different namings made it more difficult to match the right names with the right features.
 That's why we decided to filter everything out that wasn't available in English. One could say that this would create a bias. We decided not to worry about this because the biggest part of LoD is available in English.
 
 \subsubsection{It just doesn't work sometimes}
 
-Apart from the language problem there seem to be Byzantine problems that are really weird. We don't have an explation nor a soltion to address these problems.
+Apart from the language problem there seem to be Byzantine problems that are really weird. We don't have an explanation nor a solution to address these problems.
 
 \begin{enumerate}
 \item \textbf{Links are not broken but queries on them don't work}\\
-Take for example the following person Paul Rübig. There is an data item about him on DBpedia:  \url{http://dbpedia.org/page/Paul\_ R\"ubig}. But if you query this specific resource with the query in listing \ref{lst:dbpedia} you will not get any results.
+Take for example the person Paul R\"ubig. There is an data item about him on DBpedia: http://dbpedia.org/page/Paul\_R\"ubig. But if you query this specific resource with the query in listing \ref{lst:dbpedia} you will not get any results.
 \lstinputlisting[language=SQL, caption=Query that doesn't work, label={lst:dbpedia}]{queries/dbpedia.rq}
 
 \item \textbf{\texttt{dati.camera.it} doesn't work at all}\\
-In the ToE database there are lot of reference to the Italian linked open data source \texttt{dati.camera.it}. Unfortunately none of our queries seem to give any result. Even not for a really simple one, as you can see in listing \ref{lst:dati}. Even though it's link \url{http://dati.camera.it/ocd/persona.rdf/p35360} seems to work fine.
+In the ToE database there are lot of reference to the Italian linked open data source \texttt{dati.camera.it}. Unfortunately none of our queries seem to give any result. Even not for a really simple one, as you can see in listing \ref{lst:dati} and this even though its link \url{http://dati.camera.it/ocd/persona.rdf/p35360} seems to work fine.
 
 \lstinputlisting[language=SQL, caption=Query that doesn't work on \texttt{dati.camera.it}, label={lst:dati}]{queries/dati.rq}
 \end{enumerate}
