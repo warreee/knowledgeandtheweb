@@ -28,7 +28,7 @@ In order to get an initial estimate whether it will be significant in the model,
 \end{tabular}
 \end{table} 
 \noindent Using R we find that the true means are not equal with confidence level $0.05$, which is what we hoped for the model.
-\begin{figure*}
+\begin{figure*}[htb]
     \centering
     \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/popuInitialBox.pdf}
@@ -43,7 +43,7 @@ In order to get an initial estimate whether it will be significant in the model,
     \end{subfigure}
     \caption{Distribution plots for raw popularity measure.}
 \end{figure*}
-\begin{figure*}
+\begin{figure*}[htb]
     \centering
     \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/popuTransformedBox}
@@ -72,7 +72,7 @@ The productivity measure does have outliers, because searching Google Scholar is
     \end{subfigure}
     \quad
     \begin{subfigure}[b]{0.3\textwidth}
-        \includegraphics[width=\textwidth]{figures/prodNoOutDensity}
+        \includegraphics[width=\textwidth]{figures/prodNoOutDensity.pdf}
         \caption{After removing outliers}
         \label{fig:prodNoOutDensity}
     \end{subfigure}
@@ -90,10 +90,8 @@ After removing outliers, we rescale the data to $[0, 100]$ per category. The res
 \end{table}
 \noindent Yet again, we test for equality of means and find that they are not equal, however this time only slightly ($p = 0.03971$, only slightly smaller than the default confidence level $0.05$). Note that before removing outliers they were equal according to the test, which supports our decision to remove outliers.
 
+\subsubsection{Resulting training set}
+The resulting training set contains 5486 examples, of which 559 positive and 5243 negative.
+
 \subsection{Learning a model}
-
-
-\todo[inline]{Statistieken i.v.m training en research sets hier?}
-
-
-\todo[inline]{Sectie over difficulties (training data veel negatieve en weinig positieve examples, links die er niet zijn}
+Not only is the data still relatively fuzzy, the problem that we're facing is a hard one. Creating a model with high precision and recall will probably be impossible. Because of the nature of the test, we want models with a high precision, whereas the recall is less relevant. For example, we do not want lots of politicians to be classified as positive, but when is classified as such, we want that prediction to be as accurate as possible.
