@@ -26,17 +26,17 @@ In order to get an initial estimate whether it will be significant in the model,
 \textbf{\textsc{Nobel}} & \textbf{\textsc{Non-nobel}} \\ \hline
 \rule{0pt}{4mm}23.05663&14.44544\\
 \end{tabular}
-\end{table}
-Using R we find that the true means are not equal, which is what we hoped for the model.
+\end{table} 
+\noindent Using R we find that the true means are not equal with confidence level $0.05$, which is what we hoped for the model.
 \begin{figure*}
     \centering
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/popuInitialBox.pdf}
         \caption{Boxplot}
         \label{fig:popuInitialBox}
     \end{subfigure}
-    ~
-    \begin{subfigure}[b]{0.4\textwidth}
+    \quad
+    \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/popuInitialDensity}
         \caption{Density plot}
         \label{fig:popuInitialDensity}
@@ -45,13 +45,13 @@ Using R we find that the true means are not equal, which is what we hoped for th
 \end{figure*}
 \begin{figure*}
     \centering
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/popuTransformedBox}
         \caption{Boxplot}
         \label{fig:popuTransformedBox}
     \end{subfigure}
-    ~
-    \begin{subfigure}[b]{0.4\textwidth}
+    \quad
+    \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/popuTransformedDensity}
         \caption{Density plot}
         \label{fig:popuTransformedDensity}
@@ -61,13 +61,39 @@ Using R we find that the true means are not equal, which is what we hoped for th
 
 \subsubsection{Productivity measure}
 \label{sssec:productivity}
+The productivity measure does have outliers, because searching Google Scholar is always a fuzzy search. For example, searching for "Edgar Allen" gives us a result of 996 publications, which is  probably an overestimate. In order to remove these, we perform standard outlier detection, so we remove all points that lie beyond the extremes of the whiskers. The whiskers are extended to 1.5 times the length of the boxes in the boxplot. A density plot of before and after removing the outliers is shown in Figure~\ref{fig:productivity}.
 
+\begin{figure*}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{figures/prodInitialDensity.pdf}
+        \caption{Before outlier removal}
+        \label{fig:prodInitialDensity}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{figures/prodNoOutDensity}
+        \caption{After removing outliers}
+        \label{fig:prodNoOutDensity}
+    \end{subfigure}
+    \caption{Density plots for productivity measure.}
+    \label{fig:productivity}
+\end{figure*}
+
+After removing outliers, we rescale the data to $[0, 100]$ per category. The resulting means are given below.
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c}
+\textbf{\textsc{Nobel}} & \textbf{\textsc{Non-nobel}} \\ \hline
+\rule{0pt}{4mm}25.30257&22.79697 \\
+\end{tabular}
+\end{table}
+\noindent Yet again, we test for equality of means and find that they are not equal, however this time only slightly ($p = 0.03971$, only slightly smaller than the default confidence level $0.05$). Note that before removing outliers they were equal according to the test, which supports our decision to remove outliers.
 
 \subsection{Learning a model}
 
 
 \todo[inline]{Statistieken i.v.m training en research sets hier?}
 
-\todo[inline]{figuren hier ter visualisatie data}
 
 \todo[inline]{Sectie over difficulties (training data veel negatieve en weinig positieve examples, links die er niet zijn}

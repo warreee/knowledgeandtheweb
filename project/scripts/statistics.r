@@ -51,7 +51,7 @@ nobel.df$LogPopularity[nobel.df$LogPopularity == -Inf] <- 0
 # Standardise by category
 nobel.df$LogPopularityStand <- ave(nobel.df$LogPopularity, 
                                    nobel.df$Type, 
-                                   FUN = function(x) x / max(x))
+                                   FUN = function(x) (x / max(x)) * 100)
 
 var.test(nobel.df$LogPopularityStand[nobel.df$Nobel == "yes"],
          nobel.df$LogPopularityStand[nobel.df$Nobel == "no"])
@@ -74,15 +74,23 @@ t.test(nobel.df$LogPopularityStand[nobel.df$Nobel == "yes"],
 # plot(density(nobel.df$Productivity))
 # dev.off()
 
+prod.stats <- boxplot.stats(nobel.df$Productivity)
+length(prod.stats$out)
+
+# Remove outliers
+nobel.df <- nobel.df[!nobel.df$Productivity %in% prod.stats$out,]
+
 # Normalise popularity by category
 nobel.df$ProductivityStand <- ave(nobel.df$Productivity, 
                                   nobel.df$Type, 
-                                  FUN = function(x) x / max(x))
+                                  FUN = function(x) (x / max(x)) * 100)
 
 # Verify whether the means are different
 t.test(nobel.df$ProductivityStand[nobel.df$Nobel == "yes"],
-       nobel.df$ProductivityStand[nobel.df$Nobel == "no"])
+       nobel.df$ProductivityStand[nobel.df$Nobel == "no"],
+       var.equal = FALSE)
 # Luckily -> yes (although only slightly).
+
 
 # Save resulting files
 variables <- c("Nobel", "Country", "Year", "UniversityScore", 
