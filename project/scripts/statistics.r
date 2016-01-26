@@ -6,6 +6,10 @@ nobelAll.df <- read.table('finalData.csv', sep = ';', header = TRUE,  quote = ""
 # Remove missing values
 nobel.df <- na.omit(nobelAll.df)
 
+# Number of positive and negative
+sum(nobel.df$Nobel == "yes")
+sum(nobel.df$Nobel == "no")
+
 ##############
 # POPULARITY #
 ##############
@@ -49,9 +53,13 @@ nobel.df$LogPopularityStand <- ave(nobel.df$LogPopularity,
                                    nobel.df$Type, 
                                    FUN = function(x) x / max(x))
 
+var.test(nobel.df$LogPopularityStand[nobel.df$Nobel == "yes"],
+         nobel.df$LogPopularityStand[nobel.df$Nobel == "no"])
+
 # Test if there is sufficient difference in means
 t.test(nobel.df$LogPopularityStand[nobel.df$Nobel == "yes"],
-       nobel.df$LogPopularityStand[nobel.df$Nobel == "no"])
+       nobel.df$LogPopularityStand[nobel.df$Nobel == "no"],
+       var.equal = FALSE)
 # Luckily -> yes.
 
 ################
