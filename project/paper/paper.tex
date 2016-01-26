@@ -30,27 +30,20 @@
 \usepackage{float}
 \usepackage{stfloats}
 \usepackage{caption}
-\captionsetup{
-	font=scriptsize,
-	labelfont=scriptsize,
-}
-\captionsetup[lstlisting]{justification=centering}
+\captionsetup{font=scriptsize,labelfont=scriptsize}
 
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
-\usepackage[colorlinks]{hyperref}
-\hypersetup{
- urlcolor = blue
-}
+\usepackage{url}
 
 % Correct bad hyphenation here
-\hyphenation{thres-hold}
+\hyphenation{}
 
 %----------------------------------------------------------------------------------------
 %	CONFIGURATION OF CODE LISTINGS
 %----------------------------------------------------------------------------------------
-\usepackage[font=scriptsize,labelfont=scriptsize]{subcaption}
+\usepackage{subcaption}
 \usepackage{listings}
 \usepackage{color}
  
@@ -75,7 +68,7 @@
     showspaces=false,                
     showstringspaces=false,
     showtabs=false,                  
-    tabsize=2,
+    tabsize=2
 }
  
 \lstset{style=mystyle}
@@ -91,7 +84,7 @@
 \usepackage{hyperref}	
 \usepackage{todonotes}	
 
-\usepackage{multirow}
+
 
 \usepackage[english]{babel}
 
@@ -164,17 +157,23 @@ Section~\ref{sec:analysis} focuses on data analysis. This covers some statistics
 \input{sections/data}
 \input{sections/analysis}
 
-\input{sections/results}
+\section{Results}
+\label{sec:results}
 
 \section{Conclusion}
 
 \section{Future work}
 
-We could broaden our training dataset by not only including people that won a Nobel Prize, but also gathering people who were ever nominated for one. They are not available on the LoD from Nobelprize.org but can be found on the website itself\cite{nominated}.
-Our dataset could maybe also be enlarged with individuals who nominate other candidates. These people might be interesting because they are usually also influential in the field of study from their proposed candidate.
+There are still a lot of things that might be interesting to try out, but which we did not do due to time constraints:
 
+\begin{itemize}
+    \item It would be interesting to see what happens if we not only consider Nobel Prize winners but also Nobel Prize nominees as positive examples. Nobel Prize nominees are not available on the LoD from Nobelprize.org but can be scraped from the website \cite{nominated}. A problem that this data might pose, is the fact that the names of the nominated people are only made public 50 years after their nomination. This might create a bias in the data, however this is something that should be investigated.
+    \item We could also try to include another feature representing which and how many other awards were also won by a person.
+    \item For now we only include scientists and economists in our training dataset. We would like to see what happens if we experimented with the other categories of people that can win a Noble Prize as well.
+    \item Another thing that is worth looking into is another feature for work productivity. Work productivity seems to have an important relation with winning an award, however it was not even included in our final model. Moreover, our feature of work productivity focusses only on the quantity of work. It would be nice to also have a feature regarding work which focusses on the quality and scientific or political impact of that work (or even better a feature which both captures quantity and quality). An example of such a feature for a scientist is the number of citations he gets per publication.
+    
+\end{itemize}
 
-\todo[inline]{Nog iets extra?}
 
 % use section* for acknowledgment
 \ifCLASSOPTIONcompsoc
@@ -240,7 +239,6 @@ Our dataset could maybe also be enlarged with individuals who nominate other can
 \clearpage
 \input{appendices/googlescholar}
 
-\clearpage
 \input{appendices/sparql}
 
 
@@ -256,4 +254,3 @@ Our dataset could maybe also be enlarged with individuals who nominate other can
 %\lstinputlisting[language=Perl, caption=getRankings.pl]{../scripts/getRankings.pl}
 
 \end{document}
-
