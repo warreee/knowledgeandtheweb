@@ -91,7 +91,7 @@ After removing outliers, we rescale the data to $[0, 100]$ per category. The res
 The resulting training set contains 5486 examples, of which 559 positive and 5243 negative.
 
 \subsection{Learning a model}
-Using the generated training dataset, we can begin learning a logistic regression model. In order to better compare models we learn using different settings, we first need to specify what properties we're looking for. The problem at hand is a hard one, so creating a model with high precision and recall will probably be impossible. Because of the nature of the test, we want models with a high precision, whereas recall is less relevant. For example, we do not want lots of politicians to be classified as positive, but when one is classified as such we want that prediction to be as accurate as possible.
+Using the generated training dataset, we can begin learning a logistic regression model. In order to better compare the models we learn using different settings, we first need to specify what properties we're looking for. The problem at hand is a hard one, so creating a model with high precision and recall will probably be impossible. Because of the nature of the problem, we want models with a high precision, whereas recall is less relevant. For example, we do not want lots of politicians to be classified as positive, but when one is classified as such we want that prediction to be as accurate as possible.
 
 In order to validate models, we will use 10-fold cross-validation. This is repeated such that the whole dataset was used as an input to the model, trained by other instances. From this estimation, we can estimate precision and recall for the model.
 
@@ -111,7 +111,7 @@ Productivity&0.068\\
 \begin{equation*}
 	p(\mathbf{x} = winner) = \frac{1}{1 + e^{-\boldsymbol{\beta}\mathbf{x}}}.
 \end{equation*}
-We immediately notice that Productivity doesn't have much effect on the result, which we suspected would happen from the low $p$ value for $t$-test. Performance for this initial model is given in Table~\ref{tbl:initialPerformance}. The relevant percentages are shown in bold. We notice that the recall is low, as expected. This roughly means that if an instance is positive, the model only has 4.59\% chance of discovering this. On the other hand, if an instance is predicted positive, there is a 75\% chance that this is correct, which is not bad at all. 
+We immediately notice that Productivity doesn't have much effect on the result, which we suspected would happen from the low $p$ value for the $t$-test. Performance for this initial model is given in Table~\ref{tbl:initialPerformance}. The relevant percentages are shown in bold. We notice that the recall is low, as expected. This roughly means that if an instance is positive, the model only has 4.59\% chance of discovering this. On the other hand, if an instance is predicted positive, there is a 75\% chance that this is correct, which is not bad at all. 
 
 \begin{table}
 \centering
@@ -126,7 +126,7 @@ We immediately notice that Productivity doesn't have much effect on the result, 
 \label{tbl:initialPerformance}
 \end{table}
 
-In order to improve on this result, we attempted to exclude some variables from the training set to create different models. Another model was constructed by balancing the number of positive and negative examples: all positive examples were included in the training set and an equal number of negative examples was sampled. The second method resulted in a model with higher recall (about 60\%), but far lower precision (also about 60\%). Because the low precision is not what we want, this model was discarded. The first method resulted in a model in which Productivity is not included, for which performance can be found in Table~\ref{tbl:resultingPerformance}. The weights of the final model are
+In order to improve on this result, another model was constructed by balancing the number of positive and negative examples: all positive examples were included in the training set and an equal number of negative examples was sampled. This method resulted in a model with higher recall (about 60\%), but far lower precision (also about 60\%). Because the low precision is not what we want, this model was discarded. Next, we attempted to exclude some variables from the training set to create a better model. This resulted in the final model in which Productivity is not included, for which performance can be found in Table~\ref{tbl:resultingPerformance}. The weights of the final model are
 \begin{table}[H]
 \centering
 \begin{tabular}{c|c}
