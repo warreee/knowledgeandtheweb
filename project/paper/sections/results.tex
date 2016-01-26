@@ -1,0 +1,16 @@
+\section{Results}
+\label{sec:results}
+Now that a model is created, we can apply it on our training data. In total, we have 70 politicians for which we found all needed features. The popularity measure for politicians is also transformed using Equation~\ref{eq:logtransform}. Because productivity is not included in the final model, we can discard the number of speeches. Out of those 70 politicians, 4 are classified as positive, although just barely passing the threshold. They are shown, along with their confidence level, in Table~\ref{tbl:confidences}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c}
+\textsc{\textbf{Name}}&\textsc{\textbf{Confidence}}\\ \hline
+\rule{0pt}{4mm}Giorgio Napolitano&0.555\\
+Nigel Farage&0.569\\
+Matteo Salvini&0.661\\
+Jerzy Buzek&0.525
+\end{tabular}
+\caption{Confidence for positively predicted politicians.}
+\label{tbl:confidences}
+\end{table}
